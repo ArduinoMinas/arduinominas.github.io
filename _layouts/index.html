@@ -5,13 +5,13 @@ layout: page
   <article class="box">
   	<header>
 		<time datetime="{{post.date | date: "%Y-%m-%d"}}" title="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%d.%m.%Y"}}</time>					
-		<h1><span><a href="{{post.url}}" title="Read more about '{{ post.title }}'">{{ post.title }}</a></span></h1>
+		<h1><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">{{ post.title }}</a></span></h1>
 	</header>	
 	{{ post.excerpt | markdownify }}
 	<footer>	
 		{% include widgets/postCategoryList.html %}
 		{% include widgets/postTagList.html %}	
-		<p class="more" style="float:right; margin-top: -1.8em;"><a href="{{ post.url }}#more" title="Read more about '{{ post.title }}'">Read more &hellip;</a></p>
+		<p class="more" style="float:right; margin-top: -1.8em;"><a href="{{ post.url }}#more" title="Leia mais sobre '{{ post.title }}'">Leia mais &hellip;</a></p>
 	</footer>
 	</article>
 {% endfor %}
@@ -21,9 +21,9 @@ layout: page
 	<span>
 		{% if paginator.previous_page %}
 			{% if paginator.previous_page == 1 %}
-				<a href="/" class="previous">&laquo; Newer entries</a>
+				<a href="/" class="previous">&laquo; Novidades</a>
 			{% else %}
-			<a href="/page{{paginator.previous_page}}/index.html" class="previous">&laquo; Newer entries</a>	
+			<a href="/page{{paginator.previous_page}}/index.html" class="previous">&laquo; Novidades</a>	
 			{% endif %}			
 		{% endif %}
 	</span>	

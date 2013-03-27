@@ -1,10 +1,10 @@
-<html>
-<head>
-<link rel="stylesheet" href="/css/pygments.css">
-<title>Página dos Projetos do Arduino Minas</title>
-</head>
-<body>
-<h1> Projetos Arduino Minas</h1>
+---
+layout: index
+title: Página dos Projetos do Arduino Minas
+---
+**Projetos Arduino Minas**
+
+
 <hr/>
 <h2>Página em construção, aguarde</h2>
 <hr/>
@@ -17,5 +17,3 @@ coleção de projetos de outras comunidades</p>
 <p>Para sugestões sobre esta página visite o link 
 <a href="http://github.com/Arduino-Minas/arduino-minas.github.com/issues">Issues/Sugestões/Criticas</a>
 <hr/>
-</body>
-</html>

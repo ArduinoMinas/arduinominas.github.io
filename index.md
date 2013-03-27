@@ -1,4 +1,4 @@
 ---
 layout: index
-title: Arduino Minas
+title: Inicio
 ---

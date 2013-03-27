@@ -1,0 +1,499 @@
+@charset("UTF-8");
+
+/*
+ * teumert.net Website Styles
+ * (c) 2012 Sebastian Teumert. All rights reserved.
+ *
+ */
+
+/* ----- ### Global ### ----- */
+.highlight {
+	color:red !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+	vertical-align:baseline;			
+	text-decoration: none;	
+	font-family: Georgia, 'Times New Roman', Times, serif;			
+}
+
+body, html {
+	margin:0;
+	padding:0;	
+	background-color: #eee;	
+	color:#000;			
+}		
+
+a {
+	/*text-decoration: underline;*/
+	text-decoration:none;
+    border-bottom: 1px dashed gray; 
+	color:#000;	
+	
+    text-shadow: none;  
+    -webkit-transition: 250ms linear 0s;  
+    -moz-transition: 250ms linear 0s;  
+    -o-transition: 250ms linear 0s;  
+    transition: 250ms linear 0s;  
+    outline: 0 none;  
+}
+
+a:hover, a:focus {	
+    text-shadow: 0px 2px 3px #555;    
+}
+
+p, li {
+	text-align:justify;
+	line-height: 1.6em;
+}
+
+li a {
+	text-decoration: none;
+	border-bottom:none;
+}
+
+.hint {
+	color:#808080; 
+	font-weight:normal; 
+	float:right;
+}
+
+h1 a {
+	border: none;
+}
+
+pre, code {
+	font-family: 'Courier New', Courier, monospaced;	
+	font-size: .8em;		
+}
+
+pre {
+	margin: .8em 0;
+	padding: .2em 0;
+	border: 1px solid gray;
+	width:100%;
+	overflow: scroll;
+	/*line-height: 1;*/
+}
+
+/* Inline List */
+.inlineList {
+	list-style-type: none;
+}
+
+.inlineList {
+	display: inline;
+}
+.inlineList li {
+	display:inline;
+}
+
+.inlineList a {
+	border-bottom: 1px dashed gray; 
+}
+
+/* Post List */ 
+.postList, .postList ul {
+	list-style-type:none;
+}
+
+.postList li {
+	margin:10px;	
+}
+
+.postList li span {
+	float:right; 
+	text-align:right; 
+	color:gray;
+	font-weight:normal;
+}
+
+.postList li ul {
+	padding-right:0px; 
+	margin-right:-10px;
+}
+
+.postList li a {
+	display: block;
+	border-bottom: 1px dashed lightgray;
+	-webkit-transition: 250ms linear 0s;  
+    -moz-transition: 250ms linear 0s;  
+    -o-transition: 250ms linear 0s;  
+    transition: 250ms linear 0s;  
+}
+
+.postList li a:hover {	
+	border-bottom: 1px dashed gray;	 
+}
+
+.archive > li a {
+	font-weight: bold;
+}
+
+.archive li li a {
+	font-weight: normal;
+}
+
+/* ----- ### Layout ### ----- */
+
+/* ----- Header ----- */
+
+#header {
+	margin-top:1em;
+	margin-bottom:2em;
+	background-color:#fff;
+	padding:25px;	
+}
+
+#wrap {
+	width:1000px;
+	margin:0 auto;	
+	min-width:1000px;
+}
+
+#header {
+	width:900px; 
+	padding:25px 50px;
+}
+
+#header div {
+	border-right: 1px dashed gray;
+	width: 675px; /* 700px - 50px +25px*/
+}
+
+#header p {
+	font-style:italic;
+}
+
+#header h1 {	
+	font-size:3em;	
+	line-height:1.8em;	
+	font-weight: bold; 
+}
+
+#header h1 a {
+	text-shadow: 0px 2px 3px #555;
+}
+
+#header h2 {
+	font-weight: normal;
+	font-style: italic;
+}
+
+#header ul {
+	float:right;	
+	list-style-type:none;
+}
+
+#header ul li {
+	border-bottom:1px dashed gray; 
+	padding:5px;
+}
+
+#header ul li:last-child {
+	border-bottom: none;	
+}
+
+/* ----- Main Content ----- */
+
+#main {
+	float:left;
+	width:700px;
+	border-right: 1px dashed #c0c0c0;
+	padding-right:25px;		
+}
+
+article {
+	text-align:justify;
+}
+
+article time {
+	text-align:right;
+	float:right;
+	line-height:1.8em;
+}
+
+article .more {
+	text-align:right;
+}
+
+article h2 {
+	font-size: 1.4em;
+	margin-top: 1em;
+	margin-bottom: .2em;
+	border-bottom: 1px dashed black;
+}
+
+article h3 {
+	font-size: 1.2em;
+	margin-top: .5em;
+	margin-bottom: .2em;
+	border-bottom: 1px dashed black;
+}
+
+article p {
+	margin-top: .5em;
+}
+
+article ul {
+	margin: 1em;
+}
+
+article ul.inlineList {
+	margin: 0;
+}
+
+article footer {
+	margin-top:2em;
+}
+
+.pagination {	
+	display:block;
+	text-align:center;
+}
+.pagination span:last-child {	
+	float:right;	
+}
+
+.pagination span:first-child {	
+	float:left;	
+}
+.pagination:after {
+/*	clear:both;
+	content: ' ';*/
+}
+
+/* ----- Sidebar ----- */
+
+#sidebar {
+	float:right;
+	width:200px;
+	padding:0 25px;		
+}
+
+#sidebar h1 {
+	padding: 10px 0;
+	/*border-top:  1px dashed gray;*/
+	border-bottom:  1px dashed gray;
+}
+
+
+/* Search */
+#search {
+	width:200px;
+	border:1px ridge lightgray;
+	padding:5px; 
+	margin-top:5px;
+	padding-right:0px;
+}
+
+#search button {
+	float:right; 
+	background:transparent;
+	border-left:1px dashed gray; 
+	padding:0 5px; 
+}
+
+#search input {
+	width:120px;
+}
+
+#search button {
+ 	-webkit-transition: 250ms linear 0s;  
+    -moz-transition: 250ms linear 0s;  
+    -o-transition: 250ms linear 0s;  
+    transition: 250ms linear 0s;  
+	height:100%;
+	font-weight:bold;
+}
+
+#search button:hover {
+ 	text-shadow: 0px 2px 3px #555;	
+}
+
+.tagCloud {
+	font-size: 0.8em;
+	list-style-type:none;
+}
+
+.tagCloud li {
+	display: inline;
+}
+
+/* Box Tweaks */
+
+#sidebar .box {
+	width:205px; 
+	/*margin:0; */
+	padding:10px;
+}
+
+
+
+/* ----- Footer ----- */
+
+#pageFooter {
+	clear:both;				
+}
+
+* html #pageFooter {
+	height:1px;
+}
+
+#pageFooter {
+	padding-top: 25px; 
+	margin-bottom: 25px;
+}
+
+#pageFooter footer {
+	border-top:1px dashed #c0c0c0;
+	color:#808080;
+}
+
+#pageFooter ul {
+	float:right;
+	list-style-type:none;
+}
+
+#pageFooter ul li {
+	margin:0;
+	padding:0 15px;;
+	display:inline;
+	border-right:1px dashed #c0c0c0;
+}
+
+#pageFooter ul li:last-child {
+	padding-right:0;
+	border:none;
+}
+
+#pageFooter ul li a {
+	color:#808080;
+}
+
+.copyright a {
+	color:#808080;
+}
+
+/* ----- Paper Box ----- */
+
+.box
+{
+	position: relative;
+	width: 600px;
+	/*padding: 50px;*/padding: 25px 50px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+/*
+
+	This does not longer work in the floating two columns layout.
+	I'll have to take a closer look on that later again.
+									-- NetzwergX - 2012-06-22
+
+.box:before, .box:after
+{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.box:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+} */
+
+/* ----- Ribbons ----- */
+#main .box h1
+{
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0;
+}
+
+#main .box h1 a {
+	color: #555;
+	background-color: /*#999*/#aaa;
+	text-shadow: 0px 1px 2px #bbb;
+}
+#main .box h1
+{
+	position: relative;
+	width: 75%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 71px;
+	margin: /*30px*/ 0px 10px /*10px*/1em -71px;
+	color: #555;
+	background-color: /*#999*/#aaa;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;		
+}
+
+#main .box h1 span {
+	width: 100%;	
+	overflow:hidden;
+	text-overflow:ellipsis;	
+	white-space:nowrap;
+	display:block;
+}
+
+#main .box h1:before, #main .box h1:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+
+	-webkit-box-shadow: 0px 4px 2px -2px #888;
+	-moz-box-shadow:  0px 4px 2px -2px #888;
+	box-shadow:  0px 4px 2px -2px #888;	
+}
+
+#main .box h1:before {
+	width: 30px;
+	left: -30px;
+	top: 12px;
+	border-width: 20px 10px;
+	border-style: solid;
+	border-color: #aaa #aaa #aaa transparent;	
+}
+
+#main.box h1:after{
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;	
+}

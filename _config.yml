@@ -3,3 +3,11 @@ safe: true
 source: /Users/extracbd/Desktop/workspace-fullservice-duinos/arduino-minas.github.com/
 destination: /Users/extracbd/htdocs/arduino-minas
 lsi: false
+
+permalink: /:year-:month-:day-:title.html
+paginate: 5
+title: Arduino Minas - Projetos
+description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
+url: http://arduino-minas.github.com/
+author: Carlos Delfino
+exclude: [makefile, README.md, LICENSE]

@@ -1,0 +1,5 @@
+pygments: true
+safe: true
+source: /Users/extracbd/Desktop/workspace-fullservice-duinos/arduino-minas.github.com/
+destination: /Users/extracbd/htdocs/arduino-minas
+lsi: false

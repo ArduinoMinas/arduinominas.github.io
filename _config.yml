@@ -11,3 +11,13 @@ description: Página dos projetos hospedados no GitHub, criados e desenvolvidos 
 url: http://arduino-minas.github.com/
 author: Carlos Delfino
 exclude: [makefile, README.md, LICENSE]
+
+google: 
+	analytics :
+    	provider : google 
+    	google : 
+    	    tracking_id : 'UA-39638790-1'
+    	getclicky :
+    	  site_id : 
+    	mixpanel :
+        	token : '_MIXPANEL_TOKEN_'

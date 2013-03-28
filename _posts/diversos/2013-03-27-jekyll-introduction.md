@@ -199,58 +199,62 @@ lugar como categorias singulares.
 
 ### Trabalhando com Pages
 
-**Creating a Page**  
-Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do _not_ start with an underscore.
+**Criando uma Page**
+Pages são criadas formatando adequadamente um arquivo e colocando ele em qualquer lugar no 
+diretorio raiz ou em um diretorio que _não_ inicie com um traço baixo.
 
-**Formatting**  
-In order to register as a Jekyll page the file must contain [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter).
-Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the `site.pages` array for inclusion into your templates.
+**Formatação**
+Para registrar como uma pagina Jekyll ela deve conter um [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter).
+Registrar uma página envolve 1) que jekyll irá processar a página e 2) que o objeto "page" esteja disponível no array `site.pages` para inclusão em seu templates.
 
-**Categories and Tags**  
-Pages do not compute categories nor tags so defining them will have no effect.
+** Categorias e Tags**
+Paginas não geram categorias nem tags, portanto defini-las em uma página não terá efeito.
 
-**Sub-Directories**  
-If pages are defined in sub-directories, the path to the page will be reflected in the url.
-Example:
+**Sub-Directorios**
+Se páginas são definidas em um sub-diretorio, o path/caminho da página será refletido na URL.
+Examplo:
 
     .
     |-- people
         |-- bob
             |-- essay.html
 
-This page will be available at `http://yourdomain.com/people/bob/essay.html`
+Ista página estará disponível em `http://yourdomain.com/people/bob/essay.html`
 
-
-**Recommended Pages**  
+**Páginas recomendadas**
 
 - **index.html**  
-  You will always want to define the root index.html page as this will display on your root URL.
-- **404.html**  
-  Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+  Você sempre precisa definir uma index.html no raiz que irá exibir na sua URL raiz.
+- **404.html**
+  Crie uma página 404.html e o GitHub pages irá usa-la em respostas ao erro 404. 
 - **sitemap.html**  
-  Generating a sitemap is good practice for SEO.
+  Gerando um sitema é uma boa prática SEO. 
 - **about.html**  
-  A nice about page is easy to do and gives the human perspective to your website.
+  Uma boa página sobre é façil de se criada e dá uma pespectiva mais humana sobre seu site.
 
 
-## Templates in Jekyll
+## Templates no Jekyll
 
-Templates are used to contain a page's or post's content.
-All templates have access to a global site object variable: `site` as well as a page object variable: `page`.
-The site variable holds all accessible content and metadata relative to the site.
-The page variable holds accessible data for the given page or post being rendered at that point.
+Templates são usados para conter o conteúdo da página ou do post.
+Todos os templates tem acesso a um objeto global que se refere ao site está na variável: 
+`site` tanto como um objeto page contido na variável: `page`.
 
-**Create a Template**  
-Templates are created by properly formatting a file and placing it in the `_layouts` directory.
+A variável site armazena todo o conteúdo acessivel e meta-dados relativos ao site.
+A vairável page armazena dados acessíveis para uma determinada página ou post, sendo 
+rederizada neste ponto.
 
-**Formatting**  
-Templates should be coded in HTML and contain YAML Front Matter. 
-All templates can contain Liquid code to work with your site's data.
+**Criando um Template**
+Templates são criados através da formatação adequada de um arquivo e colocando o no diretorio `_layouts`
 
-**Rending Page/Post Content in a Template**  
-There is a special variable in all templates named : `content`.
-The `content` variable holds the page/post content including any sub-template content previously defined.
-Render the content variable wherever you want your main content to be injected into your template:
+**Formatando**
+Templates devem ser codificado em HTML e contém YAML Front Matter.
+Todos os templates podem conter código Liquid para trabalhar com os dados de seu site.
+
+**Rederizando o conteúdo Page/Post em um Template**
+Há uma variavel especial em todos os templates nomeada: `content`.
+A variável `content` armazena o conteúdo do page/post incluindo algum conteduo do sub-template 
+previamente definido.
+Renderizar a variável content sempre que você desejar que seu conteúdo principal seja injetado no seu template:
 
 {% capture text %}...
 <body>
@@ -264,65 +268,75 @@ Render the content variable wherever you want your main content to be injected i
 
 ### Sub-Templates
 
-Sub-templates are exactly templates with the only difference being they 
-define another "root" layout/template within their YAML Front Matter.
-This essentially means a template will render inside of another template.
+Sub-templates são exatamente templates que tem a única diferença sendo
+outro "root" layout/template com seu YAML Front Matter.
+
+Este é essencialmente um template que será renderizado dentro de outro template.
 
 ### Includes
-In Jekyll you can define include files by placing them in the `_includes` folder.
-Includes are NOT templates, rather they are just code snippets that get included into templates.
-In this way, you can treat the code inside includes as if it was native to the parent template.
+No Jekyll você pode definir arquivos para incluir colocando os então no diretório `includes`.
+Includes NÃO são templates, mas eles são exatamente trechos de códigos que são incluidos em templates.
+Testa forma, você pode tratar o código dentro do include como se ele fosse nativo para o modelo pai.
 
-Any valid template code may be used in includes.
+Algun template válido pode ser usado nos includes.
+
+## Usando Liquid para construir templates
+
+Construir templates é a parte mais confusa e frustrante do Jekyll.
+Este é principalmente devido ao fato que Jekyll templaste devem usar a Linaguagem Liquid para templates.
 
 
-## Using Liquid for Templating
+### O que é Liquid?
 
-Templating is perhaps the most confusing and frustrating part of Jekyll.
-This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
+[Liquid](https://github.com/Shopify/liquid) é uma linguagem segura para templates 
+desenvolvida por [Shopify](http://shopify.com).
+Liquid é designada para usuários finais estarem capacitados a executar logica com aquivos de 
+templates sem impor algum risco de segurança no servidor de hospedagem.
 
-### What is Liquid?
+Jekyll usa Liquid para gerar o conteúdo do post com o layout da página final estruturada e como a interface 
+primária para trabalhar com seu site e dados do post/página.
 
-[Liquid](https://github.com/Shopify/liquid) is a secure templating language developed by [Shopify](http://shopify.com).
-Liquid is designed for end-users to be able to execute logic within template files 
-without imposing any security risk on the hosting server.
 
-Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with
-your site and post/page data. 
+### Porque nós temos que usar Liquid?
 
-### Why Do We Have to Use Liquid?
+GitHub usa Jekyll para empoderar [GitHub Pages](http://pages.github.com/). 
+GitHub não pode dar o luxo de rodar código arbitrário em seus servidores porem bloqueia
+os desenvolvedores por baixo via Liquid.
 
-GitHub uses Jekyll to power [GitHub Pages](http://pages.github.com/). 
-GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.
+### Liquid não é Programmer-Friendly (Amiga do Programador).
 
-### Liquid is Not Programmer-Friendly.
+Encurtando Liquid não é um código real e não é identado para executar código real.
+O ponto por traz disto é que você não pode fazer um jackshit no Liquid que não tenha sido 
+permitido explicitamente pela implementação.
+No mais, você pode somente acessar estruturas de dados que tem cido explicitamente passadas 
+para o template.
 
-The short story is liquid is not real code and its not intended to execute real code.
-The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation.
-What's more you can only access data-structures that have been explicitly passed to the template. 
+No caso do Jekyll não é possivel alterar o que é passado para Liquid sem hackear a "gem" ou 
+rodar um plugin personalizado.
 
-In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. 
-Both of which cannot be supported by GitHub Pages.
+Ambas as opções não são suportadas pelo GitHub Pages.
 
-As a programmer - this is very frustrating.
+Como um programador - isto é bastante frustrante.
 
-But rather than look a gift horse in the mouth we are going to 
-suck it up and view it as an opportunity to work around limitations and adopt client-side solutions when possible.
+Mas ao invés de focar no problema, vamos aproveitar esta oportunidade e trabalhar sobre as limitações
+e adotar soluções client-side quando possível.
 
-**Aside**   
+
+**Além** 
+Minha opnião pessoal é não investir tempo tentando hackear Liquid. Isto não é necessário
+de uma pespectiva de um _programador_. Que é dizer se você tem a abilidade de rodar plugins personalizados
+(i. e. rodar codigo ruby arbitrário) ov   
 My personal stance is to not invest time trying to hack liquid. It's really unnecessary
-_from a programmer's_ perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code)
-you are better off sticking with ruby. Toward that end I've built [Mustache-with-Jekyll](http://github.com/plusjade/mustache-with-jekyll)
+_from a programmer's_ perspective. That is to say if you have the ability to run custom plugins
+ (i.e. run arbitrary ruby code) é melhor tentar com o ruby. por isto foi construido
+[Mustache-with-Jekyll](http://github.com/plusjade/mustache-with-jekyll)
 
 
 ## Static Assets
+Static assets são alguns arquivos in the root ou sub pastas sem traço baixo (_) que não sejam páginas.
+Estes não tem YAML Front Matter validos e não tratados como páginas Jekyll.
 
-Static assets are any file in the root or non-underscored subfolders that are not pages.
-That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.
-
-Static assets should be used for images, css, and javascript files. 
-
-
+Static assets devem ser usados para imagens, css, e arquivos javascript.
 
 
 ## How Jekyll Parses Files

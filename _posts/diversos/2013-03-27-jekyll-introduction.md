@@ -1,7 +1,7 @@
 ---
 title: Introdução ao Jekyll
 layout: page
-category : [Tutoriais, Jekyll]
+categories : [Tutoriais, Jekyll]
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---

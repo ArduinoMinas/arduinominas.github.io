@@ -4,7 +4,7 @@ paginate: 5
 
 production: false
 
-safe: true
+safe: false
 future: false
 
 source: /Users/extracbd/Desktop/workspace-fullservice-duinos/arduino-minas.github.com/

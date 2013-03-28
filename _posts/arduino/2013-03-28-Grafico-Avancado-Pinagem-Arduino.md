@@ -8,11 +8,11 @@ author: Carlos Delfino
 ---
 # Abaixo está a imagem da pinagem do Arduino UNO
 <a href="http://www.pighixxx.com/downloads/the-definitive-arduino-pinout-diagram/">
-	<img src="The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png" />
+	![Arduino UNO V2](The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png)
 </a>
 
 # Segue abaixo a imagem da pinagem do Arduino Mega:
 <a href="http://www.pighixxx.com/2013/03/arduino-mega-pinout-v2/">
-	<img src="/images/Arduino_MEGA_Pinout_v2.png"/>
+	![Arduino Mega V2](/images/Arduino_MEGA_Pinout_v2.png)
 </a>
 

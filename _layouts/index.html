@@ -28,9 +28,9 @@ layout: page
 		{% endif %}
 	</span>	
 	<span class="pageNumber">
-		Page: {{paginator.page}} of {{paginator.total_pages}}
+		Página: {{paginator.page}} de {{paginator.total_pages}}
 	</span>
 	<span>
-		{% if paginator.next_page %}<a href="/page{{paginator.next_page}}/index.html" class="next ">Older entries &raquo;</a>{% endif %}
+		{% if paginator.next_page %}<a href="/page{{paginator.next_page}}/index.html" class="next ">Anteriores &raquo;</a>{% endif %}
 	</span>
 </nav>

@@ -1,11 +1,20 @@
+markdown: rdiscount
 pygments: true
+paginate: 5
+
+production: false
+
+
 safe: true
+future: false
+
 source: /Users/extracbd/Desktop/workspace-fullservice-duinos/arduino-minas.github.com/
 destination: /Users/extracbd/htdocs/arduino-minas
-lsi: false
+
+lsi: true
 
 permalink: /:year-:month-:day-:title.html
-paginate: 5
+
 title: Arduino Minas
 
 description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
@@ -13,3 +22,5 @@ url: http://arduino-minas.github.com/
 author: Carlos Delfino
   
 exclude: [makefile, README.md, LICENSE]
+
+exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']

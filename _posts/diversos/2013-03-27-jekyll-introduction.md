@@ -5,82 +5,93 @@ tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 
-This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
-Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
+Esta introdução no Jekyll irá falar especificamente o que o Jehyl é e porque você irá
+querer usa-lo.
+Logo após a introdução nos iremos aprender exatamente como Jekyll faz o que faz.
 
-## Overview 
+## Visão geral 
 
-### What is Jekyll?
+### O que é Jekyll?
 
-Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
-dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
+Jekyll é um mecanismo de analise construido como um "gem" da linguagem ruby usado para 
+construir websites estáticos de componentes dinamicos como templates, arquivos parciais
+liquid code, markdown, etc. Jekyll é conhecido como "um simples, blog aware, gerador de
+ site estático".
 
-### Examples
+### Exemplos
 
-This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
-
-
-
-### What does Jekyll Do?
-
-Jekyll is a ruby gem you install on your local system.
-Once there you can call `jekyll --server` on a directory and provided that directory
-is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, 
-compute categories, tags, permalinks, and construct your pages from layout templates and partials.
-
-Once parsed, Jekyll stores the result in a self-contained static `_site` folder.
-The intention here is that you can serve all contents in this folder statically from a plain static web-server.
-
-You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
-on each request, Jekyll does this once _beforehand_ and caches the _entire website_ in a folder for serving statically.
-
-### Jekyll is Not Blogging Software
-
-**Jekyll is a parsing engine.**
-
-Jekyll does not come with any content nor does it have any templates or design elements.
-This is a common source of confusion when getting started.
-Jekyll does not come with anything you actually use or see on your website - you have to make it.
-
-### Why Should I Care?
-
-Jekyll is very minimalistic and very efficient.
-The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server.
-Traditional dynamic blogs like Wordpress require a database and server-side code.
-Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.
-
-Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
-
-**Developers like Jekyll because we can write content like we write code:**
-
-- Ability to write content in markdown or textile in your favorite text-editor.
-- Ability to write and preview your content via localhost.
-- No internet connection required.
-- Ability to publish via git.
-- Ability to host your blog on a static web-server.
-- Ability to host freely on GitHub Pages.
-- No database required.
-
-# How Jekyll Works
-
-The following is a complete but concise outline of exactly how Jekyll works.
-
-Be aware that core concepts are introduced in rapid succession without code examples.
-This information is not intended to specifically teach you how to do anything, rather it
-is intended to give you the _full picture_ relative to what is going on in Jekyll-world.
-
-Learning these core concepts should help you avoid common frustrations and ultimately 
-help you better understand the code examples contained throughout Jekyll-Bootstrap.
+Este website foi criado com Jekyll. [Outros Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites). 
 
 
-## Initial Setup
+### O que Jekyll faz?
 
-After [installing jekyll](/index.html#start-now) you'll need to format your website directory in a way jekyll expects.
-Jekyll-bootstrap conveniently provides the base directory format.
+Jekyll é uma ruby gem (joia do ruby) que você instala em seu sistema local.
+Onde você poderá chamar com o comando `jekyll --server`em um diretorio e este diretório
+está no formato que jekyll espera, ele irá fazer a magica de analisar os arquivos makdown/textile,
+identificar as categorias, tagas, permalinks, e construir suas páginas com base no padrões de layout 
+e parciais disponivies.
 
-### The Jekyll Application Base Format
+Uma vez analisado, Jekyll gravará o resultado em um diretorio contido em sua pasta de projeto no formato estático.
+A intenção aqui é que você possa servir todo o conteudo em seu folder de forma estática de um servidor web
+estático comum.
 
-Jekyll expects your website directory to be laid out like so:
+Você pode pensar no Jekyll como um blog padrão mas ao invez dele analisar o conteúdo, templates, e tags
+a cada requisição, Jekyll faz isto uma única vez _manualmente_ e armazena em um cache _todo o site_ em um folder para atender as requisições estáticamente.
+
+### Jekyll não é um Software para Blog
+
+**Jekyll é um mecanismo de analise.**
+
+Jekyll não vem com algum conteudo nem tem algum template ou elemento de design.
+Esta é uma comum fonte de confusão quando se está iniciando.
+Jekyll não vem com nada que você pode usar ou ver em seu website - você terá que fazer-lo.
+
+### O que é importante?
+
+Jekyll é bem minimalista e bastante eficiente.
+A coisa mais importante entender sobre Jekyll é que ele cria uma representação estática do seu 
+website requerendo somente um servidor web estático.
+Blogs dinamicos tradicionais como Wordpress e Joomla, requerem uma base de dados e um código server-site. 
+Blogs dinamicos com alto trafego deve empregar uma camada de cache que finalmente realiza o mesmo trabalho 
+que o Jekyll propõe, servindo o conteúdo de forma estático.
+
+Portanto, se você gosta de manter as coisas simples e você prefere a linha de comando sobre
+paines de administração gráficos então tente usar o Jekyll.
+
+**Desenvolvedores gostam do Jekyll porque ele pode escrever contéudos como nos escrevemos código:**
+
+- Abilidade para escrever contéudo  em makrdown ou textile em seu editor de texto preferido.
+- Abilidade para escrever e previsualizar o conteudo via localhost.
+- Não é requirido conexão com internet fixa. 
+- Abilidade para publicar via git.
+- Abilidade para hospedar seu blog em um servidor web estático.
+- Abilidade de hospedar livremente no GitHub Pages.
+- Não é preciso base de dados.
+
+# Como Jekyll Funciona
+
+A seguir é uma completo mas consiso resumo do como o Jekyll funciona.
+
+Esteja ciente que os conceitos fundamentais são uma introdução em uma rápia sucessão sem 
+exemplos de códigos. Testa informação não tem a intenção especifica de ensinar você 
+como fazer algo, mas sim destina dar a você uma _visão geral_ relativa ao que está sendo
+feito no mundo do Jekyll.
+
+Aprendendo este conceitos fundamentais deve ajudar você a evitar frustrações comuns e 
+ultimamente ajudar a entender os exemplos de código contidos em todo Jekyll-Bootstrap.
+
+Ainda não estamos usando o Kehyll-Boostrap em nosso site do Arduino Minas, mas estamos 
+trabalhando nisto.
+
+## Setup Inicial
+
+Após [instalar o Jekyll](/index.html#start-now) você precisara formatar seu diretorio do website
+em formato que o Jekyll espera.
+Jekyll-bootstrap convenientemente prover um formato base.
+
+### O formato base do Jekyll
+
+Jekyll espera que seu diretorio do website seja organizado como segue:
 
     .
     |-- _config.yml
@@ -100,86 +111,93 @@ Jekyll expects your website directory to be laid out like so:
 
 
 - **\_config.yml**  
-	Stores configuration data.
+	Armazena dados de configurações.
 
 - **\_includes**  
-	This folder is for partial views.
+	Este pasta contem visões parciais do site.
 
-- **\_layouts**   
-	This folder is for the main templates your content will be inserted into.
-	You can have different layouts for different pages or page sections.
+- **\_layouts**
+	Esta pasta é para os templates principal, seu conteudo será inserido nela.
+	Você pode ter layouts diferentes para páginas diferentes ou seções de páginas.
 
-- **\_posts**  
-	This folder contains your dynamic content/posts.
-	the naming format is required to be `@YEAR-MONTH-DATE-title.MARKUP@`.
+- **\_posts**
+	Esta pasta contem seu conteúdo/posts dinamico, o formato dos nomes de cada arquivo
+	precisa seguir o padrão `@YEAR-MONTH-DATE-title.MARKUP@`.
 
 - **\_site**  
-	This is where the generated site will be placed once Jekyll is done transforming it. 
+    Esta pasta é onde será gerado seu site será guardado quando Jekyll terminar de transforma-lo.
 
 - **assets**  
-	This folder is not part of the standard jekyll structure.
-	The assets folder represents _any generic_ folder you happen to create in your root directory.
-	Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.
+	Esta pasta não é parte padrão da estrutura do jekyll.
+	A pasta assets representa _algo generico_ que você possa criar em seu diretorio root.
+	Diretorios e arquivos não formatados adequadamente serão mantidos intocaveis para seu
+	 servidor normalmente.
+	
 
-(read more: <https://github.com/mojombo/jekyll/wiki/Usage>)
+(leia mais em: <https://github.com/mojombo/jekyll/wiki/Usage>)
 
 
-### Jekyll Configuration
+### Cofiguraçòes do Jekyll
 
-Jekyll supports various configuration options that are fully outlined here:
+Jekyll suporta varias opções de configuração que são totalmente citadas aqui:
 <https://github.com/mojombo/jekyll/wiki/Configuration>
 
+## Conteúdo em Jekyll
 
+Conteúdo em Jekyll é um post ou uma página.
+Este objeto conteúdo é inserido em um ou mais templates para construir a saída final para sua
+respectiva página estática.
 
+### Posts e Pages
 
-## Content in Jekyll
+Ambos posts e pages devem ser escritos em markdown, tetile, ou HTML e pode ser também conter 
+código de template Liquid.
+Ambos posts e pages podem ter meta-data destinado em cada page tais como título, caminho da URL,
+como também meta-data personalizado.
 
-Content in Jekyll is either a post or a page.
-These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
+### Trabalhando com Posts
 
-### Posts and Pages
+**Criando um Post**   
+Posts são criados pela formatação adequada de um arquivo armazenado na pasta `_posts`.
 
-Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.
-Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.
+**Formatação** 
+Um post deve ter um nome de arquivo valido, em um formato `YEAR-MONTH-DATE-title.MARKUP` e 
+será colocado no diretorio `_posts`.
 
-### Working With Posts
+Se o formato da data é invalido Jekyll não irá reconhecer o arquivo como um post. A data e o título são automáticamente analisado do nome do arquivo do post.
+Em mais, cada arquivo deve ser [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) preparado em seu conteúdo.
+YAML Front-Matter é uma sintaxe YAML válida especificando meta-dados para o arquivo em questão.
 
-**Creating a Post**   
-Posts are created by properly formatting a file and placing it the `_posts` folder.
+**Ordem**  
+Ordenação é uma parte inportante do Jekyll, mas ele é complexo especificar uma estratégia de ordenação personalizada.
+Somente ordenação cronológica e reversa é suportado no Jekyll.
 
-**Formatting**  
-A post must have a valid filename in the form `YEAR-MONTH-DATE-title.MARKUP` and be placed in the `_posts` directory. 
-If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
-Additionally, each file must have [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) prepended to its content.
-YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.
-
-**Order**  
-Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy.
-Only reverse chronological and chronological ordering is supported in Jekyll.
-
-Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.
+Desde que a data é hard-coded no formato do nome do arquivo, para alterar a ordem, você deve alterar a data do nome do arquivo.
 
 **Tags**   
-Posts can have tags associated with them as part of their meta-data.
-Tags may be placed on posts by providing them in the post's YAML front matter.
-You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.
+Postagens podem ter tags associadas como parte do seu meta-dado.
+Tags podem ser colocadas no post provendo então em um formato YAML.
+Você tem acesso as tags especificas nos templates. Estas tags também são adicionados a 
+coleção do site.
 
-**Categories**   
-Posts may be categorized by providing one or more categories in the YAML front matter.
-Categories offer more significance over tags in that they can be reflected in the URL path to the given post.
-Note categories in Jekyll work in a specific way.
-If you define more than one category you are defining a category hierarchy "set".
-Example:
+**Categorias**
+Postes podem ser categorizada fornecendo uma ou mais categorias no formato YAML.
+Categorias oferecem mais significancia do que tags em que ele pode refletir no caminho da URL que é relativa ao post.
+Observe, categorias no Jekyll funcionam em uma forma especial.
+Se você definir mais que uma categoria você estará definindo um "set" de hierarquia de categoria.
+
+Exemplo:
 
     ---
     title :  Hello World
     categories : [lessons, beginner]
     ---
 
-This defines the category hierarchy "lessons/beginner". Note this is _one category_ node in Jekyll.
-You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.
+Isto define uma hierarquia de categoria do tipo "lessons/beginner". Observe que é _um nó de categoria_ no Jekyll.
+Você não encontrará "lessons" e "beginner" como duas categorias separadas a menos qe você defina então em outro 
+lugar como categorias singulares.
 
-### Working With Pages
+### Trabalhando com Pages
 
 **Creating a Page**  
 Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do _not_ start with an underscore.

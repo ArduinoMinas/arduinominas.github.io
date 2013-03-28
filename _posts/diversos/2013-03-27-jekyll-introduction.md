@@ -4,11 +4,9 @@ layout: page
 categories : [Tutoriais, Jekyll]
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
+excerpt: Esta introdução no Jekyll irá falar especificamente o que o Jehyl é e porque você irá querer usa-lo. Logo após a introdução nos iremos aprender exatamente como Jekyll faz o que faz.
 ---
 
-Esta introdução no Jekyll irá falar especificamente o que o Jehyl é e porque você irá
-querer usa-lo.
-Logo após a introdução nos iremos aprender exatamente como Jekyll faz o que faz.
 
 ## Visão geral 
 

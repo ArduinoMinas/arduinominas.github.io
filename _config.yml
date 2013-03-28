@@ -10,20 +10,6 @@ title: Arduino Minas
 
 description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
 url: http://arduino-minas.github.com/
-author:
-  name: Carlos Delfino
-  email: consultoria@carlosdelfino.eti.br
-  github: carlosdelfino
-  twitter: fullsrv
-
+author: Carlos Delfino
+  
 exclude: [makefile, README.md, LICENSE]
-
-google: 
-	analytics :
-    	provider : google 
-    	google : 
-    	    tracking_id : 'UA-39638790-1'
-    	getclicky :
-    	  site_id : 
-    	mixpanel :
-        	token : '_MIXPANEL_TOKEN_'

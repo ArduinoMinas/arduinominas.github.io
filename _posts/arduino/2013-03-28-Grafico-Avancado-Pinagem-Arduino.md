@@ -6,13 +6,13 @@ categories: [Arduino, UNO, MEGA]
 excerpt: Pesquisando na internet ache este trabalho do Pighixxx que desenhou de forma bastante rica a pinagem completa do Arduino UNO e MEGA
 author: Carlos Delfino
 ---
-# Abaixo está a imagem da pinagem do Arduino UNO
-<a href="http://www.pighixxx.com/downloads/the-definitive-arduino-pinout-diagram/">
-	{{% img The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png %}} 
-</a>
+## Abaixo está a imagem da pinagem do Arduino UNO
 
-# Segue abaixo a imagem da pinagem do Arduino Mega:
+<a href="http://www.pighixxx.com/downloads/the-definitive-arduino-pinout-diagram/">
+![Arduino UNO V2](/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png)</a>
+
+## Segue abaixo a imagem da pinagem do Arduino Mega:
+
 <a href="http://www.pighixxx.com/2013/03/arduino-mega-pinout-v2/">
-	{{% img Arduino_MEGA_Pinout_v2.png %}}
-</a>
+![Arduino Mega V2](/images/Arduino_MEGA_Pinout_v2.png)</a>
 

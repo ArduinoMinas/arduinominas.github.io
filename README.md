@@ -1,6 +1,6 @@
-arduino-minas.github.com
+arduinominas.com.br
 ========================
 
 Home Page de Projetos da Comunidade Arduino Minas.
 
-link: http://arduino-minas.github.com
+link: http://arduinominas.com.br

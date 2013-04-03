@@ -8,8 +8,18 @@ layout: page
 	</header>
 	<p>{{ page.excerpt | markdownify }}</p>
 	<a id="more"></a>
-	<h2>Autor: {{ page.author | markdownify }}</h2>
-	<h3>Contribuição: {{ page.contributors | markdownify }}</h3>
+	<h2>Autor: </h2>
+	<ul>
+	<li>{{ page.author | markdownify }}</li>
+	</ul>
+	<h3>Contribuição:</h3>
+	<ul>
+	{% for contributor in page.contributors%}
+	<li>{{ contributor | markdownify }}</li>
+	{% endfor %}
+	</ul>
+	<hr />
+	<h3>URL: <a href="{{ page.projecturl }}>{{ page.projecturl}}</a></h3>
 	<hr />
 	{{ content }}
 	<footer>

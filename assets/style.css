@@ -200,7 +200,18 @@ pre {
 }
 
 .menu{
-list-style:none;  
+	width:900px;
+	height: 40px;
+	text-align:center;
+}
+.menu a {
+ display:inline-block;
+ height:40px;
+ padding:0 5px;
+ line-height:40px;
+ font-size:18px;
+ margin-right:20px;
+ text-decoration:none;
 }
 
 /* ----- Main Content ----- */

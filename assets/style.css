@@ -199,6 +199,11 @@ pre {
 	border-bottom: none;	
 }
 
+.menu{
+list-style:none; 
+float:left; 
+}
+
 /* ----- Main Content ----- */
 
 #main {

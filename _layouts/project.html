@@ -14,12 +14,12 @@ layout: page
 	</ul>
 	<h3>Contribuição:</h3>
 	<ul>
-	{% for contributor in page.contributors%}
+	{% for contributor in page.contributors %}
 	<li>{{ contributor | markdownify }}</li>
 	{% endfor %}
 	</ul>
 	<hr />
-	<h3>URL: <a href="{{ page.projecturl }}">{{ page.projecturl}}</a></h3>
+	<h3>URL: <a href="{{ page.projecturl | uri_escape }}">{{ page.projecturl | uri_escape }}</a></h3>
 	<hr />
 	{{ content }}
 	<footer>

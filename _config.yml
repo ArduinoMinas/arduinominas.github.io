@@ -20,7 +20,7 @@ permalink: /:year-:month-:day-:title.html
 title: Arduino Minas
 
 description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
-url: http://arduino-minas.github.com/
+url: http://arduinominas.com.br/
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
   
 exclude: [Rakefile, rakefile, makefile, README.md, LICENSE, 'README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']

@@ -200,19 +200,25 @@ pre {
 }
 
 .menu{
-	width:900px;
-	height: 40px;
-	text-align:center;
+	width:1000px;
+	height: 35px;
+	text-align:left;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 .menu a {
- display:inline-block;
- height:40px;
- padding:0 5px;
- line-height:40px;
- font-size:18px;
- margin-right:20px;
- text-decoration:none;
+	text-decoration:none;
+ 	display:inline-block;
+ 	height:35px;
+ 	padding:0 10px;
+ 	line-height:40px;
+ 	font-size:18px;
+ 	margin-right:20px;
+	border:none;
 }
+
 
 /* ----- Main Content ----- */
 

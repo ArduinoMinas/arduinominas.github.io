@@ -13,4 +13,4 @@ o número de inscritos.
 
 Preencha o formulário abaixo para garantir sua participação:
 <iframe src="https://docs.google.com/a/carlosdelfino.eti.br/forms/d/1YiM1J7FhdyIcFQLIBBvpU0vywyas4Y9OXsUZGBH764c/viewform?embedded=true" 
-	width="600" height="100%" frameborder="0" marginheight="0" marginwidth="0">Carregando...</iframe>
+	width="600" height="1100px" frameborder="0" marginheight="0" marginwidth="0">Carregando...</iframe>

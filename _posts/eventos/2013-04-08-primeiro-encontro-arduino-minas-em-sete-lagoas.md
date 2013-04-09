@@ -6,7 +6,7 @@ categories: [Eventos, Sete Lagoas]
 excerpt: Primeiro Encontro Arduino Minas em Sete Lagoas, o Evento será na Escola Técnica de Sete Lagoas, no dia 15 de Abril, próxima segunda feira, as 21:00
 author: Carlos Delfino
 ---
-Para saber como chegar na escola técnica visite o link: https://plus.google.com/102847971676969076291/about?gl=br&hl=pt
+Para saber como chegar na escola técnica visite o link: [Localização da Escola Técnica](https://plus.google.com/102847971676969076291/about?gl=br&hl=pt)
 
 O evento será as 21:00 do dia 15 de Abril na próxima Segunda Feira, a Sala será informada conforme 
 o número de inscritos.

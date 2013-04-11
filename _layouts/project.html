@@ -6,16 +6,16 @@ layout: page
 		<time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%d.%m.%Y"}}</time>					
 		<h1><span><a href="{{ page.projecturl | uri_escape }}">{{ page.title }}</a></span></h1>	
 	</header>
-	<p>{{ page.excerpt | markdownify }}</p>
+	<p>{{ page.excerpt | textilize }}</p>
 	<a id="more"></a>
 	<h2>Autor: </h2>
 	<ul>
-	<li>{{ page.author | markdownify }}</li>
+	<li>{{ page.author | textilize }}</li>
 	</ul>
 	<h3>Contribuição:</h3>
 	<ul>
 	{% for contributor in page.contributors %}
-	<li>{{ contributor | markdownify }}</li>
+	<li>{{ contributor | textilize }}</li>
 	{% endfor %}
 	</ul>
 	<hr />

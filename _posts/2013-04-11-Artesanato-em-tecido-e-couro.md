@@ -8,8 +8,8 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 
 <div class="imageBox" id="left">
-<a rel="lightbox" title="Bordado com LilyPad" href="images/e-textile/bordado.jpg">
-<img src="images/e-textile/bordado-thumb.jpg" width="333" height="250"  border="6" />
+<a rel="lightbox" title="Bordado com LilyPad" href="/images/e-textile/bordado.jpg">
+<img src="/images/e-textile/bordado-thumb.jpg" width="333" height="250"  border="6" />
 </a>
 </div>
 O Artesanato é uma das profissões mais antigas, e sempre foi influênciado pelos paradgmas de seu tempo
@@ -28,8 +28,8 @@ e nos últimos 100 anos, a eletricidade tem sido aplicada para dar mais conforto
 deste conceito.
 
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Leah Buechley" href="images/e-textile/leah.jpg" >
-<img src="images/e-textile/leah-thumb.jpg"  width="320" height="230" border="6" />
+<a rel="lightbox" title="Leah Buechley" href="/images/e-textile/leah.jpg" >
+<img src="/images/e-textile/leah-thumb.jpg"  width="320" height="230" border="6" />
 </a>
 </div>
 A mais de uma década já vimos 
@@ -45,8 +45,8 @@ um novo conceito de Arduino e acessórios que permitem os artesãos levarem para
 puseiras, bordados, adornos e tudo que possa estar relacionado com o universo feminino, jovem e também masculino.
 
 <div class="imageBox" id="left">
-<a rel="lightbox" title="LilyPad"="images/e-textile/lilypad.jpg" >
-<img src="images/e-textile/lilypad-thumb.jpg"  width="200" height="255" border="6" />
+<a rel="lightbox" title="LilyPad"="/images/e-textile/lilypad.jpg" >
+<img src="/images/e-textile/lilypad-thumb.jpg"  width="200" height="255" border="6" />
 </a></div>Este novo Arduino foi 
 batizado de LilyPad e é composto por uma roseta onde em seu coração possui um ATmega328 e conectores para facilitar 
 sua conexão via uma linha especial feita de material condutivo. Há sensores dos mais diversos tipos que nos permitem 
@@ -69,8 +69,8 @@ eletrônicos para E-Textile como é o caso do [Flora](http://www.adafruit.com/ca
 que tem menos poder mas tem caracteristicas interessantes e que podem ser unidas com o LilyPad para um 
 acabamento diferenciado.
 <div class="imageBox" id="left">
-<a rel="lightbox" title="Flora" href="images/e-textile/flora-tv-b-gone2.png" >
-<img src="images/e-textile/flora-tv-b-gone2.png" width="200" height="150" border="6" />
+<a rel="lightbox" title="Flora" href="/images/e-textile/flora-tv-b-gone2.png" >
+<img src="/images/e-textile/flora-tv-b-gone2.png" width="200" height="150" border="6" />
 </a>
 </div>
 
@@ -78,8 +78,8 @@ Uma solução também muito atraente para E-Textile é o [Anio Magic](http://www
 site dos projetos e veja um exemplo em uma [máscara para o Halloween](http://www.aniomagic.com/examples/?mode=sensor).
  
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Limor Fried" href="images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2.jpg">
-<img src="images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2-thumb.jpg"  width="120" height="180" border="6"/>
+<a rel="lightbox" title="Limor Fried" href="/images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2.jpg">
+<img src="/images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2-thumb.jpg"  width="120" height="180" border="6"/>
 </a>
 </div>
 Uma empresa que vem se destacando neste segmento é a já citada Adafruit liderada pela empreendedora [Limor Fred](http://www.entrepreneur.com/article/225213)

@@ -3,29 +3,31 @@ layout: article
 title: Artesanato em Tecido e Couro
 tags: [Arduino, Uno, LilyPad, Artesanato, Couro, Tecido, E-Textily]
 categories: [Arduino, Uno, LilyPad, Artesanato]
-excerpt: Você deve estar se perguntando qual a relação de artesanato e Arduino, ainda mais usando Tecido e Couro, vamos acabar matando alguem eletrocutado? 
+excerpt: Você deve estar se perguntando qual a relação de artesanato e Arduino, ainda mais usando Tecido e Couro, vamos acabar matando alguém eletrocutado? 
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 
-<img src="images/e-textile/bordado.jpg" width="333" height="250"  border="6" align="left" />O Artesanato é uma das profissões mais antigas, e sempre foi influênciado pelos paradgmas de seu tempo
+<img src="images/e-textile/bordado.jpg" width="333" height="250"  border="6" align="left" />O Artesanato é uma das profissões mais antigas, e 
+sempre foi influênciado pelos paradgmas de seu tempo
 evoluindo conforme a natureza e seu contexto onde estão inseridos, tendo suas comunidades impactadas economicamente
 das mais diversas formas, há artesanato em madeira e barro, indiginas, sem falar nos artesanatos em tecidos, couros,
 nas rendas cearences e até artesanatos reciclados de vidro plástico, restos de construções e por ai vai.
 
-Bem, porque na éra da técnologia o artesanato não pode ser influenciado pela engenheria eletrôncia? não estou falando
-de substituir os artesões por rôbos, não é uma questão de instrualização, mas de trazer tecnologia interativa e 
+Bem, porque na éra da técnologia o artesanato não pode ser influenciado pela engenheria eletrôncia? Não estou falando
+de substituir os artesões por rôbos, não é uma questão de insdustrialização, mas de trazer tecnologia interativa e 
 outras formas de artes para o Artesanato.
 
-O conceito de E-Textily como é chamado o uso de material textil (como tecido e couro) que usam a Eletronica embarcada.
-já vem surgindo a algumas centenas de ano, o uso de metal nos tecidos já vem sendo adotado a 1000 (mil) anos, e 
-nos últimos 100 anos a eletricidade tem sido aplicada para dar mais conforto e vida a roupas fabricadas dentro
+O conceito de E-Textily como é chamado o uso de material textil (como tecido e couro) que usam a Eletrônica embarcada.
+já vem surgindo a algumas centenas de anos, e o uso de metal nos tecidos vem sendo adotado a pelo menos 1000 (mil) anos, 
+e nos últimos 100 anos, a eletricidade tem sido aplicada para dar mais conforto e vida a roupas fabricadas dentro
 deste conceito.
 
-<img src="images/e-textile/leah.jpg"  width="333" height="200" border="6" align="right" />A mais de uma Decada já vimos blusas com ventiladores, LEDs e outros recursos, já houve até camissas de malha que
-interagindo com o Som, apresentavam gráficos da equalização do som.
+<img src="images/e-textile/leah.jpg"  width="333" height="200" border="6" align="right" />A mais de uma década já vimos 
+blusas com ventiladores, LEDs e outros recursos, e até camissas de malha que interagindo com o som, apresentavam gráficos
+da equalização.
 
-Sem falar nos tênis da Criançada, que houve um bum também na decada passada onde ao pisar este piscavam e alguns
-até emitiam som para despero de seus pais.
+Sem falar nos tênis da criançada, que houve um "buum" também na década passada, onde ao pisar, os mesmos piscavam 
+e alguns até emitiam som, para desespero dos pais.
 
 E como tudo isto se relaciona com o mundo do Arduino? [Leah Buechley](http://www.media.mit.edu/people/leah) na foto acima, 
 professora associada em mídias e artes no MIT desenvolveu juntamente com a Sparkfun um novo conceito de arduino 

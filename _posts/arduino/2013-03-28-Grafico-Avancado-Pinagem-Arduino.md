@@ -8,14 +8,20 @@ author: Carlos Delfino
 ---
 ## Abaixo está a imagem da pinagem do Arduino UNO
 
-<a rel="lightbox" href="../../images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png" >
-![Arduino UNO V2](/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png)</a>
+<div class="imageBox">
+<a rel="lightbox" title="Diagrama Definitivo de Pinagem do Arduino Uno" href="/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png" >
+![Diagrama Definitivo de Pinagem do Arduino UNO](/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2-thumb.png)
+</a>
+</div>
 <br/>
 <a href="http://www.pighixxx.com/downloads/the-definitive-arduino-pinout-diagram/">Link no site Pighixxx</a>
 
 ## Segue abaixo a imagem da pinagem do Arduino Mega:
-<a rel="lightbox" href="../../images/Arduino_MEGA_Pinout_v2.png" rel="lightbox">
-![Arduino Mega V2](/images/Arduino_MEGA_Pinout_v2.png)</a>
+<div class="imageBox">
+<a rel="lightbox" title="Diagrama de Pinagem do Arduino Mega" href="/images/Arduino_MEGA_Pinout_v2.png" rel="lightbox">
+![Diagrama da Pinagem do Arduino Mega](/images/Arduino_MEGA_Pinout_v2-thumb.png)
+</a>
+</div>
 <br/>
 <a href="http://www.pighixxx.com/2013/03/arduino-mega-pinout-v2/">Link no site Pighixxx</a>
 

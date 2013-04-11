@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Novo Release do DuinOS - FreeRTOS 7.4.0 + (IDE 1.5.3 ou 1.0.5)
-tags: [DuinOS, FreeRTOS, Multitarefas, Scheduller, Projetos, ProjetosExternos]
-categories: [DuinOS, FreeRTOS, Projetos, Projetos Externos, Arduino, Mega, UNO]
+tags: [DuinOS, FreeRTOS, Multitarefas, Scheduller, Projetos, Projetos Externos]
+categories: [DuinOS, Projetos, Projetos Externos, Arduino]
 excerpt: O Novo Release do DuinOS já está disponivel portanto do FreeRTOS 7.4.0 para as IDEs 1.5.3 do Arduino e 1.0.5
 author: Carlos Delfino (@carlosdelfino)
 contributors: Nicolas (@niesteszeck)

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Criação do Site de Projetos - Primeiro Post
-tags: [Arduino, Minas, MG, Projetos, Jekyll, Site, Equipe]
+tags: [Arduino, Minas, MG, Projetos, Jekyll, Site, Equipe, CMS]
 categories: [Geral, Site]
 excerpt: Criação do Repositorio para Projetos, seu site e convite a voluntários para manutenção do Site
 ---

@@ -9,6 +9,7 @@ author: Carlos Delfino
 A sala será divulgada no dia do evento conforme o número de inscritos externos da escola.
 
 O Evento pretende discutir com os presentes:
+
 * Projetos de criação e expansão do Arduino Minas e HackerSpace Minas em Sete Lagoas, 
 * Projetos futuros e propostas apresentadas nas comunidades,
 * Apresentação de projetos individuais se ouver, 

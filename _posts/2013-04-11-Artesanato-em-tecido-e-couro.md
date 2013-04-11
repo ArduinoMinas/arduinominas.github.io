@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Artesanato em Tecido e Couro
-tags: [Arduino, Uno, LilyPad, Artesanato, Couro, Tecido, E-Textily]
-categories: [Arduino, Uno, LilyPad, Artesanato]
+tags: [Arduino, Uno, LilyPad, Artesanato, Couro, Tecido, E-Textily, Flora, Fabric Kit, Bordado]
+categories: [Arduino, Uno, E-Textile]
 excerpt: Você deve estar se perguntando qual a relação de artesanato e Arduino, ainda mais usando Tecido e Couro, vamos acabar matando alguém eletrocutado? 
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
@@ -66,9 +66,9 @@ Há um infinito quando se pensa em como usar o E-Textile, desde simples bonés q
 luminosidade e até mesmo sensores de presensa do tipo PIR, que detectam a presença de pessoas podendo sinalizar com 
 uma piscadela de um LED, ou mesmo escrevendo as palavras "Olá, Seja Bem Vindo" em um display.
 
-Além disso, podemos desenvolver um site onde seja feito o cadastro do perfil de uma pessoa desejada e seu proprio 
-perfil em seguida, devendo o usuário comprar o KIT E-Textile que irá sinalizar quando alguem com o perfil similar 
-ao solitado se aproxima, usando LEDs coloridos em tons suaves.
+Além disso, podemos desenvolver um site onde seja feito o cadastro do perfil de uma pessoa desejada e seu próprio 
+perfil em seguida, devendo o usuário comprar o KIT E-Textile que irá sinalizar quando alguém com o perfil solicitado 
+se aproxima, usando LEDs coloridos em tons suaves.
 
 Ficam algumas sugestões, e conto com a participação dos colegas.
 

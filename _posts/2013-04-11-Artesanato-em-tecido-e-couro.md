@@ -22,7 +22,7 @@ já vem surgindo a algumas centenas de anos, e o uso de metal nos tecidos vem se
 e nos últimos 100 anos, a eletricidade tem sido aplicada para dar mais conforto e vida a roupas fabricadas dentro
 deste conceito.
 
-<img src="images/e-textile/leah.jpg"  width="333" height="200" border="6" align="right" />A mais de uma década já vimos 
+<img src="images/e-textile/leah.jpg"  width="320" height="230" border="6" align="right" />A mais de uma década já vimos 
 blusas com ventiladores, LEDs e outros recursos, e até camissas de malha que interagindo com o som, apresentavam gráficos
 da equalização.
 
@@ -55,7 +55,7 @@ acabamento diferenciado.<img src="images/e-textile/flora-tv-b-gone2.png"  width=
 Uma solução também muito atraente para E-Textile é o [Anio Magic](http://www.aniomagic.com/store/?hl=en), visite o 
 site dos projetos e veja um exemplo em uma [máscara para o Halloween](http://www.aniomagic.com/examples/?mode=sensor).
  
-<img src="images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2.jpg"  width="135" height="180" border="6" align="right" />
+<img src="images/e-textile/limor-fried-adafruit-entrepreneur-of-the-year2.jpg"  width="120" height="180" border="6" align="right" />
 Uma empresa que vem se destacando neste segmento é a já citada Adafruit liderada pela empreendedora [Limor Fred](http://www.entrepreneur.com/article/225213)
 que em 2011 com apenas 25 funcionarios faturou $4,5 Milhões (quatro e meio milhões de Dólares), vendendo diversos
 tipos de Kits inclusive o "Flora", um clone do "Lilypad", que não fica nada atrás.

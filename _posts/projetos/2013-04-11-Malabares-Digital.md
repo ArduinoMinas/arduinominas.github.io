@@ -1,6 +1,6 @@
 ---
 layout: project
-title: PCB in a Box
+title: Malabaris Digital
 tags: [pcb, malabaris, LED, Projetos, Arte, Circense, Circo]
 categories: [Projetos, Artes]
 excerpt: Malabares é uma antiga arte circense onde o artista normalmente caracterizado como palhaço joga diversos objetos para o alto equilibando-os e passando de  mão em mão.

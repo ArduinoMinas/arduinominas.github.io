@@ -10,6 +10,10 @@ layout: page
 	<a id="more"></a>
 	{{ content }}
 	<footer>
+	
+		{% if paginator.previous_page %}
+		<h4>{{ page.author | textilize }}</h4>				
+		{% endif %} 
 		{% assign post = page % %}
 		{% include widgets/postCategoryList.html %}
 		{% include widgets/postTagList.html %}	

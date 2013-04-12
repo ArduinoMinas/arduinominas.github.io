@@ -58,7 +58,7 @@ circuito Schmitt-Trigger com o Arduino, porém já vi diversos artigos sugerindo
 
 <div class="imageBox" id="left">
 <a rel="lightbox" title="Circuito com Schmitt-Trigger no ATmega" href="/images/io-ports/Porta-Schmitt-Trigger-thumb.jpg">
-<img src="/images/io-ports/Porta-Schmitt-Trigger.jpg" height="200" />
+<img src="/images/io-ports/Porta-Schmitt-Trigger.jpg" height="100" />
 </a>
 </div>O Arduino utiliza em sua versão original e na maioria de suas variações e clones o Chip ATmega, alguns o ATmega328, 
 ou ATmega2560 alguns até o ATmega644, até mesmo os ATtiny como ATtiny85 e 45, porém todos usam a mesma arquitetura,
@@ -77,7 +77,7 @@ entrada está em baixa (LOW - 0) e há também um valor mínimo e máximo para q
 correndo o risco de queimar sua porta.
 
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Filtro RC" href="/images/io-ports/Schmitt-Trigger-ATmega-Input-Port.png">
+<a rel="lightbox" title="Filtro RC" href="/images/io-ports/Schmitt-Trigger-ATmega-Input-Port.jpg">
 <img src="/images/io-ports/Schmitt-Trigger-ATmega-Input-Port-thumb.png" height="183" width="400" />
 </a>
 </div>

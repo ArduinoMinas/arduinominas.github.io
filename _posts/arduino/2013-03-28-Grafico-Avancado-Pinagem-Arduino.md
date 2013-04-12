@@ -9,8 +9,8 @@ author: Carlos Delfino
 ## Abaixo está a imagem da pinagem do Arduino UNO
 
 <div class="imageBox">
-<a rel="lightbox" title="Diagrama Definitivo de Pinagem do Arduino Uno" href="/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png" >
-<img alt="Diagrama Definitivo de Pinagem do Arduino UNO" src="/images/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2-thumb.png" />
+<a rel="lightbox" title="Diagrama Definitivo de Pinagem do Arduino Uno" href="/images/io-ports/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.png" >
+<img alt="Diagrama Definitivo de Pinagem do Arduino UNO" src="/images/io-ports/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2-thumb.png" />
 </a>
 </div>
 <br/>
@@ -18,8 +18,8 @@ author: Carlos Delfino
 
 ## Segue abaixo a imagem da pinagem do Arduino Mega:
 <div class="imageBox">
-<a rel="lightbox" title="Diagrama de Pinagem do Arduino Mega" href="/images/Arduino_MEGA_Pinout_v2.png" rel="lightbox">
-<img alt="Diagrama da Pinagem do Arduino Mega" src="/images/Arduino_MEGA_Pinout_v2-thumb.png" />
+<a rel="lightbox" title="Diagrama de Pinagem do Arduino Mega" href="/images/io-ports/Arduino_MEGA_Pinout_v2.png" rel="lightbox">
+<img alt="Diagrama da Pinagem do Arduino Mega" src="/images/io-ports/Arduino_MEGA_Pinout_v2-thumb.png" />
 </a>
 </div>
 <br/>

@@ -1,3 +1,7 @@
+Future: false
+
+safe: false
+
 markdown: rdiscount
 
 auto: true
@@ -9,9 +13,6 @@ paginate: 5
 production: false
 
 future: false
-
-source: /Users/extracbd/Desktop/workspace-fullservice-duinos/arduino-minas.github.com/
-destination: /Users/extracbd/htdocs/arduino-minas
 
 lsi: true
 

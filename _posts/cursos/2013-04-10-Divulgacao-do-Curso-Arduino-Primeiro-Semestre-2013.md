@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Curso Arduino - Primeiro Semestre 2013
-tags: [Eventos, Curso, Arduino]
+tags: [Eventos, Curso, Arduino, Sete Lagoas, Belo Horizonte, Ponte Nova, Santa Luzia, Lagoa Santa, Nova Lima]
 categories: [Eventos, Cursos]
 excerpt: O curso de Arduino está sendo ofertado em formato avulso para montagem local como curso de extensão ou turmas fechadas, para escolas do ensino médio, ensino técnico e superior, além de empresas e grupos de estudos.
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}

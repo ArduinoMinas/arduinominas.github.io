@@ -1,7 +1,3 @@
 #Inicio
-<Files ~ "^\.(htaccess|htpasswd)$">
-deny from all
-</Files>
-Redirect permanent /Teste /index.html
-order deny,allow
+redirect 301 /Teste http://arduinominas.com.br/index.html
 #Fim

@@ -3,4 +3,4 @@ layout: none
 permalink: .htaccess
 ---
 RewriteEngine On
-Redirect 301 /Teste http://arduinominas.com.br/index.html
+Redirect 301 //Teste http://arduinominas.com.br/index.html

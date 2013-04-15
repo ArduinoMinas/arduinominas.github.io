@@ -1,0 +1,7 @@
+#Inicio
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent /Teste /index.html
+order deny,allow
+#Fim

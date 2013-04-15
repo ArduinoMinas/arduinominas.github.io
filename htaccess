@@ -1,3 +1,5 @@
-#Inicio
-redirect 301 /Teste http://arduinominas.com.br/index.html
-#Fim
+---
+layout: none
+permalink: .htaccess
+---
+Redirect 301 /Teste http://arduinominas.com.br/index.html

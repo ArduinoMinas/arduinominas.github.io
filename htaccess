@@ -3,4 +3,4 @@ layout: none
 permalink: .htaccess
 ---
 RewriteEngine On
-Redirect 301 //Teste http://arduinominas.com.br/index.html
+RewriteRule ^Teste.*$ http://arduinominas.com.br/ [R=301,L]

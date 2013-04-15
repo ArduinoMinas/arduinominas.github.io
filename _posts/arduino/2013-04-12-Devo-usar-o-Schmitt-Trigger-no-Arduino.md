@@ -16,7 +16,7 @@ Indo direto ao assunto, o problema de ruído nas portas de IO podem ser resolvid
 capacitor de 100uF em conjunto com um resistor como no circuito ao lado, ou em casos mais avançados usando um 
 circuito do Tipo Schmitt-Trigger.
 
-### Mas o que é este tal de Schmitt-Trigger?
+### O que é este tal de Schmitt-Trigger?
 
 <div class="imageBox" id="left">
 <a rel="lightbox" title="Circuito Schmitt-Trigger" href="/images/io-ports/circuito-schmitt.gif">
@@ -47,7 +47,7 @@ redução no disparo, indicando níveis altos e baixos, já que agora temos dois
 valores Vtrigger-high e Vtrigger-min. Portanto caso a tenção super o nível Vtrigger-max é disparado o sinal 
 HIGH mantendo assim até que o nível volte abaixo de Vtrigger-min.  
 
-### Mas eu devo usar ou não um Schmitt-Trigger com Arduino?
+### Eu devo usar ou não um Schmitt-Trigger com Arduino?
 
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Mini Push-Button" href="/images/io-ports/mini-push-button-switch.jpg">

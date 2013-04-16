@@ -2,7 +2,7 @@
 title: Transcrição Apresentação Massimo Banzi - Criador do Arduino
 layout: article
 categories : [Google Group]
-tags : [Google Groups, Discussão]
+tags : [Google Groups, Lista Discussao]
 excerpt: Conteúdo do Google Groups
 ---
 <iframe id="forum_embed"

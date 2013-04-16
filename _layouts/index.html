@@ -9,8 +9,8 @@ layout: page
 	</header>	
 	{{ post.excerpt | markdownify }}
 	
-	<h3><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">Leia Mais</a></span></h3>
 	<footer>	
+		<h3><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">Leia Mais</a></span></h3>
 		{% include widgets/postCategoryList.html %}
 		{% include widgets/postTagList.html %}	
 	</footer>

@@ -7,5 +7,6 @@ excerpt: Construir PCBs é uma das práticas de quem atua com protótipos em ele
 author: Edvaldo (@seugualda)
 contributors: Carlos Delfino (@carlosdelfino)
 projecturl: http://arduino-minas.github.com/PCB-in-a-Box
+projectpost: true
 ---
 Projeto

@@ -6,6 +6,7 @@ categories: [Projetos, Artes]
 excerpt: Malabares é uma antiga arte circense onde o artista normalmente caracterizado como palhaço joga diversos objetos para o alto equilibando-os e passando de  mão em mão.
 author: Carlos Delfino (@carlosdelfino)
 projecturl: https://github.com/Arduino-CE/Malabares-Digital
+projectpost: true
 ---
 O Malabares é uma técnica usada também com Pirofagia que é a arte de dorminar o fogo com a boca, cuspindo 
 chamas e apagando bastões ensendiados  engolindo o fogo. O Malabres Digital é uma modernização dos bastões  

@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+{% include facebookpluginscript.html %}
 <article class="box">
 	<header>
 		<time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%d.%m.%Y"}}</time>					
@@ -21,4 +22,5 @@ layout: page
 		{% include widgets/postCategoryList.html %}
 		{% include widgets/postTagList.html %}	
 	</footer>
+	{% include facebookcomment.html %}
 </article>

@@ -1,0 +1,6 @@
+{% if page.nofacebook != true %}
+	{% unless fb_comments_data_width %}
+		{% assign fb_comments_data_width = 600 %}
+	{% endunless %}
+<div class="fb-comments" data-href="http://arduinominas.com.br" data-width="{{ fb_comments_data_width }}" data-num-posts="10"></div>
+{% endif %}

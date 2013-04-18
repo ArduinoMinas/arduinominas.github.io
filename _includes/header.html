@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+<head>
+{% include googleAnalytics.html %}
+{% include headInclude.html %}
+	<title>{{ site.title }}</title>
+</head>
+
+<body id="top">
+<!--- GitHub ribbon -->
+	<a href="https://github.com/Arduino-Minas"> <img
+		style="position: absolute; top: 0; right: 0; border: 0;"
+		src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+		alt="Fork me on GitHub">
+	</a>
+<div id="header-wrapper">
+	<div id="header-wrapper-2">
+		<div class="center-wrapper">
+
+			<div id="header">
+
+				<div id="logo">
+					<h1 id="site-title"><a href="#">{{ site.title }}</a></h1>
+					<h2 id="site-slogan">{{ site.slogan }}</h2>
+				</div>
+
+				<div id="help-wrapper">
+					<div id="help">
+{% comment %}
+aqui deve ser usado o include para headtoprightmenu.html,
+Estarei vendo uma nova abordagem para o formato do arquivo de forma a ficar 
+independente de formatação.
+Todos os Includes devem ser independentes de formatação
+{% endcomment %}
+						<a href="#">Contato</a> <span class="text-separator">|</span> <a href="#">F.A.Q</a> <span class="text-separator">|</span> <a href="#">Sitemap</a>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div id="navigation-wrapper">
+	<div id="navigation-wrapper-2">
+		<div class="center-wrapper">
+	
+			<div id="navigation">
+
+				{% include menu.html %}
+
+				<div class="clearer">&nbsp;</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>

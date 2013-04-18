@@ -1,0 +1,26 @@
+---
+layout: page
+---
+{% include facebookpluginscript.html %}
+<article class="box">
+	<header>
+		<time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%d.%m.%Y"}}</time>					
+		<h1><span>{{ page.title }}</span></h1>	
+	</header>
+	<p>{{ page.excerpt | markdownify }}</p>
+	<a id="more"></a>
+	{{ content }}
+	<footer>
+	
+		{% if page.author %}
+		<h4>Por: {{ page.author | markdownify }}</h4>				
+		{% endif %} 
+
+----
+
+		{% assign post = page % %}
+		{% include widgets/postCategoryList.html %}
+		{% include widgets/postTagList.html %}	
+	</footer>
+	{% include facebookcomment.html %}
+</article>

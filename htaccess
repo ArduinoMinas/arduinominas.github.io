@@ -1,6 +1,0 @@
----
-layout: none
-permalink: .htaccess
----
-RewriteEngine On
-RewriteRule ^Teste.*$ http://arduinominas.com.br/ [R=301,L]

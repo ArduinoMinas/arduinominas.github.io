@@ -26,5 +26,9 @@ url: http://arduinominas.com.br/
 uri: arduinominas.com.br
 logo: /images/logo/logo-318x330x72.png
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
+
+news: Notícias
+phrases: Frases
+projects: Projetos
   
 exclude: [Rakefile, rakefile, makefile, README.md, LICENSE, 'README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile', '*.old']

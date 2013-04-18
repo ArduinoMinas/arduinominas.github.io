@@ -636,3 +636,11 @@ ul.tabbed a {text-decoration: none;}
 	text-decoration:none;
 	border:none;
 }
+
+.tagCloud {
+	list-style-type:none;
+}
+.tagCloud li {
+	display: inline;
+}
+

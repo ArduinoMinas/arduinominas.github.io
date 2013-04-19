@@ -8,7 +8,6 @@ layout: noindex
 		<h1><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">{{ post.title }}</a></span></h1>
 	</header>	
 	{{ post.excerpt | markdownify }}
-	
 	<footer>	
 		<h3><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">Leia Mais</a></span></h3>
 		{% include widgets/postCategoryList.html %}
@@ -16,7 +15,6 @@ layout: noindex
 	</footer>
 	</article>
 {% endfor %}
-
 <!-- Pagination links -->
 <nav class="pagination">		
 	<span>
@@ -34,5 +32,4 @@ layout: noindex
 	<span>
 		{% if paginator.next_page %}<a href="/page{{paginator.next_page}}/index.html" class="next ">Anteriores &raquo;</a>{% endif %}
 	</span> 
- 
 </nav>

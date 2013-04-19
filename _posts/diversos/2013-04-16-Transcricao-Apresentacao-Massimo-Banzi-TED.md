@@ -4,7 +4,6 @@ layout: article
 categories : [Ted, 3D]
 tags : [Massimo Banzi, TED, Transcricao, Palestras, 3D, Eventos ]
 excerpt: Há algumas semanas um amigo meu deu esse carro de brinquedo para seu filho de 8 anos. Mas ao invés de ir a uma loja e ele entrou nesse site e baixou um arquivo e imprimiu o carro em uma impressora. Então, essa ideia que você pode manufaturar objetos digitalmente utilizando essas máquinas é algo que a revista "The Economist" definiu como a 3º Revolução Industrial.
-
 ---
 Na verdade eu acho que há outra revolução industrial acontecendo e é a que tem a ver com o movimento criacionista, porque a impressora que meu amigo usou para imprimir esse brinquedo é, na verdade, open-source. Então você vai a esse mesmo site, que precisar para fazer essa impressora: os arquivos para construção, o hardware, o software, todas as instruções estão lá. E isso também é parte de uma grande comunidade, em que milhares de pessoas ao redor do mundo estão realmente fazendo esses tipos de impressoras, e há muita inovação acontecendo porque tudo é open-source. Você não precisa da permissão de ninguém E esse espaço é como o computador pessoal em 1976, como a briga entre a Apple e veremos daqui alguns anos, haverá a Apple desse tipo
 

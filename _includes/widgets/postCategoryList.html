@@ -9,12 +9,10 @@
 	For more Jekyll widgets, see <http://www.github.com/NetzwergX/jekyll-template-toolkit>.
 {% endcomment %}
 {% if post.categories.size > 0 %}
-	<div>Posted in
+	<div>Postado em:
 		<ul class="inlineList categories">
 			{% for category in post.categories %}
-				<li><a href="categories.html#{{ category | first | cgi_escape }}">{{ category }}</a>
-				{% unless forloop.last %},{% endunless %}
-				</li>					
+				<li><a href="categories.html#{{ category | first | cgi_escape }}">{{ category }}</a>{% unless forloop.last %},{% endunless %} </li>
 			{% endfor %}
 		</ul>
 	</div>	

@@ -4,11 +4,16 @@ title: Categorias
 ---
 <!-- categories -->	
 {% for category in site.categories %}
-	<h1>{{ category | first }}<a name="{{ category | first | cgi_escape }}"></a></h1>
+<div class="box">
+	<a name="#{{ category | first | cgi_escape }}" /><h1>{{ category | first }}</h1>
 	<ul class="postList">
 	{% for posts in category %}
       {% for post in posts %}
-		<li><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>						
-	{% endfor %}{% endfor %}
+		{% if post.url %}
+		<li><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} | <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>						
+	    {% endif %}
+	  {% endfor %}
+	{% endfor %}
 	</ul>
+</div>
 {% endfor %}

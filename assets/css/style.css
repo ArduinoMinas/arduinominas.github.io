@@ -644,3 +644,6 @@ ul.tabbed a {text-decoration: none;}
 	display: inline;
 }
 
+.inlineList li {
+	display: inline;
+}

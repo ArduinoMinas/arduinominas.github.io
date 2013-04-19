@@ -18,14 +18,16 @@ layout: page
 			<div id="main">
 				<div class="separator-vertical">
 					<div class="col2 left">
-						<h2 class="left">{{ site.projects }}</h2>
+						<h2 class="left">Projetos</h2>
 						<div class="right more large"><a href="projects.html">Todos os Projetos &#187;</a></div>						
 						<div class="clearer">&nbsp;</div>
 						{% for post in site.posts limit:4 %}
-						   {% if post.category || downcase = {{ site.projects | downcase }} %}
+						   {% if post.categories contains 'Projetos' %}
 						<div class="content-separator"></div>
 								{% if post.thumb %}
 						<img src="{{ post.thumb }}" width="64" height="64" alt="" class="left bordered" />
+								{% else %}
+						<img src="/assets/images/box.png" width="64" height="64" alt="" class="left bordered" />
 								{% endif %}
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						<p>{{ post.excerpt }}</p>
@@ -34,21 +36,19 @@ layout: page
 						{% endfor %}	
 					</div>
 					<div class="col2 right">
-						<h2 class="left">Notícias</h2>
-						<div class="right more large"><a href="#">Procurar no Arquivo &#187;</a></div>
+						<h2 class="left">Postagens</h2>
+						<div class="right more large"><a href="/categories.html">Todas as postagens &#187;</a></div>
 						<div class="clearer">&nbsp;</div>
 						<ul class="nice-list">
 						{% for post in site.posts limit:5 %}
-						   {% unless post.category | downcase = {{ site.news | downcase }} and post.category | downcase =  {{ site.phrases | downcase }} %}
 							<li><span>{{ post.date | date: "%Y-%m-%d" }} |</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-							{% endunless %}
 						{% endfor %}
 						</ul>												
 						<h2 class="left">Frases</h2>
 						<div class="right more large"><a href="frases.html">Mais &#187;</a></div>
 						<div class="clearer">&nbsp;</div>
 						{% for post in site.posts limit:3 %}
-						   {% if post.category | downcase = {{ site.phrase || downcase }} %}
+						   {% if post.categories contains 'Frases' %}
 						<blockquote>
 							<p><span>&quot;</span> {{ post.excerpt }} <span>&quot;</span></p>
 							<cite>{{ post.author }}</cite>

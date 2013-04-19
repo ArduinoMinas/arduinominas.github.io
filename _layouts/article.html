@@ -11,16 +11,14 @@ layout: noindex
 	<a id="more"></a>
 	{{ content }}
 	<footer>
-	
 		{% if page.author %}
 		<h4>Por: {{ page.author | markdownify }}</h4>				
 		{% endif %} 
-
-----
-
+<hr />
 		{% assign post = page % %}
 		{% include widgets/postCategoryList.html %}
 		{% include widgets/postTagList.html %}	
 	</footer>
+	{% include socialbuttons.html %}
 	{% include facebookcomment.html %}
 </article>

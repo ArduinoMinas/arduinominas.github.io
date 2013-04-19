@@ -5,11 +5,13 @@ title: Tags
 <!-- categories -->	
 {% for tag in site.tags %}
 <div class="box">
-	<h1>{{ tag | first }}<a name="{{ tag | first | cgi_escape }}"></a></h1>
+	<a href="#{{ tag | first | cgi_escape }}"></a><h1>{{ tag | first }}</h1>
 	<ul class="postList">	
 	{% for posts in tag %}
       {% for post in posts %}
-		<li class="nested"><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>						
+      	{% if post.url %}
+		<li class="nested"><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>
+		{% endif %}						
 	  {% endfor %}
 	{% endfor %}
 	</ul>

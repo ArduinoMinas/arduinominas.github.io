@@ -1,5 +1,5 @@
 ---
-title: Transcrição Apresentação Massimo Banzi - Criador do Arduino
+title: Conteúdo do Google Groups
 layout: article
 categories : [Google Group]
 tags : [Google Groups, Lista Discussao]
@@ -9,7 +9,7 @@ excerpt: Conteúdo do Google Groups
   src="javascript:void(0)"
   scrolling="no"
   frameborder="0"
-  width="900"
+  width="600"
   height="700">
 </iframe>
 <script type="text/javascript">

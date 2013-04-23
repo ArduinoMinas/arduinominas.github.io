@@ -7,6 +7,7 @@ category: simulador
 simulatorwidth: 600
 simulatorheigth: 600
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+usesocialbuttons: true;
 ---
 Tenho pesquisado na web soluções para simular circuitos e que eu possa usar no ambiente virtual 
 de aprendizado o Moodle como um objeto SCORM ou através de outra solução mais simples, como 

@@ -1,4 +1,4 @@
-Future: false
+future: false
 
 safe: false
 
@@ -24,7 +24,9 @@ slogan: Tecnologia, Criatividade e Conhecimento Compartilhado
 description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
 url: http://arduinominas.com.br/
 uri: arduinominas.com.br
+
 logo: /images/logo/logo-318x330x72.png
+
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
   
 exclude: [Rakefile, rakefile, makefile, README.md, LICENSE, 'README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile', '*.old']

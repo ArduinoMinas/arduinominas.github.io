@@ -1,15 +1,13 @@
-<form><input type="hidden" class="schematic" name="schematic1" 
-{% if page.simulatorwidth %}
-width="{{page.simulatorwidth}}"
-{% else %}
-width="800"
-{% endif %}
-{% if page.simulatorwidth %}
-height="{{page.simulatorheight}}"
-{% else %}	
-height="600"
-{% endif %}
-/>
-</form>
-<br>
-<i>Copyright © 2011 Massachusetts Institute of Technology</i>
+{% unless page.simulatorwidth %}
+{% assign page.simulatorwidth = 600 %}
+{% endunless %} 
+{% unless page.simulatorheight %} 
+{% assign page.simulatorheigth = 600 %} 
+{% endunless %}
+<div id="simulator">
+	<form>
+		<input type="hidden" class="schematic" name="schematic1"
+			width="{{page.simulatorwidth}}" height="{{page.simulatorheigth}}" />
+	</form>
+	<br> <i>Copyright © 2011 Massachusetts Institute of Technology</i>
+</div>

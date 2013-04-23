@@ -5,6 +5,10 @@ layout: page
 	<div class="content" id="content-two-columns">
 		<div id="main-wrapper">
 			<div id="main">{{content}}</div>
+			<div id="social">
+			{% if page.usesocialbuttons %}
+			{% include socialbuttons.html %}
+			{% endif %}
 		</div>
 		{% include sidebar.html %}
 	</div>

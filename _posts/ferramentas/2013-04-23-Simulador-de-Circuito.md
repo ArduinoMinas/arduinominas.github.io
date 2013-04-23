@@ -4,8 +4,8 @@ title: Simulador de Circuito
 javascripts: ['/simulador/js/cktsim.js', '/simulador/js/schematic.js']
 tags: [simulador, circuito, esquema, corrente, tensão, divisor, resistores, amplificadores operacionais]
 category: simulador
-simulatorwidth=600
-simulatorheigth=600
+simulatorwidth: 600
+simulatorheigth: 600
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 Tenho pesquisado na web soluções para simular circuitos e que eu possa usar no ambiente virtual 

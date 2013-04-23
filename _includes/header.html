@@ -1,13 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-
 <head>
 {% include googleAnalytics.html %}
 {% include headInclude.html %}
 	<title>{{ site.title }}</title>
 </head>
-
-<body id="top">
+<body id="top" {% if page.onload %}onload="{{page.onload}}"{% endif %}>
 <!--- GitHub ribbon -->
 	<a href="https://github.com/Arduino-Minas"> <img
 		style="position: absolute; top: 0; right: 0; border: 0;"
@@ -24,12 +22,6 @@
 				</div>
 				<div id="help-wrapper">
 					<div id="help">
-{% comment %}
-aqui deve ser usado o include para headtoprightmenu.html,
-Estarei vendo uma nova abordagem para o formato do arquivo de forma a ficar 
-independente de formatação.
-Todos os Includes devem ser independentes de formatação
-{% endcomment %}
 						<a href="contacts.html">Contato</a> <span class="text-separator">|</span> <a href="/">F.A.Q</a> <span class="text-separator">|</span> <a href="sitemap.html">Sitemap</a>
 					</div>
 				</div>

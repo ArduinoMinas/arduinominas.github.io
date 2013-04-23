@@ -12,7 +12,7 @@
 	<div>Usando a Tag:
 		<ul class="inlineList tags">
 		{% for tag in post.tags %}
-			<li><a href="tags.html#{{tag | cgi_encode}}">{{ tag }}</a>
+			<li><a href="/tags.html#{{tag | cgi_encode}}">{{ tag }}</a>
 			{% unless forloop.last %},{% endunless %}
 			</li>
 		{% endfor %}

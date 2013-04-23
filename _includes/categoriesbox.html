@@ -5,7 +5,9 @@
 		<ul>
 			{% for category in site.categories %}
 			<li><a
-				href="categories.html?{{ category | first | cgi_escape }}"> {{ category | first }}</a></li> {% endfor %}
+				href="/categories.html#{{ category | first | cgi_escape }}"> {{ category | first }}</a>
+				</li> 
+				{% endfor %}
 		</ul>
 	</div>
 </div>

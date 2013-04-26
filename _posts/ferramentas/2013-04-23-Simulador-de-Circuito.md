@@ -1,7 +1,7 @@
 ---
 layout: noindex
 title: Simulador de Circuito
-javascripts: ['/simulador/circuitos/js/cktsim.js', '/simulador/circuitosjs/schematic.js']
+javascripts: ['/simulador/circuitos/js/cktsim.js', '/simulador/circuitos/js/schematic.js']
 tags: [simulador, circuito, esquema, corrente, tensão, divisor, resistores, amplificadores operacionais]
 category: simulador
 simulatorwidth: 600

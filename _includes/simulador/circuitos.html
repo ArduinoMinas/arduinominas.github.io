@@ -1,0 +1,17 @@
+{% unless page.javascripts contains '/simulador/circuitos/js/cktsim.js' or page.javascirpts contain '/simulador/circuitosjs/schematic.js' %}
+{% assign page.javascripts = ['/simulador/circuitos/js/cktsim.js', '/simulador/circuitosjs/schematic.js'] %}
+{% endunless %}
+
+{% unless page.simulatorwidth %}
+{% assign page.simulatorwidth = 600 %}
+{% endunless %} 
+{% unless page.simulatorheight %} 
+{% assign page.simulatorheigth = 600 %} 
+{% endunless %}
+<div id="simulator">
+	<form>
+		<input type="hidden" class="schematic" name="schematic1"
+			width="{{page.simulatorwidth}}" height="{{page.simulatorheigth}}" />
+	</form>
+	<br> <i>Copyright © 2011 Massachusetts Institute of Technology</i>
+</div>

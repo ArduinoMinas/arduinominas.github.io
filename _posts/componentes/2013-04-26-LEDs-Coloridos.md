@@ -4,7 +4,7 @@ title: LEDs Coloridos
 tags: [Arduino, Uno, LilyPad, Componente, LED, Diodo, Colorido]
 categories: [Componentes, LEDs]
 excerpt: Não há na Eletrônica quem não tenha trabalhado com LEDs, pelo menos 9 em 10 circuitos usam pelo menos um LED para algum tipo de sinalização, e predominancia é da cor vermelha, porém há alguma diferença a ser observado no trato das demais cores ou intencidade de brilho. 
-author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+author: Carlos Delfino (consultoria@carlosdelfino.eti.br)
 ---
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/componentes/LEDs/calculo.jpg">
@@ -40,25 +40,25 @@ nível de dopagem da junção PN, que pode diferenciar de um fabricante para out
 diferenças nas tonalidades. Considerando tal fato podemos também váriar a corrente entre 5mA e um máximo 30mA para
 se conseguir um maior ou meno brilho.
 
- * Gálio Arsénio (GaAs) 
+ * Gálio Arsénio (GaAs) <br />
    infra-vermelho
- * Gálio Arsénio Fósforo (GaAsP)
+ * Gálio Arsénio Fósforo (GaAsP) <br />
    Vermelho ao infra-vermelho, laranja
-* Aluminio Gálio Arsénio Fósforo (AlGaAsP)
+ * Aluminio Gálio Arsénio Fósforo (AlGaAsP) <br />
    Vermelho de alto, laranjado avermelhado, laranja, e amarelo
-* Gálio Fósforo (GaP)
+ * Gálio Fósforo (GaP) <br />
    Vermelho, amarelo, verde
-* Aluminio Gálio Fósforo (AlGaP)
+ * Aluminio Gálio Fósforo (AlGaP) <br />
    Verde
-* Gálio Nitrogênio (GaN)
+ * Gálio Nitrogênio (GaN) <br />
    Verde, verde esmeralda
-* Gálio Indio Nitrogênio (GaInN)
+ * Gálio Indio Nitrogênio (GaInN) <br />
    próximo ao ultraviolet, verde azulado e azul
-* Silicone Carbono (SiC)
+ * Silicone Carbono (SiC) <br />
    Azul como Substrato
-* Zinco Selenio (ZnSe)
+ * Zinco Selenio (ZnSe) <br />
    Azul
-* Aluminium Gallium Nitride (AlGaN)
+ * Aluminium Gallium Nitride (AlGaN) <br />
    Ultraviolet
 
 Uma outra forma de se obter a variação no brilho do LED é aplicar a tensão através de pulsos, forma conhecida como 

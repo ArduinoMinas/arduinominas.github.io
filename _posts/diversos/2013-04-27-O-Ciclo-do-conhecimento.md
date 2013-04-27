@@ -13,8 +13,8 @@ no qual participamos ou criamos. E a Comunidade do Arduino Minas e nenhuma outra
 comunidade também é uma engrenagem que movimenta o conhecimento.
 
 <div class="imageBox" id="left">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/processos/O_Ciclo_do_Conhecimento.jpg">
-<img src="/images/processos/O_Ciclo_do_Conhecimento-thumb.jpg" width="333" height="250"  border="6" />
+<a rel="lightbox" title="Bordado com LilyPad" href="/images/processos/O-Ciclo-do-Conhecimento.jpg">
+<img src="/images/processos/O-Ciclo-do-Conhecimento-thumb.jpg" width="333" height="250"  border="6" />
 </a>
 </div>
 

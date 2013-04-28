@@ -7,7 +7,11 @@ layout: noindex
 		<time datetime="{{post.date | date: "%Y-%m-%d"}}" title="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%d.%m.%Y"}}</time>					
 		<h1><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">{{ post.title }}</a></span></h1>
 	</header>	
+	{% if post.excerpt %}
 	{{ post.excerpt | markdownify }}
+	{% else %}
+	<h1>Você esqueceu de informar o parametro "excerpt"</h1>
+	{% endif %}
 	<footer>	
 		<h3><span><a href="{{post.url}}" title="Leia mais sobre '{{ post.title }}'">Leia Mais</a></span></h3>
 		{% include widgets/postCategoryList.html %}

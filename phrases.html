@@ -4,7 +4,7 @@ title: Frases
 ---
 <div class="box">
 	{% for post in site.posts %} 
-	{% if  post.category || downcase  = {{ site.phrases | downcase }} %}
+	{% if  post.phrasespost %}
 	<blockquote>
 		<p>
 			<span>&quot;</span> {{ post.excerpt }} <span>&quot;</span>

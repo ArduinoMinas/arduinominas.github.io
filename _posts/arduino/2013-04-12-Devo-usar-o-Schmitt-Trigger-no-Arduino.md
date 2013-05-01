@@ -1,9 +1,9 @@
 ---
 layout: article
 title: Devo usar o Schmitt-Trigger?
-tags: [IO, Ports, Schmitt-Trigger, Proteção]
+tags: [IO, Ports, Schmitt-Trigger, Proteção, Ruidos, Hysterese, Trigger, Schmitt]
 categories: [Arduino, ATMega, Portas]
-excerpt: Sempre quando falamos de usar um interruptor com controladores, principalmente do tipo balança ou de origem de baixa qualidade, ficamos preocupados com os ruidos provocados. Vejamos neste artigo como evitar tal problema nas portas de entrada do Arduino e ATMegas
+excerpt: Sempre quando falamos de usar um interruptor com controladores, principalmente do tipo balança ou de origem de baixa qualidade, ficamos preocupados com os ruídos provocados. Vejamos neste artigo como evitar tal problema nas portas de entrada do Arduino e ATMegas
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 <div class="imageBox" id="right">
@@ -13,7 +13,7 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 </div>
 
 Indo direto ao assunto, o problema de ruído nas portas de IO podem ser resolvidos muitas vezes apenas colocando um 
-capacitor de 100uF em conjunto com um resistor como no circuito ao lado, ou em casos mais avançados usando um 
+capacitor de 100uF em conjunto com um resistor, como no circuito ao lado, ou em casos mais avançados usando um 
 circuito do Tipo Schmitt-Trigger.
 
 ### O que é este tal de Schmitt-Trigger?
@@ -25,9 +25,9 @@ circuito do Tipo Schmitt-Trigger.
 </div>
 
 O Schmitt-Trigger é um tipo de circuito que mantem seu valor de saida após a entrada atingir um certo nível de 
-tensão, dai vem seu nome Trigger, mas ele tem uma caracteristica extra que é chamada de Hysterese, que 
-intensionalmente é adicionado de forma a gerar um certo retardo em sua reação, evitando assim que ruidos 
-provoquem o chaveamento do estado da saida.
+tensão, dai vem seu nome Trigger, mas ele tem uma característica extra que é chamada de Hysterese, que 
+intensionalmente é adicionado de forma a gerar um certo retardo em sua reação, evitando assim que ruídos 
+provoquem o chaveamento do estado da saída.
 
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Níveis no Schmitt-Trigger" href="/images/io-ports/schmitt_trigger_levels.png">
@@ -65,7 +65,6 @@ ou ATmega2560 alguns até o ATmega644, até mesmo os ATtiny como ATtiny85 e 45, 
 os mesmos circuitos perifericos e proteções, e os Chips ATmega já possuem em suas portas quando estas estão 
 configuradas como portas de entradas um circuito Schmitt-Trigger de filtragem do sinal de entrada.
 
-
 O Schmitt-Trigger no Arduino já filtra os ruídos comumentes presentes no uso de chaves como aquelas 
 push-button (Figura ao lado), portanto o uso de circuitos extras do Schmitt-Trigger so seriam necessários se as
 especificações adotados no circuito dos Chips ATmega e ATtiny não atendam as especificações de seu projeto.
@@ -86,7 +85,7 @@ manter neste estado deve ser o valor 0.3V (positivo).
 
 Já o valor mínimo para que a porta seja mantida no estado 1 (HIGH) é 0.6V (positivo) e o valor máximo será a tensão
 de alimentação do chip + 0.5V (positivo), ou seja considerando o fato que o chip ATmega328 ou ATmega2560 no Arduino
-é alimentado com 5.0V o limite será de 5.5V(positivos)
+é alimentado com 5.0V o limite será de 5.5V(positivos).
 
 Obseve que entre os limites de tensão para identificar os estados 0 e 1 há uma lacuna de 0.3V o que acontece
 quando a porta se encontrar com a tensão nestes níveis? neste caso o estado anterior é mantido. Isso é um duplo

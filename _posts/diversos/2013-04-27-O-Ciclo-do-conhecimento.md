@@ -4,6 +4,7 @@ layout: article
 categories : [Conhecimento]
 tags : [Conhecimento, Ciclo, Planejamento, Estrategico, Chiavenato, Sapiro]
 excerpt: Criar comunidades no Google, Facebook, e outras redes socias, criar grupos e foruns de discussão em listas de e-mail é muito fácil, porém desenvolver um ciclo para girar o conhecimento é um desafio.
+author: Carlos Delfino (consultoria@carlosdelfino.eti.br)
 ---
 Estava neste sabado relendo alguns tópicos do Livro 
 "Planejamento Estratégico - Fundamentos e Aplicações - Da intensão aos resultados" de Idalberto Chiavenato e Arão 

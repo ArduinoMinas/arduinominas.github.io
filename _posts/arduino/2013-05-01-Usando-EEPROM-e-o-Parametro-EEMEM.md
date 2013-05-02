@@ -62,57 +62,56 @@ O restante do codigo é bem intuitivo e fácil de ser comprendido.
 Veja após o código mais informações sobre o uso da EEPROM e porque o Arduino ainda não usa a inicialização
  das váriaveis quando usando o parametro EEMEM.   
 
-```
-#include "inttypes.h" 
-#include "avr/eeprom.h" 
 
-byte EEMEM EEPROM_STATUS;
-int  EEMEM EEPROM_AJUSTE;
-
-enum wind_directions_t {
-    INICIO = 11, AJUSTANDO = 24, AJUSTADO = 37, LOOP = 58}; 
-
-void setup() {
-    Serial.begin(57600);
-
-    Serial.println();
-    Serial.println("Teste de EEPROM");
-    Serial.println();
+    #include "inttypes.h" 
+    #include "avr/eeprom.h" 
     
-    Serial.print("O sistema travou no status: 0x");
-    byte estado = eeprom_read_byte(&EEPROM_STATUS);
-    Serial.print(estado, HEX);
-    Serial.println();    
+    byte EEMEM EEPROM_STATUS;
+    int  EEMEM EEPROM_AJUSTE;
+    
+    enum wind_directions_t {
+        INICIO = 11, AJUSTANDO = 24, AJUSTADO = 37, LOOP = 58}; 
+        
+    void setup() {
+        Serial.begin(57600);
+        
+        Serial.println();
+        Serial.println("Teste de EEPROM");
+        Serial.println();
+        
+        Serial.print("O sistema travou no status: 0x");
+        byte estado = eeprom_read_byte(&EEPROM_STATUS);
+        Serial.print(estado, HEX);
+        Serial.println();    
+        
+        eeprom_write_byte(&EEPROM_STATUS, INICIO);
+        
+        int ajuste = eeprom_read_word((uint16_t*)&EEPROM_AJUSTE);
+        Serial.print("Valor carregado ao inicializar o Arduino: ");
+        Serial.println(ajuste);
+        ajuste++;
+        eeprom_write_word((uint16_t*)&EEPROM_AJUSTE, ajuste);
+        Serial.print("Valor armazenado: ");
+        Serial.println(ajuste);
+        
+        eeprom_write_byte((uint8_t*)&EEPROM_STATUS, AJUSTANDO);
+        
+        ajuste = eeprom_read_word((uint16_t*)&EEPROM_AJUSTE);
+        
+        Serial.print("Valor carregado: ");
+        Serial.println(ajuste);
+        
+        eeprom_write_byte((uint8_t*)&EEPROM_STATUS, AJUSTADO);
+    }
+    
+    void loop(){
+        byte estado = eeprom_read_byte((uint8_t*)&EEPROM_STATUS);
+        if(estado != LOOP)
+            eeprom_write_byte((uint8_t*)&EEPROM_STATUS, LOOP);
+        
+        delay(800);
+    }
 
-    eeprom_write_byte(&EEPROM_STATUS, INICIO);
-
-    int ajuste = eeprom_read_word((uint16_t*)&EEPROM_AJUSTE);
-    Serial.print("Valor carregado ao inicializar o Arduino: ");
-    Serial.println(ajuste);
-    ajuste++;
-    eeprom_write_word((uint16_t*)&EEPROM_AJUSTE, ajuste);
-    Serial.print("Valor armazenado: ");
-    Serial.println(ajuste);
-
-    eeprom_write_byte((uint8_t*)&EEPROM_STATUS, AJUSTANDO);
-
-    ajuste = eeprom_read_word((uint16_t*)&EEPROM_AJUSTE);
-
-    Serial.print("Valor carregado: ");
-    Serial.println(ajuste);
-
-    eeprom_write_byte((uint8_t*)&EEPROM_STATUS, AJUSTADO);
-}
-
-void loop(){
-    byte estado = eeprom_read_byte((uint8_t*)&EEPROM_STATUS);
-    if(estado != LOOP)
-        eeprom_write_byte((uint8_t*)&EEPROM_STATUS, LOOP);
-
-    delay(800);
-
-}
-```
 
 
 ## Porque não adianta inicializar as variáveis do tipo EEMEM

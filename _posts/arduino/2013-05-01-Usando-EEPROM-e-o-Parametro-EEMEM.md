@@ -62,7 +62,7 @@ O restante do codigo é bem intuitivo e fácil de ser comprendido.
 Veja após o código mais informações sobre o uso da EEPROM e porque o Arduino ainda não usa a inicialização
  das váriaveis quando usando o parametro EEMEM.   
 
-{% highlight C %}
+```
 #include "inttypes.h" 
 #include "avr/eeprom.h" 
 
@@ -111,8 +111,8 @@ void loop(){
 
     delay(800);
 
-} 
-{% endhighlight %}
+}
+```
 
 
 ## Porque não adianta inicializar as variáveis do tipo EEMEM

@@ -1,24 +1,26 @@
 {% if page.facebookpluginscriptloaded != true %}
 {% if page.nofacebook != true %}
 <div id="fb-root"></div>
-// Additional JS functions here
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : {{site.fbappid}},        // App ID
-      status     : true,           // check login status
-      cookie     : true,           // enable cookies to allow the server to access the session
-      xfbml      : true            // parse page for xfbml or html5 social plugins like login button below
-    });
+<script>
+//Additional JS functions here
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : {{site.fbappid}},        // App ID
+    status     : true,           // check login status
+    cookie     : true,           // enable cookies to allow the server to access the session
+    xfbml      : true            // parse page for xfbml or html5 social plugins like login button below
+  });
 
-    // Put additional init code here
-  };
-<script>(function(d, s, id) {
+  // Put additional init code here
+};
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId={{site.fbappid}}";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 
 {% assign page.facebookpluginscriptloaded = true %}
 {% endif %}

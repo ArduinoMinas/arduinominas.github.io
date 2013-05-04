@@ -1,10 +1,8 @@
 <meta property="fb:admins" content="{{site.fbadmins}}"/>
 <meta property="fb:app_id" content="{{site.fbappid}}"/>
 <meta property="og:title" content="{{page.title}}" />
-{% if post %}
-<meta property="og:type" content="article" />
-{% else %}
-<meta property="og:type" content="page" />
+{% if page.ogtype %}
+<meta property="og:type" content="{{page.ogtype}}" />
 {% endif %}
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:image" content="{{site.defaultlogo}}" />

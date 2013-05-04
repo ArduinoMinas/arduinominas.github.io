@@ -28,6 +28,9 @@ uri: arduinominas.com.br
 
 logo: /images/logo/logo-318x330x72.png
 
+fbappid: 189875687827636
+fbadmins: carlosdelfinocarvalhopinheiro
+
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
   
 exclude: [Rakefile, rakefile, makefile, README.md, LICENSE, 'README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile', '*.old']

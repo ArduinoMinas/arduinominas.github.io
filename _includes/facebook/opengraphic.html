@@ -1,0 +1,16 @@
+<meta property="fb:admins" content="carlosdelfinocarvalhopinheiro"/>
+<meta property="fb:app_id" content="189875687827636"/>
+<meta property="og:title" content="{{page.title}}" />
+{% if post %}
+<meta property="og:type" content="article" />
+{% else %}
+<meta property="og:type" content="page" />
+{% endif %}
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:image" content="{{site.defaultlogo}}" />
+<meta property="og:site_name" content="{{site.title}}"/>
+{% if post %}
+{% if post.excerpt %}}
+<meta property="og:description" content="{{post.excerpt}}" />
+{% endif %}
+{% endif %}

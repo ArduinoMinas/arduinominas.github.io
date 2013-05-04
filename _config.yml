@@ -20,6 +20,7 @@ permalink: /:year-:month-:day-:title.html
 
 title: Arduino Minas
 slogan: Tecnologia, Criatividade e Conhecimento Compartilhado
+defaultlogo: /images/logo/logo-318x330x72.png
 
 description: Página dos projetos hospedados no GitHub, criados e desenvolvidos no Arduino Minas
 url: http://arduinominas.com.br

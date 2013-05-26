@@ -3,10 +3,17 @@ layout: article
 title: Clio, uma opção da SeedStudio para E-Textile
 tags: [Arduino, Uno, LilyPad, Artesanato, Couro, Tecido, E-Textily, Flora, Fabric Kit, Bordado]
 categories: [Arduino, Uno, E-Textile]
-excerpt: Todos já conhecem o E-Textile ou Eletronics Wearables e também Computers Wearable, no contexto do Arduino temos a Lilypad e a Flora, são variações do Arduino para uso no campo textil, como roupas, bolças, bonés e por ai vai.
+excerpt: Todos já conhecem o E-Textile ou Eletronics Wearables e também Computers Wearable, no contexto do Arduino temos a Lilypad e a Flora.
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 --- 
-Bem na SeeedStudio tem também uma opção para quem quer trabalhar com 
+São todos variações do Arduino para uso no campo textil, como roupas, bolças, 
+bonés e por ai vai.
+
+<div class="imageBox" id="right">
+<a rel="lightbox" title="Filtro RC" href="image/e-textile/clio-mainboard.jpg">
+<img src="image/e-textile/clio-mainboard-thumb.jpeg"  height="200" />
+</a>
+</div>Bem na SeeedStudio tem também uma opção para quem quer trabalhar com 
 Eletronics Wearables e E-Textile, é o Clio, um clone do Arduino para 
 E-Textile, que ganhou o nome de uma das 9 deusas da Arte da Mitologia Grega, 
 isto foi feito porque o objetivo do Clio é atender a demanda de artistas, 

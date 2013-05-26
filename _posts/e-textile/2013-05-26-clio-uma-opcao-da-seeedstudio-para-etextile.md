@@ -10,8 +10,8 @@ São todos variações do Arduino para uso no campo textil, como roupas, bolças
 bonés e por ai vai.
 
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Clio" href="/images/e-textile/clio-mainboard.jpg">
-<img src="/images/e-textile/clio-mainboard-thumb.jpeg"  height="200" />
+<a rel="lightbox" title="Clio" href="/images/e-textile/clio_mainboard.jpg">
+<img src="/images/e-textile/clio_mainboard-thumb.jpeg"  height="200" />
 </a>
 </div>
 Bem na SeeedStudio tem também uma opção para quem quer trabalhar com

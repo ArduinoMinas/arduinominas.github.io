@@ -10,10 +10,11 @@ São todos variações do Arduino para uso no campo textil, como roupas, bolças
 bonés e por ai vai.
 
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Clio" href="/image/e-textile/clio-mainboard.jpg">
-<img src="/image/e-textile/clio-mainboard-thumb.jpeg"  height="200" />
+<a rel="lightbox" title="Clio" href="/images/e-textile/clio-mainboard.jpg">
+<img src="/images/e-textile/clio-mainboard-thumb.jpeg"  height="200" />
 </a>
-</div>Bem na SeeedStudio tem também uma opção para quem quer trabalhar com
+</div>
+Bem na SeeedStudio tem também uma opção para quem quer trabalhar com
 Eletronics Wearables e E-Textile, é o Clio, um clone do Arduino para
 E-Textile, que ganhou o nome de uma das 9 deusas da Arte da Mitologia Grega, 
 isto foi feito porque o objetivo do Clio é atender a demanda de artistas,

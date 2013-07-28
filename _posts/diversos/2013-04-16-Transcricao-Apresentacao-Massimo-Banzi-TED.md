@@ -54,5 +54,5 @@ CA: Muito Obrigado. (Aplausos)
 (Aplausos)
 
 ____
-Link: [http://www.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination.html]
-<iframe src="http://embed.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+Link: [http://www.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination.html](http://www.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination.html)
+<iframe src="http://embed.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen="" mozallowfullscreen="" allowFullScreen=""></iframe>

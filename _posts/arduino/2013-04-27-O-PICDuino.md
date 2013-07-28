@@ -58,17 +58,19 @@ PICDuino.
 <td>Adaptador USB</td><td>FTDI232</td><td>ATtiny16u2</td>
 </tr>
 <tr>
-<td>Alimentação da Fonte</td><td>7,5 à 25Vdc</td><td>6 a 20Vdc (limites) <br> 7 a 12Vdc (recomendado)<td>
+<td>Alimentação da Fonte</td><td>7,5 à 25Vdc</td>
+<td>6 a 20Vdc (limites) <br> 7 a 12Vdc (recomendado)</td>
 </tr>
 <tr>
 <td>Corrente Máxima por Pino de Saída(mA)</td><td>25</td><td>40</td>
-<tr>
+</tr>
 <tr>
 <td>Velocidade da CPU(MIPS) (aproximada em 16Mhz)</td><td>16</td><td>16</td>
 </tr>
 <tr>
 <td>Periféricos de Comunicação Digital</td><td>1-A/E/USART, 1-MSSP(SPI/I2C)</td><td>1-USART, 1 SPI e 1 I2C</td>
 </tr>
+<tr>
 <td>Periféricos Capture/Compare/PWM</td><td>2 CCP</td><td>6 PWM</td>
 </tr>
 <tr>
@@ -95,13 +97,14 @@ PICDuino.
 # Pinagem
 
 <table>
-<thead><tr><th>PIC128F2520</th><th>ATmega328</tg></tr></thead>
+<thead><tr><th>PIC128F2520</th><th>ATmega328</th></tr></thead>
 <tbody>
 <tr><td>
 <a rel="lightbox" title="PIC18F2520" href="/images/componentes/atmega328-pinagem.jpg">
 <img src="/images/componentes/atmega328-pinagem.jpg"  border="6" />
 </a>
-</td><td>
+</td>
+<td>
 <a rel="lightbox" title="PIC18F2520" href="/images/componentes/pic18F2x20-pinagem.jpg">
 <img src="/images/componentes/pic18F2x20-pinagem.jpg"  border="6" />
 </a>

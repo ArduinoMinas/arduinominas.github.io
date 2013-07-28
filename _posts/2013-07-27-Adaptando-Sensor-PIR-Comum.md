@@ -1,16 +1,17 @@
 ---
 layout: article
 title: Adaptando um Sensor PIR Comum ao Arduino
-tags: [Arduino, Uno, PIR, Sensores, Adaptação]
+tags: [Arduino, Uno, PIR, Sensores, Adaptacao]
 categories: [Arduino, Uno, Sensores]
-excerpt: Apesar do baixo custo de sensores PIR em mercados como o Chines, nem sempre podemos adquiri-los ou esperar que cheguem, portanto neste artigo apresentou uma solução simples, adaptar um sensor PIR comum usado em sistema de segurança 
+excerpt: Neste artigo apresentou uma solução simples para adaptar um sensor PIR comum usado em sistema de segurança 
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 
 Os sensores PIR de uma forma geral são pequenos modulos usados em sistemas de 
 segurança que identificam a presença de pessoas, muitos com um hardware mais
 elaborado, ouros mais simples, na maioria deles construidos de forma a 
-idenficar a presença de corpo humano.
+identificar a presença de corpo humano.
+
 <div class="imageBox" id="left">
 <a rel="lightbox" title="PIR Comum na Caixa" href="/images/sensor/pir/PIR_comum_montado.jpg">
 <img src="/images/sensor/pir/PIR_comum_montado.jpg" width="225" height="225"  border="6" />
@@ -22,8 +23,9 @@ de aproveitar modulos de sensores facilmente encontrados no mercado em lojas
 especializadas em segurança, o que pode ajudar a economizar em um projeto, já
 que em lojas especializadas de eletrônica ou de hobbies como Laboratório de 
 Garagem alguns modulos variam de R$ 35,00 a R$ 50,00, mas aproveitando os 
-modulos de segurança podemos encontrar alguns até por R$ 17,00 já com a caixa
+módulos de segurança podemos encontrar alguns até por R$ 17,00 já com a caixa
 adequada com refletor.
+
 <div class="imageBox" id="right">
 <a rel="lightbox" title="PIR fora da caixa modelo mais complexo, porém pronto para uso" href="/images/sensor/pir/infrared-pir-sensor-detector-module-01.jpg" >
 <img src="/images/sensor/pir/infrared-pir-sensor-detector-module-01-thumb.jpg"  width="219" height="250" border="6" />
@@ -36,6 +38,7 @@ este artigo usa um regulador do tipo LM78L05 que é da familhia LM78xx, como o
 LM7805 já conhecido de muitos, porém este regulador é para baixa corrente e é 
 encapsulado com um envolucro do tipo TO92 e também SO-8 um CI de 8 pinos, como 
 na diagrama de pinos abaixo.
+
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Pinagem do Regular 78L05" href="/images/componentes/reguladores/pinagem-lm78l05.jpg" >
 <img src="/images/componentes/reguladores/pinagem-lm78l05-thumb.jpg"  width="225" height="221" border="6" />
@@ -58,8 +61,9 @@ E na foto abaixo o circuito já modificado. Cuidado o pino central não será
 mais usado já que este era ligado para o terra do circuito.
 
 #Como fazer esta alteração em outros circuitos.
+
 Bem é impossível definir uma regra padrão para qualquer circuito, mas procure
-inicialmene identificar o CI principal do circuito, procure o datasheet 
+inicialmente identificar o CI principal do circuito, procure o datasheet 
 correspondente e veja qual é sua tensão de trabalho, se for 5V ou 3,3V é 
 fácil fazer a alteração.
 

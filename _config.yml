@@ -8,8 +8,6 @@ paginate: 5
 
 future: false
 
-production: false
-
 future: false
 
 lsi: true

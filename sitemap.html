@@ -1,0 +1,28 @@
+---
+title: Sitemap
+layout: noindex
+---
+<article class="box">
+	<header>						
+		<h1><span>Páginas</span></h1>	
+	</header>
+	<ul class="postList archive">
+	{% for page in site.pages %}
+	{% if page.title %}
+		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</article>
+<article class="box">
+	<header>						
+		<h1><span>Posts</span></h1>	
+	</header>
+	<ul class="postList archive">
+	{% for post in site.posts %}
+	{% if post.title %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %} 
+	{% endfor %}
+	</ul>
+</article>

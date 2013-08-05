@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+.text_values {
+width: 40px;
+height: 16px;
+font-size: 10px;
+text-align: right;
+border: 0px;
+padding-right: 6px;
+
+}
+td#led_img {
+	background-image: url(/simulador/calculoleds/images/led_.gif);
+	background-position:center; 
+}
+td img{
+	display: block;
+}

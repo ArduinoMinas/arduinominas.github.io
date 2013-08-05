@@ -11,7 +11,10 @@
 {% if post.categories.size > 0 %}
 	<div>Postado em:
 		<ul class="inlineList categories">
-			{% for category in post.categories %},
+			{% for category in post.categories %}
+				<li><a href="/categories.html#{{ category | first | cgi_escape }}">
+				{{ category }}</a>{% unless forloop.last %},{% endunless %}
+				 </li>			
 			{% endfor %}
 		</ul>
 	</div>	

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+{% include headInclude.html %}
+	<title>{{ site.title }}</title>
+</head>
+<body id="top" {% if page.onload %}onload="{{page.onload}}"{% endif %}>
+<div id="header-wrapper">
+	<div id="header-wrapper-2">
+		<div class="center-wrapper">
+			<header class="site_h">
+				<div id="logo">
+					<h1 id="site-title"><a href="#">{{ site.title }}</a></h1>
+					<h2 id="site-slogan">{{ site.slogan }}</h2>
+				</div>
+				<div id="help-wrapper">
+					<div id="help">
+						<a href="contacts.html">Contato</a> <span class="text-separator">|</span> <a href="/">F.A.Q</a> <span class="text-separator">|</span> <a href="sitemap.html">Sitemap</a>
+					</div>
+				</div>
+			</header>
+		</div>
+	</div>
+</div>
+<div id="navigation-wrapper">
+	<div id="navigation-wrapper-2">
+		<div class="center-wrapper">
+			<div id="navigation">
+				{% include menu.html %}
+				<div class="clearer">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="content-wrapper">

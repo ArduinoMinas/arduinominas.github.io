@@ -1,0 +1,17 @@
+---
+layout: noindex
+title: Projetos
+---
+<div class="box">
+{% for post in site.posts %}
+   {% if post.projectpost %}
+		<h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+		<h2>Autor:{{ post.author }}</h2>
+		<p>{{ post.excerpt | textlize }}</p>
+		<p ><br /><br /></p>
+   {% endif %}
+{% endfor %}
+	</ul>
+</div>
+   
+	

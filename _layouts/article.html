@@ -1,0 +1,31 @@
+---
+layout: noindex
+usesocialbuttons: false
+ogtype: article
+---
+{% assign post = page %}
+<article class="box">
+	<header>
+		<time datetime="{{page.date | date: '%Y-%m-%d'}}" title="{{page.date | date:'%Y-%m-%d'}}">{{page.date | date: "%d.%m.%Y"}}</time>
+		<h1><span>{{ page.title }}</span></h1>	
+	</header>
+	{% if page.excerpt %}
+	<p>{{ page.excerpt | markdownify }}</p>
+	{% else %}
+	<h1>Você esqueceu de informar o parametro "excerpt"</h1>
+	{% endif %}
+	<a id="more"></a>
+	{{ content }}
+	<footer>
+		{% if page.author %}
+		<h4>Por: {{ page.author | markdownify }}</h4>
+		{% else %}				
+		<h4>Por: {{ site.author | markdownify }}</h4>				
+		{% endif %} 
+<hr />
+		{% include widgets/postCategoryList.html %}
+		{% include widgets/postTagList.html %}	
+	</footer>
+	{% include socialbuttons.html %}
+	{% include facebook/comment.html %}
+</article>

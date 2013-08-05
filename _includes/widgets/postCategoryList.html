@@ -12,7 +12,8 @@
 	<div>Postado em:
 		<ul class="inlineList categories">
 			{% for category in post.categories %}
-				<li></a>{% unless forloop.last %},{% endunless %}
+				<li><a href="/categories.html#{{ category | first | cgi_encode }}">
+				{{ category }}</a>{% unless forloop.last %},{% endunless %}
 				 </li>			
 			{% endfor %}
 		</ul>

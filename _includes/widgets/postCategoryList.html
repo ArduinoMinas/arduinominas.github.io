@@ -9,5 +9,10 @@
 	For more Jekyll widgets, see <http://www.github.com/NetzwergX/jekyll-template-toolkit>.
 {% endcomment %}
 {% if post.categories.size > 0 %}
-	
+	<div>Postado em:
+		<ul class="inlineList categories">
+			{% for category in post.categories %},
+			{% endfor %}
+		</ul>
+	</div>	
 {% endif %}

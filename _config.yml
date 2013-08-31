@@ -12,7 +12,7 @@ future: false
 
 lsi: true
 
-permalink: /:year-:month-:day-:title.html
+permalink: /:categories/:year-:month-:day-:title.html
 
 title: Arduino Minas
 slogan: Tecnologia, Criatividade e Conhecimento Compartilhado

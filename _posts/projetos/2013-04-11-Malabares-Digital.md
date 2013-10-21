@@ -13,7 +13,7 @@ chamas e apagando bastões ensendiados  engolindo o fogo. O Malabres Digital é 
 encandecentes usados na junção do Malabares e Pirofagia porém ilumindados  por LEDs de autobrilho e controlado
 pelo Arduino. Conforme cada movimento  o bastão do Malabares apresenta um padrão grafico e luminoso, podendo 
 vir  a ser colorido e mudar as cores. A base também brilha em formando uma bola  luminosa.  Mais informações:
- http://pt.wikipedia.org/wiki/Malabares
+ <a href="http://pt.wikipedia.org/wiki/Malabares">http://pt.wikipedia.org/wiki/Malabares</a>
 
 Este projeto foi proposto no Grupo Arduino CE por mim, e está aberto a participação de qualquer comunidade.
 
@@ -28,6 +28,6 @@ que será produzido com a movimentação e jogo das peças.
  
 Os componentes necessários para construção estaram em breve listados no [wiki do projeto](https://github.com/Arduino-CE/Malabares-Digital/wiki).
 
-Uma filmagem do primeiro prototipo está disponivel no link: https://github.com/Arduino-CE/Malabares-Digital/wiki/Filmagens-das-Versoes-que-Ja-Funcionaram
+Uma filmagem do primeiro prototipo está disponivel no link: <a href="https://github.com/Arduino-CE/Malabares-Digital/wiki/Filmagens-das-Versoes-que-Ja-Funcionaram">https://github.com/Arduino-CE/Malabares-Digital/wiki/Filmagens-das-Versoes-que-Ja-Funcionaram</a>
 
 

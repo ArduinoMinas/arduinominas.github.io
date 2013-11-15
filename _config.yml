@@ -8,8 +8,6 @@ paginate: 5
 
 future: false
 
-future: false
-
 lsi: true
 
 permalink: /:categories/:year-:month-:day-:title.html
@@ -29,4 +27,4 @@ fbadmins: carlosdelfinocarvalhopinheiro
 
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
 
-exclude: [assets, Rakefile, rakefile, makefile, README.md, LICENSE, README.markdown, README_FOR_COLLABORATORS.markdown, Gemfile.lock, Gemfile, resistores/css, resistores/images, resistores/js, recursos/clones/picduino/*.zip, recursos/clones/picduino/*.pdf, simulador/calculoleds/images, simulador/calculoleds/*.css, simulador/circuitos/js, simulador/motor/js, CNAME, "*.pdf", "*.old"]
+exclude: [Rakefile, rakefile, makefile, README.md, LICENSE, README.markdown, README_FOR_COLLABORATORS.markdown, Gemfile.lock, Gemfile, resistores/css, resistores/images, resistores/js, recursos/clones/picduino/*.zip, recursos/clones/picduino/*.pdf, simulador/calculoleds/images, simulador/calculoleds/*.css, simulador/circuitos/js, simulador/motor/js, CNAME, "*.pdf", "*.old"]

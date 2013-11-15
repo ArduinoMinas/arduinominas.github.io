@@ -5,8 +5,9 @@ tags: [Arduino, Logo]
 categories: [Arduino, Logo]
 excerpt: Arduino é uma marca que pertence a uma empresa de mesmo nome, veja neste artigo o que esta empresa está fazendo para que as comunidades que tem crescido a sua votla possam manter uma identidade comum.
 author: Traduzido por Carlos Delfino {consultoria@carlosdelfino.eti.br}
-sources: [http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer]
 ---
+sources: [http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer]
+
 #Como usa-lo
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo.png">

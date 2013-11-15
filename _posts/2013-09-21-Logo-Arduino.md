@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Logo Arduino para a Comunidade
+title: Logo Arduino para a Comunidade Arduino Minas
 tags: [Arduino, Logo]
 categories: [Arduino, Logo]
 excerpt: Arduino é uma marca que pertence a uma empresa de mesmo nome, veja neste artigo o que esta empresa está fazendo para que as comunidades que tem crescido a sua votla possam manter uma identidade comum.
@@ -13,7 +13,7 @@ sources: [http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&u
 <img src="/images/logo/arduino/ArduinoCommunityLogo.png" width="620" height="263"  border="6" />
 </a>
 </div>
-## Logo Arduino e Logo Arduino para Comunidade
+## Logo Arduino e Logo Arduino para Comunidades
 Uma Trademark é um símbolo, uma palavra, ou palavras legalmente registrados ou
 estabelecidos para uso como a represenção de uma empresa ou produto. Ela tem a
 intenção de identificar uma fonte especifica de serviços e recursos, protegendo

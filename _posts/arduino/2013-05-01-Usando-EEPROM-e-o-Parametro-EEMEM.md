@@ -1,8 +1,8 @@
 ---
 title: Usando EEPROM e o Parametro EEMEM
 layout: article
-category : EEPROM, AVRDude
-tags : [Arduino, EEPROM, AVRDude, EEMEM]
+category: EEPROM, AVRDude
+tags: [Arduino, EEPROM, AVRDude, EEMEM]
 excerpt: A EEPROM do Arduino é um poderoso recurso que pode ser usado para armazenar parametros de configuração e ajuste entre cada reinicialização do Arduino ou para recuperar o estado antes de uma queda de energia.
 author: Carlos Delfino (consultoria@carlosdelfino.eti.br)
 ---

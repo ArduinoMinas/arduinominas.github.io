@@ -6,7 +6,6 @@ categories: [Arduino, Uno, Sensores]
 excerpt: Neste artigo apresentou uma solução simples para adaptar um sensor PIR comum usado em sistema de segurança
 author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
-
 Os sensores PIR de uma forma geral são pequenos modulos usados em sistemas de
 segurança que identificam a presença de pessoas, muitos com um hardware mais
 elaborado, ouros mais simples, na maioria deles construidos de forma a

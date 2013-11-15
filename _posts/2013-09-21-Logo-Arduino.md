@@ -86,21 +86,21 @@ do logo de forma a fornecer um espaço para adicionar o nome do grupo ou organiz
 <img src="/images/logo/arduino/ArduinoCommunityLogo_1line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-<p>nome em uma linha</P
+<p>nome em uma linha</p>
 
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_2line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_2line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-<p>nome em duas linhas</P
+<p>nome em duas linhas</p>
 
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_3line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_3line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-<p>nome em três linhas</P
+<p>nome em três linhas</p>
 
 ## Sugestões de cores.
 
@@ -109,15 +109,16 @@ Você é livre para usar alguma cor, mas nos sugerimos a seguinte paleta:
 Aqui estão os valores hexadecimal:
 
 <table>
-<thead>
-<tr>
-<th style="background-color:#00878F">Teal</th><th style="background-color:#62AEB2">Light Teal</th><th style="background-color:#E47128">Orange</th><th style="background-color:#E5AD24">Yellow</th><th style="background-color:#8C7965">Brown</th>
-</tr>
-</thead>
-<tbody><tr>
-<td style="background-color:#00878F">#00878F</td><td style="background-color:#62AEB2">#62AEB2</td><td style="background-color:#E47128">#E47128</td><td style="background-color:#E5AD24">#E5AD24</td><td style="background-color:#8C7965">#8C7965</td>
-</tr>
-</tbody>
+ <thead>
+  <tr>
+   <th style="background-color:#00878F">Teal</th><th style="background-color:#62AEB2">Light Teal</th><th style="background-color:#E47128">Orange</th><th style="background-color:#E5AD24">Yellow</th><th style="background-color:#8C7965">Brown</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td style="background-color:#00878F">#00878F</td><td style="background-color:#62AEB2">#62AEB2</td><td style="background-color:#E47128">#E47128</td><td style="background-color:#E5AD24">#E5AD24</td><td style="background-color:#8C7965">#8C7965</td>
+  </tr>
+ </tbody>
 </table>
 
 O Logo Arduino para Comunidade não pode ser usado em produtos que são vendidos

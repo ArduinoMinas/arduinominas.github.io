@@ -1,0 +1,22 @@
+---
+layout: noindex
+title: Tags
+---
+<!-- categories -->	
+{% for tag in site.tags %}
+<div class="box">
+	<h1><a id="#{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h1>
+	<ul class="postList">	
+	{% for posts in tag %}
+      {% for post in posts %}
+      	{% if post.url %}
+		<li class="nested"><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>
+		{% endif %}						
+	  {% endfor %}
+	{% endfor %}
+	</ul>
+</div>				
+{% endfor %}
+	
+
+

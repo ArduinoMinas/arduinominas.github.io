@@ -3,16 +3,18 @@ layout: article
 title: Logo Arduino para a Comunidade Arduino Minas
 tags: [Arduino, Logo]
 categories: [Arduino, Logo]
-excerpt: Arduino é uma marca que pertence a uma empresa de mesmo nome, veja neste artigo o que esta empresa está fazendo para que as comunidades que tem crescido a sua votla possam manter uma identidade comum.
-author: Traduzido por Carlos Delfino {consultoria@carlosdelfino.eti.br}
-sources: [http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer]
+excerpt: Arduino é uma marca que pertence a uma empresa de mesmo nome, veja neste artigo o que esta empresa está fazendo para que as comunidades que tem crescido a sua volta possam manter uma identidade comum.
+author: Traduzido por Carlos Delfino {"consultoria@carlosdelfino.eti.br"}
+sources: ["http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer"]
 ---
+
 #Como usa-lo
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo.png" width="620" height="263"  border="6" />
 </a>
 </div>
+
 ## Logo Arduino e Logo Arduino para Comunidades
 Uma Trademark é um símbolo, uma palavra, ou palavras legalmente registrados ou
 estabelecidos para uso como a represenção de uma empresa ou produto. Ela tem a
@@ -84,21 +86,21 @@ do logo de forma a fornecer um espaço para adicionar o nome do grupo ou organiz
 <img src="/images/logo/arduino/ArduinoCommunityLogo_1line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-1 line name
+<p>nome em uma linha</P
 
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_2line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_2line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-2 lines name
+<p>nome em duas linhas</P
 
 <div class="imageBox" id="center">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_3line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_3line.png" width="383" height="176"  border="6" />
 </a>
 </div>
-3 lines name
+<p>nome em três linhas</P
 
 ## Sugestões de cores.
 

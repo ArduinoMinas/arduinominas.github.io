@@ -28,5 +28,5 @@ fbappid: 189875687827636
 fbadmins: carlosdelfinocarvalhopinheiro
 
 author: Carlos Delfino (@CarlosDelfino), Fernando Passe (@fernandopasse)
-  
-exclude: [assets, Rakefile, rakefile, makefile, README.md, LICENSE, README.markdown, README_FOR_COLLABORATORS.markdown, Gemfile.lock, Gemfile, *.old, resistores/css, resistores/images, resistores/js, recursos/clones/picduino/*.zip, recursos/clones/picduino/*.pdf, *.pdf, simulador/calculoleds/images, simulador/calculoleds/*.css, simulador/circuitos/js, simulador/motor/js, CNAME]
+
+exclude: [assets, Rakefile, rakefile, makefile, README.md, LICENSE, README.markdown, README_FOR_COLLABORATORS.markdown, Gemfile.lock, Gemfile, resistores/css, resistores/images, resistores/js, recursos/clones/picduino/*.zip, recursos/clones/picduino/*.pdf, *.pdf, simulador/calculoleds/images, simulador/calculoleds/*.css, simulador/circuitos/js, simulador/motor/js, CNAME, *.old]

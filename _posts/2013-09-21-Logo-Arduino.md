@@ -10,7 +10,7 @@ sources: ["http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&
 
 #Como usa-lo
 <div class="imageBox" id="center">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo.png">
+<a rel="lightbox" title="Logo do Arduino para Comunidades" href="/images/logo/arduino/ArduinoCommunityLogo.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo.png" width="620" height="263"  border="6" />
 </a>
 </div>
@@ -45,7 +45,7 @@ Você pode usar o Logo Arduino para Comujnidade como ele é ou adicionando o nom
 de seu grupo (veja abaixo para exemplos)
 
 <div class="imageBox" id="center">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_CustoMArea.png">
+<a rel="lightbox" title="Logo Arduino para Comunidades, com área personalizavel." href="/images/logo/arduino/ArduinoCommunityLogo_CustoMArea.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_CustonArea.png" width="383" height="176"  border="6" />
 </a>
 </div>
@@ -82,21 +82,21 @@ Nós desenhamos o logo para permitir a personalização do parte inferior direit
 do logo de forma a fornecer um espaço para adicionar o nome do grupo ou organização.
 
 <div class="imageBox" id="center">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_1line.png">
+<a rel="lightbox" title="Logo Arduino para Comunidades, Uma Linha." href="/images/logo/arduino/ArduinoCommunityLogo_1line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_1line.png" width="383" height="176"  border="6" />
 </a>
 </div>
 <p>nome em uma linha</p>
 
 <div class="imageBox" id="center">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_2line.png">
+<a rel="lightbox" title="Logo Arduino para Comunidades, Duas Linha." href="/images/logo/arduino/ArduinoCommunityLogo_2line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_2line.png" width="383" height="176"  border="6" />
 </a>
 </div>
 <p>nome em duas linhas</p>
 
 <div class="imageBox" id="center">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/logo/arduino/ArduinoCommunityLogo_3line.png">
+<a rel="lightbox" title="Logo Arduino para Comunidades, Três Linha." href="/images/logo/arduino/ArduinoCommunityLogo_3line.png">
 <img src="/images/logo/arduino/ArduinoCommunityLogo_3line.png" width="383" height="176"  border="6" />
 </a>
 </div>
@@ -124,4 +124,6 @@ Aqui estão os valores hexadecimal:
 O Logo Arduino para Comunidade não pode ser usado em produtos que são vendidos
 comercialmente.
 
-O Logo por si, é protegido pela licença [Creative Commons, CC-SA-BY-NC 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+O Logo por si, é protegido pela licença 
+[Creative Commons, CC-SA-BY-NC 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+

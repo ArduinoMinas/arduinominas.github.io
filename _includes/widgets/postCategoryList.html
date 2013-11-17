@@ -12,7 +12,7 @@
 	<div>Postado em:
 		<ul class="inlineList categories">
 			{% for category in post.categories %}
-				<li><a href="/categories.html#{{ category | first | cgi_encode }}">{{ category | first }}</a>{% unless forloop.last %},{% endunless %}</li>
+				<li><a href="/categories.html#{{ category | first | cgi_escape }}">{{ category | first }}</a>{% unless forloop.last %},{% endunless %}</li>
 			{% endfor %}
 		</ul>
 	</div>	

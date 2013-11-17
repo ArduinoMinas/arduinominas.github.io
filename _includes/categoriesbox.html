@@ -5,7 +5,7 @@
 		<ul>
 {% for category in site.categories %}
 			<li>
-				<a href="/categories.html#{{ category.name  }}"> {{ category.name }}</a>
+				<a href="/categories.html#{{ category | first  }}"> {{ category | first }}</a>
 			</li>
 {% endfor %}
 		</ul>

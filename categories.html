@@ -2,7 +2,7 @@
 layout: noindex
 title: Categorias
 ---
-<!-- categories -->	
+<!-- begin categories -->	
 {% for category in site.categories %}
 <div class="box">
 	<h1><a id="{{ category | cgi_escape }}" name="{{ category | cgi_escape }}" href="#{{ category | cgi_escape }}"/>{{ category }}</a></h1>
@@ -10,10 +10,11 @@ title: Categorias
 	{% for posts in category %}
       {% for post in posts %}
 		{% if post.url %}
-		<li><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} | <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>						
+		<li><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} | <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>
 	    {% endif %}
 	  {% endfor %}
 	{% endfor %}
 	</ul>
 </div>
 {% endfor %}
+<!-- end bategories -->

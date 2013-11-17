@@ -1,12 +1,12 @@
 <div class="box">
-{% if post.categories.size > 0 %}
+{% if site.categories.size > 0 %}
 	<div class="box-title">Categorias</div>
 	<div class="box-content">
 		<!-- categories -->
 		<ul>
 			{% for category in site.categories %}
 			<li><a
-				href="/categories.html#{{ category | first | cgi_escape }}"> {{ category | first }}</a>
+				href="/categories.html#{{ category  }}"> {{ category }}</a>
 				</li> 
 				{% endfor %}
 		</ul>

@@ -12,7 +12,12 @@
 	<div>Postado em:
 		<ul class="inlineList categories">
 	{% for category in post.categories %}
-			
+		{% if category %}
+			<li>
+				<a href="/categories.html#{{ category }}">{{ category }}</a>
+				{% unless forloop.last %},{% endunless %}
+			</li>
+		{% endif %}
 	{% endfor %}
 		</ul>
 	</div>	

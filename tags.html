@@ -3,10 +3,10 @@ layout: noindex
 title: Tags
 ---
 
-<!-- categories -->	
+<!-- begin tags -->	
 {% for tag in site.tags %}
 <div class="box">
-	<h1><a id="#{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h1>
+	<h1><a id="#{{ tag | first | cgi_escape }}" href="#{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h1>
 	<ul class="postList">
 	{% for posts in tag %}
 		{% for post in posts %}
@@ -18,3 +18,4 @@ title: Tags
 	</ul>
 </div>				
 {% endfor %}
+<!-- end tags -->

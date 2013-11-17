@@ -1,4 +1,5 @@
 <div class="box">
+{% if post.categories.size > 0 %}
 	<div class="box-title">Categorias</div>
 	<div class="box-content">
 		<!-- categories -->
@@ -10,4 +11,9 @@
 				{% endfor %}
 		</ul>
 	</div>
+{% else %}
+	<div class="box-content">
+	Não há categorias definidas
+	</div>		
+{% endif %}
 </div>

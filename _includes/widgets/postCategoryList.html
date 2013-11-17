@@ -14,7 +14,7 @@
 	{% for category in post.categories %}
 		{% if category %}
 			<li>
-				<a href="/categories.html#{{ category }}">{{ category }}</a>
+				<a href="/categories.html#{{ category | cgi_escape }}">{{ category }}</a>
 				{% unless forloop.last %},{% endunless %}
 			</li>
 		{% endif %}

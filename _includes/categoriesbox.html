@@ -3,11 +3,11 @@
 	<div class="box-content">
 		<!-- categories -->
 		<ul>
-			{% for category in site.categories %}
+{% for category in site.categories %}
 			<li><a
 				href="/categories.html#{{ category  }}"> {{ category }}</a>
-				</li> 
-				{% endfor %}
+			</li> 
+{% endfor %}
 		</ul>
 	</div>
 </div>

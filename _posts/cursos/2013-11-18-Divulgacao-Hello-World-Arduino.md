@@ -13,7 +13,7 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 
 <div class="imageBox">
 <a rel="lightbox" title="Folder Hello World Arduino" href="{{ imagemCurso | uri_escape }}" >
-<img alt="folder Hello World Arduino" src="{{ imagemCurso | uri_escape }} width="{{ imageCursoWidth }}" />
+<img alt="folder Hello World Arduino" src="{{ imagemCurso | uri_escape }} width="{{ imagemCursoWidth }}" />
 </a>
 </div>
 

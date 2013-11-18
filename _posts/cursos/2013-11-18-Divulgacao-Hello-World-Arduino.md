@@ -8,11 +8,12 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 
 {% assign imagemCurso = "/images/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.png" %}
+{% assign imagemCursoWidth = "100%" %}
 {% assign pdfCurso = "/recursos/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.pdf" %}
 
 <div class="imageBox">
 <a rel="lightbox" title="Folder Hello World Arduino" href="{{ imagemCurso | uri_escape }}" >
-<img alt="folder Hello World Arduino" src="{{ imagemCurso | uri_escape }}" />
+<img alt="folder Hello World Arduino" src="{{ imagemCurso | uri_escape }} width="{{ imageCursoWidth }}" />
 </a>
 </div>
 

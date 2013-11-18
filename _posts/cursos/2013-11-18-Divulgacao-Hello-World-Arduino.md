@@ -8,7 +8,7 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 ---
 
 {% assign imagemCurso = "/images/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.png" %}
-{% assign pdfCurso = "/images/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.pdf" %}
+{% assign pdfCurso = "/recursos/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.pdf" %}
 
 <div class="imageBox">
 <a rel="lightbox" title="Folder Hello World Arduino" href="{{ imagemCurso | uri_escape }}" >
@@ -19,6 +19,6 @@ author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
 Ajude a divulgar o curso imprimindo e pregando nas escolas, ganhe uma vaga no curso a cada 10
 pessoas indicadas por você, entre em contato e saiba como.
 
-<a rel="lightbox" title="Folder Hello World Arduino" href="{{ pdfCurso | uri_escape }}" >
+<a rel="" title="Folder Hello World Arduino" href="{{ pdfCurso | uri_escape }}" >
 Clique aqui e baixe o PDF para imprimir.
 </a>

@@ -1,3 +1,5 @@
+/.settings
+/.project
 *.old
 /.buildpath
 /_site

@@ -4,7 +4,13 @@ layout: noindex
 <article class="box">
 	<header>
 		<time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%d.%m.%Y"}}</time>					
-		<h1><span><a href="{{ page.projecturl | uri_escape }}">{{ page.title }}</a></span></h1>	
+		<h1><span>
+			{% if page.projecturl != null and page.projecturl != '' %} 
+				<a href="{{ page.projecturl | uri_escape }}">{{ page.title }}</a>
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+		</span></h1>	
 	</header>
 	<p>{{ page.excerpt | textilize }}</p>
 	<a id="more"></a>
@@ -19,7 +25,7 @@ layout: noindex
 	{% endfor %}
 	</ul>
 	<hr />
-	{% if page.projecturl != null and page.projecturl != "" %}
+	{% if page.projecturl != null and page.projecturl != '' %}
 	<h3>URL: <a href="{{ page.projecturl | uri_escape }}">{{ page.projecturl | uri_escape }}</a></h3>
 	{% else %}
 	<h3>Não há URL para este projeto</h3>

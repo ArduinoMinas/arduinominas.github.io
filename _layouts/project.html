@@ -19,7 +19,7 @@ layout: noindex
 	{% endfor %}
 	</ul>
 	<hr />
-	{% if page.projecturl %}
+	{% if page.projecturl != null and page.projecturl != "" %}
 	<h3>URL: <a href="{{ page.projecturl | uri_escape }}">{{ page.projecturl | uri_escape }}</a></h3>
 	{% else %}
 	<h3>Não há URL para este projeto</h3>

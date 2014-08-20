@@ -1,9 +1,9 @@
 ---
 layout: project
 title: Arduino Aplicado a Agricultura Familiar
-tags: [Academicos, Agricultura Familiar,  Projetos]
+tags: [Academicos, Agricultura Familiar, Projetos]
 categories: [Projetos, Academicos]
-excerpt: Construção de um Kit para Automação e Cpontrole de Irrigação em um ambiente protegido para produção de hortaliças
+excerpt: Construção de um Kit para Automação e Controle de Irrigação em um ambiente protegido para produção de hortaliças
 author: J.Victor Oliveira Novaes <j.victoresp@gmail.com> 
 contributors: Flavio Fonseca <flavio.fonseca@ifnmg.edu.br>
 projecturl: 

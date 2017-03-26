@@ -1,1 +1,1 @@
-rediret-to: http://arduinominas.com.br/Smart-Energy-Font/
+rediret_to: http://arduinominas.com.br/Smart-Energy-Font/

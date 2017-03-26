@@ -1,0 +1,7 @@
+title: Arduino Minas
+description: Um espaço para amigos de Minas atuarem com projetos usando Arduino, AVR, ARM, ESP8266 entre outros
+gems:
+  - jekyll-redirect-from
+  
+whitelist:
+  - jekyll-redirect-from

@@ -1,3 +1,0 @@
----
-redirectto:/arduinoday2018
----

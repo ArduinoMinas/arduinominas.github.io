@@ -1,0 +1,3 @@
+[submodule "arduinoday/arduinoday2018"]
+	path = arduinoday/arduinoday2018
+	url = git@github.com:arduinominas/arduinoday2018.git

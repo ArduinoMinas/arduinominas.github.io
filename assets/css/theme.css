@@ -337,7 +337,7 @@ span.post-name a,span.post-read-more a:hover {
     position: relative;
 }
 .intro .btn {
-    background: #f39c12;
+    background: #E47128;
     border: 0;
     color: #333;
     border-radius: 3px;
@@ -527,7 +527,7 @@ ul.tags li {
 	font-size:0.9rem;
 }
 ul.tags li a {
-    background: #6fd350e6;
+    background: #8C7965;
     color: #333;
     padding: 3px 10px;
     border-radius: 3px;
@@ -566,8 +566,8 @@ a.btn {color:#fff;}
     font-size:15px;
 }
 .btn-primary {
-    background-color: #675bff;
-    border-color: #675bff;
+    background-color: #E5AD24;
+    border-color: #E5AD24;
 }
 .btn.follow {
 	border-color:#6FD350;
@@ -774,7 +774,7 @@ img {max-width:100%;height: auto;}
 
 }
 .bottompagination span.navigation a {
-	background: #6fd350e6;
+	background: #62AEB2;
     color: #333;
     padding: 5px;
     border-radius: 3px;

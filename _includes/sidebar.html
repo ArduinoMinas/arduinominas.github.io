@@ -1,0 +1,44 @@
+<div class="sidebar">
+        
+        {% if site.mailchimp.show %}
+        <div class="sidebar-section">
+            <h5><span>Newsletter</span></h5>
+            {% include newsletter.html %}
+        </div>
+        {% endif %}   
+
+        {% if site.data.authors %}
+        <div class="sidebar-section">
+            <h5><span>Autores do Site</span></h5>
+            {% for author in site.data.authors %}
+            <div class="row post-top-meta">
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{author.gravatar}}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                <span class="author-description">{{author.description}}</span>						
+            </div>		
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if site.data.usefuls %}
+        <div class="sidebar-section">
+            <h5><span>Úteils</span></h5>
+            <ul style="list-none;">
+                {% for useful in site.data.usefuls %}
+                <li><a target="_blank" href="{{useful.url}}">{{useful.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+         
+        {% if site.data.recommendations %}
+        <div class="sidebar-section">
+           <h5><span>Recomendado</span></h5>
+                {% for recommended in site.data.recommendations %}
+           <a href="{{recommended.url}}" title="{{recommended.title}}">{% if recommended.image_url %}<img src="{{recommended.image.url}}" alt="{{recommended.image.description}}" />{% else %}{{ recommended.title}}{% endif %}</a>
+           {% endfor %}
+        </div>
+        {% endif %}    
+
+        {% if include.ads %}
+        {% include advertising.html %}
+        {% endif %}
+</div>

@@ -4,7 +4,7 @@ title: TwitCam Arduino Minas Ativado
 tags: [Eventos, Encontro, Arduino, Twitter, TwitCan, Chat]
 categories: [Eventos]
 excerpt: Criamos o TwitCam para divulgação das filmagens ao vivo dos eventos do Arduino Minas via Twitter 
-author: Carlos Delfino
+author: delfino
 ---
 Criamos uma conta no Twitcam para que possamos apresentar videos ao vivo dos eventos.
 

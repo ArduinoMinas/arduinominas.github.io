@@ -4,7 +4,7 @@ title: Devo usar o Schmitt-Trigger?
 tags: [IO, Ports, Schmitt-Trigger, Proteção, Ruidos, Hysterese, Trigger, Schmitt]
 categories: [Arduino, ATMega, Portas]
 excerpt: Sempre quando falamos de usar um interruptor com controladores, principalmente do tipo balança ou de origem de baixa qualidade, ficamos preocupados com os ruídos provocados. Vejamos neste artigo como evitar tal problema nas portas de entrada do Arduino e ATMegas
-author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+author: delfino
 ---
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Filtro RC" href="/images/io-ports/RC-filtro-ruido.jpg">

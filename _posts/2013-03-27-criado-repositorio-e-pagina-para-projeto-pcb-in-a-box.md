@@ -4,7 +4,7 @@ title: Criação do Projeto PCB in a Box e sua home page
 tags: [PCB, PCB-in-a-Box, PCB-on-a-Box, Fenolite, "Fibra de Vidro", "Circuito Impresso"]
 categories: ["Circuito Impresso"]
 excerpt: Construir PCBs é uma das práticas de quem atua com protótipos em eletronica, principalmente com Arduino, veja neste projeto como construir uma base de insolação para o metodo SilkScreen de confeção de PCBs
-author: Carlos Delfino
+author: delfino
 ---
 
 O projeto "PC in a Box" foi sugerido pelo Edwaldo membro da Lista Arduino Minas através da 

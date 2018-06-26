@@ -4,7 +4,7 @@ title: Adaptando um Sensor PIR Comum ao Arduino
 tags: [Arduino, Uno, PIR, Sensores, Adaptacao]
 categories: [Sensores, PIR]
 excerpt: Neste artigo apresentou uma solução simples para adaptar um sensor PIR comum usado em sistema de segurança
-author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+author: delfino 
 ---
 Os sensores PIR de uma forma geral são pequenos modulos usados em sistemas de
 segurança que identificam a presença de pessoas, muitos com um hardware mais

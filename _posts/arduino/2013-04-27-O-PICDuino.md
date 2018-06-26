@@ -4,7 +4,7 @@ layout: article
 category : Clones
 tags : [Arduino, PIC, PICDuino, PIC18F2520, PIC18F, BASIC, MICROCHIP]
 excerpt: Um Clone Arduino para amantes do PIC, há diversos colegas que falam que preferem o PIC, ainda não tive um argumento que justifique a escolha pelo PIC em relação ao ATMega, nem o contrário, acho que ambos tem suas vantagens.
-author: Carlos Delfino (consultoria@carlosdelfino.eti.br)
+author: delfino
 ---
 
 Diante disto resolvi pesquisar sobre o PIC e sua relação com o Arduino, já muito tempo eu ouvir falar do PICDuino, 

@@ -4,7 +4,7 @@ title: Diagrama Colorido da Pinagem do Arduino UNO e Mega
 tags: [ATmega328, ATmega644, Arduino, Pinagem, Diagrama, Uno, Mega]
 categories: [Arduino, Uno, Mega]
 excerpt: Pesquisando na internet ache este trabalho do Pighixxx que desenhou de forma bastante rica a pinagem completa do Arduino UNO e MEGA
-author: Carlos Delfino
+author: delfino
 ---
 ## Abaixo está a imagem da pinagem do Arduino UNO
 

@@ -4,7 +4,7 @@ title: Logo Arduino para a Comunidade Arduino Minas
 tags: [Arduino, Logo]
 categories: ["Logo Comunidades"]
 excerpt: Arduino é uma marca que pertence a uma empresa de mesmo nome, veja neste artigo o que esta empresa está fazendo para que as comunidades que tem crescido a sua volta possam manter uma identidade comum.
-author: Traduzido por Carlos Delfino {"consultoria@carlosdelfino.eti.br"}
+author: delfino
 sources: ["http://arduino.cc/en/Trademark/CommunityLogo?utm_content=bufferd3518&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer"]
 ---
 

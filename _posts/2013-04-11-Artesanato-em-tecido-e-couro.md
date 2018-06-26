@@ -4,7 +4,7 @@ title: Artesanato em Tecido e Couro
 tags: [Arduino, Uno, LilyPad, Artesanato, Couro, Tecido, E-Textily, Flora, Bordado]
 categories: ["E-Textile"]
 excerpt: Você deve estar se perguntando qual a relação de artesanato e Arduino, ainda mais usando Tecido e Couro, vamos acabar matando alguém eletrocutado? 
-author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+author: delfino
 ---
 
 <div class="imageBox" id="left">

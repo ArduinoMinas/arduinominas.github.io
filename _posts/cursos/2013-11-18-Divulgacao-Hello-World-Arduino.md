@@ -4,7 +4,7 @@ title: Curso Hello World Arduino
 tags: [Eventos, Curso, Arduino, Sete Lagoas, Belo Horizonte, Ponte Nova, Santa Luzia, Lagoa Santa, Nova Lima, Coronel Fabriciano, Itabira, Itauna, São João de Bicas]
 categories: [Eventos, Cursos]
 excerpt: O curso Hello World Arduino foi criado para quem quer conhecer o Arduino sem entrar em muitos detalhes de Microcontroladores, mas já quer sair fazendo alguma coisa e com a segurança de estar seguindo o caminho certo.
-author: Carlos Delfino {consultoria@carlosdelfino.eti.br}
+author: delfino
 ---
 
 {% assign imagemCurso = "/images/eventos/cursos/Oficina Arduino - Hello World Arduino - mailling.png" %}

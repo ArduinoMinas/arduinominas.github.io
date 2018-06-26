@@ -1,0 +1,37 @@
+client: ca-pub-1710447158146560
+
+#<!-- Anúncios Horizontais para arquivos -->
+#<!-- style="display:inline-block;width:728px;height:90px" -->
+horizontal:
+   description: "Layout para uso Horizontal nas páginas de arquivo por exemplo"
+   slot: 7597186332
+   style:
+      display: "inline-block"
+      width: 728
+      height: 90
+      class: "adsh"
+      min:
+        - basewidth: 728
+          width: 728
+          height: 80
+        - basewidth: 520
+          width: 468
+          height: 60
+
+vertical:
+   description: "Layout para uso vertical nas páginas de artigos"
+   slot: 8511319937
+   style:
+      width: 300
+      height: 200
+      class: "adsv"
+      min:
+         - basewidth: 520 
+           width: 468
+           height: 60 
+         - basewidth: 768 
+           width: 160
+           height: 600
+
+block:
+   description: "Layout para uso anuncios em blocos"   

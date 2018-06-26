@@ -4,7 +4,7 @@ title: LEDs Coloridos
 tags: [Arduino, Uno, LilyPad, Componente, LED, Diodo, Colorido]
 categories: [Componentes, LEDs]
 excerpt: Não há na Eletrônica quem não tenha trabalhado com LEDs, pelo menos 9 em 10 circuitos usam pelo menos um LED para algum tipo de sinalização, e predominancia é da cor vermelha, porém há alguma diferença a ser observado no trato das demais cores ou intencidade de brilho. 
-author: Carlos Delfino (consultoria@carlosdelfino.eti.br)
+author: delfino
 ---
 <div class="imageBox" id="right">
 <a rel="lightbox" title="Bordado com LilyPad" href="/images/componentes/LEDs/calculo.jpg">

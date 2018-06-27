@@ -1,12 +1,12 @@
-{% if author %}
-{% assign author = site.data.authors[author[0]] %}
-{% elsif page.author %}
-{% assign author = site.data.authors[page.author] %}
-{% else %}
-{% assign author = site.data.authors[site.author] %}
-{% endif %}
+{%- if author -%}
+{%- assign author = site.data.authors[author[0]] -%}
+{%- elsif page.author -%}
+{%- assign author = site.data.authors[page.author] -%}
+{%- else -%}
+{%- assign author = site.data.authors[site.author] -%}
+{%- endif -%}
  <!-- Author Box -->
- {% if author %}				
+ {%- if author -%}				
  <div class="row post-top-meta">
      <div class="col-md-2">
          <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
@@ -16,4 +16,4 @@
          <span class="author-description">{{ author.description }}</span>						
      </div>
  </div>				
- {% endif %}
+ {%- endif -%}

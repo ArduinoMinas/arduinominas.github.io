@@ -1,47 +1,47 @@
-{% if site.ads.show %}
-{% assign show = true %}
-{% elsif page.ads.show %}
-{% assign show = true %}
-{% endif %}
+{%- if site.ads.show -%}
+{%- assign show = true -%}
+{%- elsif page.ads.show -%}
+{%- assign show = true -%}
+{%- endif -%}
 
-{% if show %}
+{%- if show -%}
 
-   {% unless page.ads.style %}
-      {% if page.layout == "categorylist" %}
-        {% assign pageadsstyle = "horizontal" %}
-      {% else %}
-        {% assign pageadsstyle = "vertical" %}
-	  {% endif %}
-   {% else %}
-      {% assign pageadsstyle = page.ads.style %}
-   {% endunless %}
+   {%- unless page.ads.style -%}
+      {%- if page.layout == "categorylist" -%}
+        {%- assign pageadsstyle = "horizontal" -%}
+      {%- else -%}
+        {%- assign pageadsstyle = "vertical" -%}
+	  {%- endif -%}
+   {%- else -%}
+      {%- assign pageadsstyle = page.ads.style -%}
+   {%- endunless -%}
 
-   {% if site.data.ads[pageadsstyle] %}
-      {% assign style = site.data.ads[pageadsstyle].style %}
-      {% assign slot = site.data.ads[pageadsstyle].slot %}
+   {%- if site.data.ads[pageadsstyle] -%}
+      {%- assign style = site.data.ads[pageadsstyle].style -%}
+      {%- assign slot = site.data.ads[pageadsstyle].slot -%}
 
-      {% if site.data.ads[pageadsstyle].client %}
-         {% assign client = site.data.ads[pageadsstyle].client %}
-      {% else %}
-         {% assign client = site.google.adsense.client %}
-      {% endif %}
+      {%- if site.data.ads[pageadsstyle].client -%}
+         {%- assign client = site.data.ads[pageadsstyle].client -%}
+      {%- else -%}
+         {%- assign client = site.google.adsense.client -%}
+      {%- endif -%}
 
-      {% if style.class %}
-         {% assign divclassads = style.class %}
-      {% else %}
-         {% assign divclassads = "ads" %}
-      {% endif %}
+      {%- if style.class -%}
+         {%- assign divclassads = style.class -%}
+      {%- else -%}
+         {%- assign divclassads = "ads" -%}
+      {%- endif -%}
 
-      {% if pageadsstyle == "horizontal" %}
+      {%- if pageadsstyle == "horizontal" -%}
 <div class="row">
-      {% endif %}
+      {%- endif -%}
 <aside class="{{ divclassads }}">
 <style>
 .responsive-ads {
-  {% if style.display %}display: {{ style.display }};{% endif %}
+  {%- if style.display -%}display: {{ style.display }};{%- endif -%}
   width: {{ style.width }}px;
   height: {{ style.height }}px; }
-  {% for min in style.min %}@media(min-width: {{ min.basewidth }}px) { .responsive-ads { width: {{ min.width }}px; height: {{ min.height }}px; } }{% endfor %}
+  {%- for min in style.min -%}@media(min-width: {{ min.basewidth }}px) { .responsive-ads { width: {{ min.width }}px; height: {{ min.height }}px; } }{%- endfor -%}
 </style>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle responsive-ads"
@@ -52,10 +52,10 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </aside><!-- /.ads -->
-{% if pageadsstyle == "horizontal" %}
+{%- if pageadsstyle == "horizontal" -%}
 </div> <!-- end div class="row" -->
-{% endif %}
-   {% else %}
+{%- endif -%}
+   {%- else -%}
       <!-- Não estilo "{{ pageadsstyle }} defino para uso! veja a configuração "page.ads.style" para ver se está correto -->
-   {% endif %}
-{% endif %}
+   {%- endif -%}
+{%- endif -%}

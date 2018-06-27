@@ -1,5 +1,5 @@
 <!-- begin post -->
-{%- if post.author != empty -%}
+{%- if post.author != nil -%}
 {%- assign author = site.data.authors[post.author] -%}
 {%- else -%}
 {%- assign author = site.data.authors[site.author] -%}
@@ -23,7 +23,7 @@
         <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         <div class="metafooter">
             <div class="wrapfooter">
-                {%- if post.author -%}
+                {%- if author != nil -%}
                 <span class="meta-footer-thumb">
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
                 </span>                

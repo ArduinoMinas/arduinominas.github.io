@@ -1,0 +1,40 @@
+{% if include.featured %}
+{% assign featured = include.featured %}
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Em Destaque</span></h2>
+    </div>
+    <div class="row listfeaturedtag">
+{% else %}
+{% assign featured = false %}
+{% if paginator.previous_page %}
+{% if paginator.previous_page > 0 %}
+     <div id="jumptopageof"></div>
+{% endif %}
+{% endif %}    
+<section class="recent-posts row">
+    <div class="col-sm-4">
+     {% include sidebar.html ads='true' %}
+    </div>
+    <div class="col-sm-8">
+        <div class="section-title">
+            <h2><span>Nossas Publicações</span></h2>    
+        </div>
+        <div class="masonrygrid row listrecent">
+{% endif %}
+{% for post in paginator.posts %}
+ {% unless post.featured == featured %}
+  {% include postbox.html %}
+ {% endunless %}
+{% endfor %}
+        </div> 
+{% unless featured %}
+        <!-- Pagination -->
+        <div class="bottompagination">
+            <span class="navigation" role="navigation">
+            {% include pagination.html %}
+            </span>
+        </div>
+{% endunless %}
+    </div>
+</section>

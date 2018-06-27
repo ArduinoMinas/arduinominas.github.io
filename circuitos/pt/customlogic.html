@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <style>
+        #header+#content>#left>#rlblock_left,
+        #content>#right>.dose>.dosesingle,
+        #content>#center>.dose>.dosesingle {
+            display: none !important;
+        }
+    </style>
+    <style>
+        img[src="http://s05.flagcounter.com/count/pTvk/bg=FFFFFF/txt=000000/border=CCCCCC/columns=6/maxflags=36/viewers=0/labels=0/"] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Logica Personalizada</h1>
+    <p> Você pode implementar seu próprio dispositivo lógico com chips lógicos personalizado. (Localizado em "Chips Digitais")
+    </p>
+    <p>
+        Cada dispositivo lógico tem um nome de modelo, que aponta para o modelo que descreve como ele trabalha. Você pode ter algum
+        número de disposivos com o mesmo modelo. Editando um modelo altera o comportamento de todos os dispositivos que usam
+        este modelo.
+    </p>
+    <p>
+        Quando editando um modelo, você especifica as entradas, as saídas, algum texto de esclarecimento (que é exibido no canto
+        direito inferiror quando o mouse passa sobre um dispositivo), e a definição.
+    </p>
+    <p>
+        A entrada (e saídas) são listas separads de etiquetas
+        <b>curtas</b> (uma ou duas letras no máximo). Você pode também especificar etiquetas invertidas, como
+        <tt>/Q</tt> para
+        <span style="text-decoration: overline">Q</span>. Exemplo:
+        <tt>A,B,/C,/D</tt>
+    </p>
+    <p>
+        A definição são multiplas linhas no formato
+        <i>input</i>
+        <tt>=</tt>
+        <i>output</i>. O Primeiro padrão
+        <i>input</i> que identifica o pino de entrada é escolhido, e os pino de saída são determinados para corresponder os
+        padrão de
+        <i>output</i>. O padrão pode conter valores de bit(
+        <tt>0</tt>,
+        <tt>1</tt>), transições (
+        <tt>+</tt>,
+        <tt>-</tt>), curingas (
+        <tt>?</tt>), e padrões em letras (
+        <tt>A</tt>,
+        <tt>B</tt>, etc.). O
+        <i>input</i> tem que ser pelo menos a mesma quantidade de pinos de entrada. Se for maior, os padrões adicionais serão
+        comparados com o pinos de saida; isso permitirá que você crie dispostivos com estado (máquina de estado).
+    </p>
+    <p>
+        Por Exemplo:
+    </p>
+    <p>
+    </p>
+    <h3> NAND de 3 entradas: </h3>
+    <p>
+        Inputs:
+        <tt>A,B,C</tt>
+        <br> Outputs:
+        <tt>X</tt>
+        <br> Definição:
+    </p>
+    <pre>111=0
+???=1
+</pre>
+    <p>
+        If all three inputs are 1, the output is 0. Otherwise, it's 1.
+    </p>
+    <p>
+    </p>
+    <h3>Full adder:</h3>
+    <p>
+        Inputs:
+        <tt>A,B,C</tt>
+        <br> Outputs:
+        <tt>S,C</tt>
+        <br> Definition:
+    </p>
+    <pre>111=11
+110=10
+011=10
+101=10
+100=01
+010=01
+001=01
+000=00
+</pre>
+    <h3>SR Latch:</h3>
+    <p>
+        Inputs:
+        <tt>S,R</tt>
+        <br> Outputs:
+        <tt>Q,/Q</tt>
+        <br> Definition:
+    </p>
+    <pre>?? 00=10
+10 ??=10
+01 ??=01
+?? AB=AB
+</pre> The input pattern (the left side of the equals sign) matches S, R, Q, and
+    <span style="text-decoration: overline">Q</span>, in that order. The right side of the equals sign specifies the resulting Q and
+    <span style="text-decoration: overline">Q</span>.
+    <p>
+        The first line sets the Q output if both outputs are low (this is needed when resetting the circuit). The next line sets
+        the outputs to 1,0 if set is high. The second line sets the outputs to 0,1 if reset is high. The next line keeps
+        the outputs the same otherwise. (The first two letters match the input pins and the second two letters match the
+        output pins. Spaces are ignored, but are added here for clarity.)
+    </p>
+    <h3>D Flip Flop:</h3>
+    <p>
+        Inputs:
+        <tt>D,Clk</tt>
+        <br> Outputs:
+        <tt>Q,/Q</tt>
+        <br> Definition:
+    </p>
+    <pre>?? 00=10
+0+ ??=01
+1+ ??=10
+?? AB=AB
+</pre> The first line sets the Q output if both outputs are low (this is needed when resetting the circuit). The next two lines
+    set the Q output to match the D input on a rising transition of the clock. The last line keeps the outputs the same otherwise.
+    <h3>JK Flip Flop:</h3>
+    <p>
+        Inputs:
+        <tt>J,K,Clk</tt>
+        <br> Outputs:
+        <tt>Q,/Q</tt>
+        <br> Definition:
+    </p>
+    <pre>??? 00=10
+00- AB=AB
+10- ??=10
+01- ??=01
+11- AB=BA
+??? AB=AB
+</pre> The first line sets the Q output if both outputs are low (this is needed when resetting the circuit). The next four
+    lines implement the JK flip flop logic on a negative transition of the clock. The last line keeps the outputs the same
+    otherwise.
+    <h3>Digital Comparator:</h3>
+    <p>
+        Inputs:
+        <tt>A2,A1,A0,B2,B1,B0</tt>
+        <br> Outputs:
+        <tt>Eq,A&gt;,A&lt;</tt>
+        <br> Definition:
+    </p>
+    <pre>
+ABC ABC=100
+1?? 0??=010
+A1? A0?=010
+AB1 AB0=010
+??? ???=001
+</pre>
+    <p>
+        As primeiras linhas verificam se as duas entradas são iguais. As próximas três linhas testa se A é maior. Caso contrário,
+        B deve ser maior.
+    </p>
+
+    <script id="hotmart_launcher_script">
+        (function (l, a, u, n, c, h, e, r) {
+            l['HotmartLauncherObject'] = c; l[c] = l[c] || function () {
+                (l[c].q = l[c].q || []).push(arguments)
+            }, l[c].l = 1 * new Date(); h = a.createElement(u),
+                e = a.getElementsByTagName(u)[0]; h.async = 1; h.src = n; e.parentNode.insertBefore(h, e)
+        })(window, document, 'script', '//launcher.hotmart.com/launcher.js', 'hot');
+
+        hot('account', '70bc3235-476e-310e-8408-4158280ae50c');
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-21710445-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

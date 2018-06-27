@@ -1,19 +1,21 @@
 <!-- begin post -->
-{%- if page.author -%}
-{%- assign author = site.data.authors[page.author] -%}
+{%- if post.author != empty -%}
+{%- assign author = site.data.authors[post.author] -%}
 {%- else -%}
 {%- assign author = site.data.authors[site.author] -%}
 {%- endif -%}
-{%- if post.image.feature -%}
-{%- assign imageurl = post.image.feature -%}
-{%- elsif post.image -%}
+{%- if post.image.teaser != nil -%}
+{%- assign imageurl = post.image.teaser -%}
+{%- elsif post.image != nil -%}
 {%- assign imageurl = post.image -%}
+{%- else -%}
+{%- assign imageurl = nil -%}
 {%- endif -%}
 <div class="col-md-6 grid-item">
 <div class="card">
-    {%- if posturl -%}
+    {%- if imageurl != nil -%}
     <a href="{{ post.url | absolute_url }}">
-        <img class="img-fluid" src="{{ site.baseurl }}/{{ imageurl }}" alt="{{ post.title }}">
+        <img class="img-fluid" src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{ imageurl }}" alt="{{ post.title }}">
     </a>
     {%- endif -%}
     <div class="card-block">

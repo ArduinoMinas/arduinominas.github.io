@@ -4,14 +4,20 @@
 {%- else -%}
 {%- assign author = site.data.authors[site.author] -%}
 {%- endif -%}
-
+{%- if post.image.feature != blank -%}
+{%- assign imageurl = post.image.feature -%}
+{%- elsif post.image != blank -%}
+{%- assign imageurl = post.image -%}
+{%- else -%}
+{%- assign imageurl = blank -%}
+{%- endif -%}
 <div class="col-sm-6">
 <div class="card">
     <div class="row">
-        {%- if post.image -%}
+        {%- if imageurl != blank -%}
         <div class="col-md-5 wrapthumbnail">
             <a href="{{ post.url | absolute_url }}">
-            <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ post.image }});">
+            <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ site.images.baseurl }}/{{ imageurl }});">
             </div>
             </a>
         </div>

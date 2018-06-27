@@ -2,20 +2,26 @@
 name: Arduino Minas
 description: Cursos Arduino Minas, do Arduino ao Universo de Tecnologias para o sucesso de seu projeto!
 meta_description: "Um lugar para construir seu projeto e desenvolver novas ideias!"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: 
 email: 'consultoria@carlosdelfinfo.eti.br'
 disqus: 'carlosdelfino'
 sharethis: 
   property: '5b326ee13e2f6e001148ddca'
   product: 'sticky-share-buttons'
 google_analytics: "UA-21710445-1"
+
 locale: "pt_BR"
 lang: "pt_BR"
 charset: "utf-8"
 encoding: "utf-8" 
+
+baseurl: ""
+
+images:
+  baseurl: 'assets/images'
+  logo: 'logo.png'
+  favicon: 'favicon.png'
+
 author: delfino
 
 github: 
@@ -39,6 +45,7 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+excerpt_separator: <!--more-->
 
 # MailChip
 mailchimp:

@@ -1,21 +1,23 @@
 <!-- begin post -->
-{%- if post.author -%}
-{%- assign author = site.data.authors[page.author] -%}
+{%- if post.author != nil -%}
+{%- assign author = site.data.authors[post.author] -%}
 {%- else -%}
 {%- assign author = site.data.authors[site.author] -%}
 {%- endif -%}
-{%- if post.image.feature -%}
-{%- assign imageurl = post.image.feature -%}
-{%- elsif post.image -%}
+{%- if post.image.teaser != nil -%}
+{%- assign imageurl = post.image.teaser -%}
+{%- elsif post.image != nil -%}
 {%- assign imageurl = post.image -%}
+{%- else -%}
+{%- assign imageurl = nil -%}
 {%- endif -%}
 <div class="col-sm-6">
 <div class="card">
     <div class="row">
-        {%- if imageurl -%}
+        {%- if imageurl != nil -%}
         <div class="col-md-5 wrapthumbnail">
             <a href="{{ post.url | absolute_url }}">
-            <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ imageurl }});">
+            <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ site.images/baseurl }}/{{ imageurl }});">
             </div>
             </a>
         </div>

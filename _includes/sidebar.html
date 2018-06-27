@@ -33,7 +33,7 @@
         <div class="sidebar-section">
            <h5><span>Recomendado</span></h5>
                 {%- for recommended in site.data.recommendations -%}
-           <a href="{{recommended.url}}" title="{{recommended.title}}">{%- if recommended.image_url -%}<img src="{{recommended.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ recommended.title}}{%- endif -%}</a>
+           <a href="{{recommended.url}}" title="{{recommended.title}}">{%- if recommended.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{recommended.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ recommended.title}}{%- endif -%}</a>
            {%- endfor -%}
         </div>
         {%- endif -%}    

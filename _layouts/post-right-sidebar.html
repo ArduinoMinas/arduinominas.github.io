@@ -39,7 +39,14 @@ post_class: post-template
 			</div>
 
 			<!-- Post Featured Image -->
-			{%- if page.image -%}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{%- endif -%}
+{%- if page.image.feature != nil -%}
+{%- assign imageurl = page.image.feature -%}
+{%- elsif page.image != nil -%}
+{%- assign imageurl = page.image -%}
+{%- else -%}
+{%- assign imageurl = nil -%}
+{%- endif -%}
+			{%- if imageurl != nil -%}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{ imageurl }}" alt="{{ page.title }}">{%- endif -%}
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->

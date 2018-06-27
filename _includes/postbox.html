@@ -6,6 +6,8 @@
 {%- endif -%}
 {%- if post.image.feature != nil -%}
 {%- assign imageurl = post.image.feature -%}
+{%- elsif post.image.teaser != nil -%}
+{%- assign imageurl = post.image.teaser -%}
 {%- elsif post.image != nil -%}
 {%- assign imageurl = post.image -%}
 {%- else -%}
@@ -15,7 +17,7 @@
 <div class="card">
     {%- if imageurl != nil -%}
     <a href="{{ post.url | absolute_url }}">
-        <img class="img-fluid" src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{ imageurl }}" alt="{{ post.title }}">
+        <img class="img-fluid" src='{{ site.baseurl }}/{{ site.images.baseurl }}/{{ imageurl }}'' alt="{{ post.title }}">
     </a>
     {%- endif -%}
     <div class="card-block">

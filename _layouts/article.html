@@ -41,6 +41,8 @@ post_class: post-template
             <!-- Post Featured Image -->
 {%- if page.image.feature != nil -%}
 {%- assign imageurl = page.image.feature -%}
+{%- elsif page.image.teaser != nil -%}
+{%- assign imageurl = page.image.teaser -%}
 {%- elsif page.image != nil -%}
 {%- assign imageurl = page.image -%}
 {%- else -%}

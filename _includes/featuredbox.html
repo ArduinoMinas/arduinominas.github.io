@@ -6,6 +6,8 @@
 {%- endif -%}
 {%- if post.image.feature != nil -%}
 {%- assign imageurl = post.image.feature -%}
+{%- elsif post.image.teaser != nil -%}
+{%- assign imageurl = post.image.teaser -%}
 {%- elsif post.image != nil -%}
 {%- assign imageurl = post.image -%}
 {%- else -%}

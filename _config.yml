@@ -6,7 +6,8 @@ paginate: 12
 email: 'consultoria@carlosdelfinfo.eti.br'
 disqus: 'carlosdelfino'
 sharethis: 
-  property: '5b326ee13e2f6e001148ddca'
+  show: true;
+  property: 5b326ee13e2f6e001148ddca
   product: 'sticky-share-buttons'
 google_analytics: "UA-21710445-1"
 
@@ -56,3 +57,7 @@ mailchimp:
 ## ads
 ads:
   show: true
+
+exclude: 
+  - /assets/images/logo.xcf,
+  - /assets/images/react_redux.xcf]

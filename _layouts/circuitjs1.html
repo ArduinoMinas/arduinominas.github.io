@@ -13,8 +13,8 @@
 <link href="{{ site.baseurl }}/assets/css/circuitjs1.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
 
-{%- if site.sharethis.enable -%}    
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property={{site.sharethis.property}}&product={{site.sharethis.product}}"></script>'
+{%- if site.sharethis.show -%}    
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property={{site.sharethis.property}}&product={{site.sharethis.product}}' async='async'></script>'
 {%- endif -%}    
 
 {%- if jekyll.environment == 'production' -%}    

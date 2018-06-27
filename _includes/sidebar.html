@@ -28,23 +28,99 @@
             {%- endfor -%}
         </div>
         {%- endif -%}
-        {%- if site.data.usefuls -%}
+
+        {%- for menu in site.data.menu -%}
+        {%- for type in menu.use -%}
+        {%- if type == "useful" -%}
+        {%- assign usefuls = true -%}
+        {%- endif -%}
+        {%- if type == "recommendation" -%}
+        {%- assign recommendations = true -%}
+        {%- endif -%}
+        {%- if type == "whatsapp" -%}
+        {%- assign whatsapp = true -%}
+        {%- endif -%}
+        {%- if type == "facebook" -%}
+        {%- assign facebook = true -%}
+        {%- endif -%}
+        {%- if type == "facebook-group" -%}
+        {%- assign facebookgroup = true -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endfor -%}
+
+        {%- if whatsapp -%}
         <div class="sidebar-section">
-            <h5><span>Úteils</span></h5>
+            <h5><span><i class="fa fa-whatsapp" aria-hidden="true"></i>Whatsapp</i></span></h5>
             <ul style="list-none;">
-                {%- for useful in site.data.usefuls -%}
-                <li><a target="_blank" href="{{useful.url}}">{{useful.title}}</a></li>
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "whatsapp" -%}
+                <li><a href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' title="{{menu.title}}">{%- if menu.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{menu.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ menu.title}}{%- endif -%}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
                 {%- endfor -%}
             </ul>
         </div>
         {%- endif -%}
-         
-        {%- if site.data.recommendations -%}
+
+        {%- if facebook -%}
         <div class="sidebar-section">
-           <h5><span>Recomendado</span></h5>
-                {%- for recommended in site.data.recommendations -%}
-           <a href="{{recommended.url}}" title="{{recommended.title}}">{%- if recommended.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{recommended.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ recommended.title}}{%- endif -%}</a>
-           {%- endfor -%}
+            <h5><span><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</i></span></h5>
+            <ul style="list-none;">
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "facebook" -%}
+                <li><a href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' title="{{menu.title}}">{%- if menu.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{menu.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ menu.title}}{%- endif -%}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+
+        {%- if facebookgroup -%}
+        <div class="sidebar-section">
+            <h5><span><i class="fa fa-facebook" aria-hidden="true"></i>Grupos no Facebook</i></span></h5>
+            <ul style="list-none;">
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "facebook-group" -%}
+                <li><a href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' title="{{menu.title}}">{%- if menu.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{menu.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ menu.title}}{%- endif -%}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+
+        {%- if usefuls -%}
+        <div class="sidebar-section">
+            <h5><span>Úteils</span></h5>
+            <ul style="list-none;">
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "useful" -%}
+                <li><a href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' title="{{menu.title}}">{%- if menu.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{menu.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ menu.title}}{%- endif -%}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+       
+        {%- if recommendations -%}
+        <div class="sidebar-section">
+                <h5><span>Recomendado</span></h5>
+                <ul style="list-none;">
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "recommendation" -%}
+                <li><a href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' title="{{menu.title}}">{%- if menu.image_url -%}<img src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{menu.image.url}}" alt="{{recommended.image.description}}" />{%- else -%}{{ menu.title}}{%- endif -%}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
+                </ul>
         </div>
         {%- endif -%}    
 

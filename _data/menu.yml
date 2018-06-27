@@ -1,9 +1,10 @@
 -
   title: Início
-  url: /
-
+  url: 
+  use: [top]
 -  
   title: Artigos
+  use: [top]
   submenu: 
     - 
       title: Tags
@@ -11,18 +12,72 @@
     - 
       title: Categorias
       url: categorias
+
+-
+  url: http://www.comercialsimples.com.br
+  title: Comercial Simples
+  use: [recommendation]
+
 - 
+  url: http://arduino.cc
+  title: Site Oficial do Arduino 
+  use: [useful]
+
+-
+  url: http://eclipse.org
+  title: Site Oficial do Eclipse
+  use: [useful,resource]
+
+-    
+  url: circuitos
+  title: Simulador de Circuitos
+  use: [useful,resource,top]
+
+-
   url: about
   title: Sobre nós
+  use: [author,top]
 
 -
-  url: https://github.com/site.github.org
-  title: Github   
-
--
+  url: contact
   title: Contato
-  url: contatct
+  use: [author,top]
+  
+-
+  url: http://github.com/CursoArduinoMinas
+  title: GitHub
+  use: [author]
 
 -
-  title: Autor
-  url: http://carlosdelfino.eti.br
+  url: https://carlosdelfino.eti.br
+  title: Carlos Delfino
+  use: [author]
+
+-
+  url: https://chat.whatsapp.com/54dqQ1huGocInV564FB9LQ
+  title: Embarcados ARM
+  use: [whatsapp]
+
+- 
+  url: https://chat.whatsapp.com/Cc5VCqfveNSI377Lwu0cMH
+  title: Basicão da Eletrônica
+  use: [whatsapp]
+
+-
+  url: https://chat.whatsapp.com/CursoArduinoMinas
+  title: Arduino Minas 
+  use: [facebook]
+
+- 
+  url: https://facebook.com.br/BasicaoDaEletronica
+  title: Basicão da Eletrônica
+  use: [facebook]
+-
+  url: https://chat.whatsapp.com/groups/ArduinoMinas
+  title: Arduino Minas 
+  use: [facebook-group]
+
+- 
+  url: https://facebook.com.br/groups/BasicaoDaEletronica
+  title: Basicão da Eletrônica
+  use: [facebook-group]

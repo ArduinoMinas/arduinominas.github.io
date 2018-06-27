@@ -57,9 +57,9 @@
             
             <!-- Begin Menu -->
             <ul class="navbar-nav ml-auto">
-
-
                 {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "top" -%}
                 {%- if menu.submenu  -%}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{menu.title}}</a>
@@ -73,6 +73,8 @@
                         <a class="nav-link" href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}' >{{ menu.title }}</a>
                 {%- endif-%}    
                     </li> 
+                {%- endif-%}    
+                {%- endfor -%}    
                 {%- endfor -%}    
             </ul>
             <!-- End Menu -->
@@ -152,9 +154,13 @@
                 <div class="footer-widget">
                 <h5 class="title">Recursos</h5>
                 <ul>
-                <li><a target="_blank" href="http://eclipse.org">Eclipse</a></li>
-                <li><a target="blank" href="http://arduino.cc">Arduino.cc</a></li>
-                <li><a target="blank" href="/circuitos">Simulador de Circuitos</a></li>
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "resource" -%}
+                <li><a target="blank" href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}'>{{menu.title}}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
                 </ul>
                 </div>
                 </div>
@@ -163,10 +169,13 @@
                 <div class="footer-widget">
                 <h5 class="title">Autor</h5>
                 <ul>
-                <li><a href="/about">Sobre nós</a></li>
-                <li><a href="/contact">Contato</a></li>
-                <li><a href="http://github.com/CursoArduinoMinas">GitHub</a></li>
-                <li><a href="https://carlosdelfino.eti.br">Carlos Delfino</a></li>
+                {%- for menu in site.data.menu -%}
+                {%- for type in menu.use -%}
+                {%- if type == "author" -%}
+                <li><a target="blank" href='{%- unless menu.url contains "http://" -%} {%- unless menu.url contains "https://" -%}{{ site.baseurl }}/{%- endunless -%}{%- endunless -%}{{ menu.url }}'>{{menu.title}}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
                 </ul>
                 </div>
                 </div>

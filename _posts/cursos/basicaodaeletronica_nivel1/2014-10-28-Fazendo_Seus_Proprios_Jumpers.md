@@ -1,7 +1,7 @@
 ---
 redirect_from: "/basicaodaeletronica/Fazendo_Seus_Proprios_Jumpers/"
 title: Fazendo seus próprios Jumpers
-categories: [BasicaoDaEletronica, Nivel 1]
+categories: [Basicao Da Eletronica, Nivel 1]
 layout: article
 tags: [jumpers, conexões, eletrônica básica, estilete, protoboard, breadboard, circuitos, protótipos]
 comment: true

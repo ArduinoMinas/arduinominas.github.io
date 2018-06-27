@@ -41,7 +41,7 @@ jekyll-archives:
     - tags
   layout: archive
   permalinks:
-    category: '/categoria/:name/'
+    category: '/:name/'
     tag: '/tag/:name/'
     
 # Other

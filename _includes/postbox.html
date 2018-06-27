@@ -4,8 +4,8 @@
 {%- else -%}
 {%- assign author = site.data.authors[site.author] -%}
 {%- endif -%}
-{%- if post.image.teaser != nil -%}
-{%- assign imageurl = post.image.teaser -%}
+{%- if post.image.feature != nil -%}
+{%- assign imageurl = post.image.feature -%}
 {%- elsif post.image != nil -%}
 {%- assign imageurl = post.image -%}
 {%- else -%}

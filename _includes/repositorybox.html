@@ -8,12 +8,14 @@
 <div class="col-sm-6">
 <div class="card">
     <div class="row">
+        {% if post.image %}
         <div class="col-md-5 wrapthumbnail">
             <a href="{{ post.url | absolute_url }}">
             <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ post.image }});">
             </div>
             </a>
         </div>
+        {% endif %}
         <div class="col-md-7">
             <div class="card-block">
                 <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>

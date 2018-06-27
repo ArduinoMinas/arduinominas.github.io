@@ -26,11 +26,7 @@ title: Início
 
         <!-- Featured
         ================================================== -->
-            {% for post in site.posts %}
-                {% if post.featured == true %}
-                    {% include featuredbox.html %}
-                {% endif %}
-            {% endfor %}
+            {% include postlistbox.html featured=true %}
         <!-- Posts Index
         ================================================== -->
             {% include postlistbox.html %}

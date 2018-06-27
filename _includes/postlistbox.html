@@ -1,4 +1,4 @@
-{% if include.featured %}
+{% if include.featured and include.featured == true %}
 {% assign featured = include.featured %}
 <section class="featured-posts">
     <div class="section-title">
@@ -22,19 +22,27 @@
         </div>
         <div class="masonrygrid row listrecent">
 {% endif %}
+{% if featured == true %}
+{% for post in site.posts %}
+ {% if post.featured == true %}
+  {% include featuredbox.html %}
+ {% endif %}
+{% endfor %}
+{% else %}
 {% for post in paginator.posts %}
- {% unless post.featured == featured %}
+ {% unless post.featured %}
   {% include postbox.html %}
  {% endunless %}
 {% endfor %}
+{% endif %}
         </div> 
-{% unless featured %}
+{% if featured != true %}
         <!-- Pagination -->
         <div class="bottompagination">
             <span class="navigation" role="navigation">
             {% include pagination.html %}
             </span>
         </div>
-{% endunless %}
+{% endif %}
     </div>
 </section>

@@ -11,9 +11,19 @@
         <div class="sidebar-section">
             <h5><span>Autores do Site</span></h5>
             {%- for author in site.data.authors -%}
+            {%- assign authorid = author[0] -%}
+            {%- assign authordata = site.data.authors[authorid] -%}
+
             <div class="row post-top-meta">
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{author.gravatar}}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-                <span class="author-description">{{author.description}}</span>						
+                {%- if authordata.image == nil -%}
+                {%- assign image = authordata.gravatar -%} 
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ image }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                {%- else -%}
+                {%- assign image = authordata.gravatar -%} 
+                <img class="author-thumb" src="{{ site.baseurl }}/{{ site.images.baseurl }}/{{ image }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                {%- endif -%}
+                <span class="author-name">{{authordata.display_name}}</span>						
+                <span class="author-description">{{authordata.description}}</span>						
             </div>		
             {%- endfor -%}
         </div>

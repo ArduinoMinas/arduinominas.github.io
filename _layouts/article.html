@@ -17,12 +17,6 @@ post_class: post-template
 		
 
 		<!-- Post -->        
-        {%- if page.author -%}
-        {%- assign author = site.data.authors[page.author] -%}
-        {%- else -%}
-        {%- assign author = site.data.authors[site.author] -%}
-        {%- endif -%}
-               
 		<div class="col-sm-8">
 			<div class="mainheading">              
                 
@@ -90,7 +84,14 @@ post_class: post-template
             
             
                          <!-- Author Box -->
-                         {%- if author -%}				
+{%- if author != nil -%}
+{%- assign author = site.data.authors[author[0]] -%}
+{%- elsif page.author != nil -%}
+{%- assign author = site.data.authors[page.author] -%}
+{%- else -%}
+{%- assign author = site.data.authors[site.author] -%}
+{%- endif -%}
+                         {%- if author != nil -%}				
                          <div class="row post-top-meta">
                              <div class="col-md-2">
                                  <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">

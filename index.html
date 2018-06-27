@@ -7,13 +7,12 @@ title: Início
 </div>
 <!-- We've temporary closed main-content and container to have a full width intro -->    
 
-
 <!-- Home Jumbotron
 ================================================== -->    
-<section class="intro">
-    <div class="wrapintro">
-        <h1>Curso Arduino Minas</h1>  
-        <a target="_blank" href="http://facebook.com/cursoarduinominas" class="btn"><img src="/assets/images/facebook/FindUsOn-FB_pt-BR-RGB-Blk-1611.png" alt="" style="" /></a>
+<section class="intro" id="intro">
+    <div class="wrapintro" id="wrapintro">
+        <h1 id="titleintro">Curso Arduino Minas</h1>  
+        <a id="buttonintro" target="_blank" href="http://facebook.com/cursoarduinominas" class="btn"><img src="/assets/images/facebook/FindUsOn-FB_pt-BR-RGB-Blk-1611.png" alt="" style="" /></a>
     </div>
 </section>
 
@@ -32,3 +31,12 @@ title: Início
             {%- include postlistbox.html -%}
 
         </section>
+<script src="{{ site.baseurl }}/assets/js/plax.js"></script>    
+<script type="text/javascript">
+    $(document).ready(function () { 
+        $('#wrapintro').plaxify({"xRange":40,"yRange":40});
+        $('#titleintro').plaxify({"xRange":40,"yRange":40});
+        $('#buttonintro').plaxify({"xRange":40,"yRange":40}); 
+        $.plax.enable();
+    });
+</script>

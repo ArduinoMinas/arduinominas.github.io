@@ -11,8 +11,8 @@ feature:
 ads: 
  show: true
 image:
-  teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
-  feature: logica_programacao/fluxograma_planejamento-300x199.jpg
+  teaser: basicaodaeletronica/Lei de Ohm.jpg
+  feature: basicaodaeletronica/Lei de Ohm.jpg
   credit: Carlos Delfino 
   creditlink: 
 ---
@@ -48,4 +48,4 @@ Vejamos, se eu tiver uma bateria que me proporciona 2 Volts (2V) e eu tiver um c
 
 Abaixo tenho um gráfico que exemplifica na prática o que acontece com a mudança da resistência.
  
-![Representação Animada da Relação Corrente X Tensão X Resistência](/images/basicaodaeletronica/gifs/resistencia_tensao_corrente.gif)
+![Representação Animada da Relação Corrente X Tensão X Resistência]({{site.baseurl}}/{{site.images.baseurl}}/basicaodaeletronica/gifs/resistencia_tensao_corrente.gif)

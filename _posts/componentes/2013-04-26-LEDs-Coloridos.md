@@ -7,8 +7,8 @@ excerpt: Não há na Eletrônica quem não tenha trabalhado com LEDs, pelo menos
 author: delfino
 ---
 <div class="imageBox" id="right">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/componentes/LEDs/calculo.jpg">
-<img src="/images/componentes/LEDs/calculo-thumb.jpg" width="300" height="350" />
+<a rel="lightbox" title="Bordado com LilyPad" href="{{site.baseurl}}/{{site.images.baseurl}}/componentes/LEDs/calculo.jpg">
+<img src="{{site.baseurl}}/{{site.images.baseurl}}/componentes/LEDs/calculo-thumb.jpg" width="300" height="350" />
 </a>
 </div>
 Muitas vezes pensamos que o que define a cor de um LED é seu involucro plástico, o que é um engano, este é apenas
@@ -28,8 +28,8 @@ Iluminação Comercial, Residencial e Automátivo, e nem mesmo os de alto brilho
 fotografia.
 
 <div class="imageBox" id="left">
-<a rel="lightbox" title="Bordado com LilyPad" href="/images/componentes/LEDs/Valores_Tipicos.jpg">
-<img src="/images/componentes/LEDs/Valores_Tipicos-thumb.jpg" width="300" height="192" />
+<a rel="lightbox" title="Bordado com LilyPad" href="{{site.baseurl}}/{{site.images.baseurl}}/componentes/LEDs/Valores_Tipicos.jpg">
+<img src="{{site.baseurl}}/{{site.images.baseurl}}/componentes/LEDs/Valores_Tipicos-thumb.jpg" width="600" />
 </a>
 </div>
 Diferente dos diodos de sinal e zener ou mesmo os diodos sensíveis a luz, os diodos emissores de luz ou LED

@@ -1,3 +1,7 @@
 [submodule "arduinoday/arduinoday2018"]
 	path = arduinoday/arduinoday2018
 	url = https://github.com/ArduinoMinas/arduinoday2018.git
+[submodule "_posts"]
+	path = _posts
+	url = https://github.com/carlosdelfino/_posts.git
+	branch = ArduinoMinas

@@ -2,6 +2,19 @@
   title: Início
   url: 
   use: [top]
+- 
+  title: Calculadora/Simulador
+  use: [top]
+  submenu:
+  -    
+    url: circuitos
+    title: Simulador de Circuitos
+    use: [useful,resource]
+  -    
+    url: transformadores
+    title: Calculadora para Transformadores
+    use: [useful,resource]
+
 -  
   title: Artigos
   use: [top]
@@ -31,7 +44,12 @@
 -    
   url: circuitos
   title: Simulador de Circuitos
-  use: [useful,resource,top]
+  use: [useful,resource]
+
+-    
+  url: transformadores
+  title: Calculadora para Transformadores
+  use: [useful,resource]
 
 -
   url: about

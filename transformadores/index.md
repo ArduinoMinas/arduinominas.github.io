@@ -166,3 +166,5 @@ assumida arbitrariamente como 15%.</font><br>
 </form>
 
 </center>
+
+{% include disqus.html %}

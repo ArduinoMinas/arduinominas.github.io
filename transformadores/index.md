@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Calculadora para Transformadores
+description: Calculadora para auxiliar no processo de identificar fiação e enrolamentos necessários para construção de seu próprio transformador.
+tags: [transformador, calculos, calculadora, bobinas, awg, núcleo, potência, fonte de alimentação]
 ---
 
 <script language="JavaScript"> 
@@ -120,12 +122,12 @@ input {
 <input type="text" name="Vpx" size="6" value="110" maxlength="6"><br>
 Tensão de secundário&nbsp;=&nbsp;<input type="text" name="Vsx" size="6" value="12" maxlength="6"><br>
 Corrente de secundário&nbsp;=&nbsp;<input type="text" name="Isx" size="6" value="1" maxlength="6"><br>
-Freqüência de operação&nbsp;=&nbsp;<input type="text" name="Fx" size="4" value="60" maxlength="4"><br>
+Frequência de operação&nbsp;=&nbsp;<input type="text" name="Fx" size="4" value="60" maxlength="4"><br>
 
 <font size="-2">&nbsp;<br></font>
 
 <font color="#0000AA">Valores calculados:</font>&nbsp;&nbsp;
-(<font size="-1">valores aproximados para referencia</font>)<br>
+(<font size="-1">valores aproximados para referência</font>)<br>
 <font size="-2">&nbsp;<br></font>
 Nº&nbsp;espiras&nbsp;primário=<input type="text" name="Npx" size="5" maxlength="5"><br />
 Seção&nbsp;do&nbsp;fio&nbsp;primário=<input type="text" name="Fiopx" size="4" maxlength="4">

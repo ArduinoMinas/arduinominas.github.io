@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/carlosdelfino
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://arduinominas.com.br
+  * I am carlosdelfino (https://keybase.io/carlosdelfino) on keybase.
+  * I have a public key with fingerprint 4504 30C3 504C AF58 ABB4  4238 153A 1E26 C8DB A2D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012094130f2ee6c5c46b8b43b4ed68b58bf0809e01e6c9c0cce6fd0fd00d7d56cd130a",
+      "fingerprint": "450430c3504caf58abb44238153a1e26c8dba2d4",
+      "host": "keybase.io",
+      "key_id": "153a1e26c8dba2d4",
+      "kid": "0101f5f5ffe66de2988126b5de45bc08b8912b543fa0e2cb3d37be776f3ab894db3f0a",
+      "uid": "3d70555bc867e45232652e7bd5d01d19",
+      "username": "carlosdelfino"
+    },
+    "service": {
+      "hostname": "arduinominas.com.br",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1539990107,
+  "expire_in": 157680000,
+  "prev": "30b3f39d8cd74fb54eaea08d8729f6cf749a64a88052ee4fd0a8d85d81caef7f",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMN3AnicbVNrTBRXGF0sFaEIaFgMrmnaCZHa8Jj3Y1saGyOr1bZWebRIxJm5d2DC
+srvsA1ZwQSRNfYBQLKsViYKpxVYJKCFCW12rCRUEoyWVlIIF25WmxoJolC1i7xD9
+15lJbma+c86cc+bOlcUv6cKC9MZXV/403DwY1HfphEu3tVfaWopJVrADM5Zi+XB+
+gWYAHc6cfBVgRgwnSFygCQpXSAhZmZFpVuIlmpJoCFheYnhJwXlcgDiBpoKMyzJk
+FYCjCwccYFgZIK6IJWCKasmFdptdtTiRLM3gNIXLFFpkUWF4UZJomqR4gqFEApKs
+zANJJAGNiHlWh8ZA5iTRAZNUK3qGbnLm7f0P/oVvnFAYdCqQZQEkBZ4nSFZiAKQZ
+ScZ5iRcIUmJoShFxSMoSBShOghzHKpSIZjSQKGXet2tejgIczjCIybMcUiApkmVI
+yEmAATgBCEEDOqDdIhZAhJZFu9nqANCMQlsxTwKGRkWqDLV2tTjPYaIduBCgQLWI
+jiTZWpAk2ZGOzW51WmWrGQHynE6bUeM7d9g0QjGUcp5L5UiqBaBKEaEI2h2q1YIZ
+CYSUnaqmjXoRBAGVwCVg0G1T7TBH1RAMx/I4OrTXwCItGI6CUgLgZcDRCioEilDE
+ecBzpKCwssLRgsjSIs/jKC+k0XcV0ZABPCGLUOEUTAtXiFIaCQL5FHORpkPNtYhO
+lx1inh8vZQfrgsJ0C19eoO01XVho1IsduCsy8qnhRjarXxXiPX6j4thmz8LiwZH6
+4rWtob6r2PY94YmGtMlr++JH+iuGmko27ctMOWrK8MxEToxuu5D1ODW4suPm0vL9
+3oSagdfe/XQoEBsWOFL9T9edmOgv43oWDTb6+s2J16Ojv670xVdk5PXMVZacgbF/
+mQ7PvRUy8tuaiIiy3b+uWHQ0pCXqzb3FCsge5sZjvBfWJle5TzTNZKUkLBkyTLS1
+Dyx/7975BdhsYe96fV9nrXLA7PF+MUAcOtQc6FMLd/ou/nw+Lb79jL+uv6um1bDs
+8kedVc8mVn48s/hJamdb0Tqx98EPWFZjxNtzmJzceaqyqdp9d12pyT96y3EvM6Jp
+9ooyNnrtejPWXd8x5fAVpVMtte7TsxsuH7wdwEw34ZpHk7VjhicPd98XJ31/yJV1
+fav8nl/a/7xl23ZkWpo+98GHzVGk4h8oCwR3+2K31AfaV5e0FTSMfT/V8HldUPqD
+1bFTv8+dNDROHeu7w73ztGc01B2VetzQfTIx/rO/v3JPNzrMHSZv3CfJO0Nv63r3
+V7mGl9BEyZ6xTN2mFXe/+S68LbIU/RBVUtcA+LbtgOvswfevnjs79zhE6CgOCV6a
+nt8LUy5mNORWvy4+ajX508p3Wcv0iVviTr9xqiZe7/WnhR9+xVG1cPlGZ+2/y8r1
+mzc82x7zMKPlflWqd+M4uZcex+n/AOr1zqE=
+=OriN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/carlosdelfino
+
+==================================================================

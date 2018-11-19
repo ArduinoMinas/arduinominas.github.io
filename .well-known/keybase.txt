@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/cursoarduino
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://arduinominas.github.io
+  * I am cursoarduino (https://keybase.io/cursoarduino) on keybase.
+  * I have a public key with fingerprint B959 66C5 5B6C 81EB 074F  D0D3 432A
+    636D A144 8057
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid":
+"0120103f06e5a535427608b01caefb70b61020fb95e7fd7095d7e8a867a9e8759c420a",
+      "fingerprint": "b95966c55b6c81eb074fd0d3432a636da1448057",
+      "host": "keybase.io",
+      "key_id": "432a636da1448057",
+      "kid":
+"010117ad0815681a8083865853aa7a7810b35fcdbd9a20ce3246d0741c2a85fe16c00a",
+      "uid": "80d881f764733259e7f9421590f7f819",
+      "username": "cursoarduino"
+    },
+    "service": {
+      "hostname": "arduinominas.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1542660917,
+  "expire_in": 157680000,
+  "prev": "1829848cc192bb298377e53f48128fcd1e76e7dd683e05012ea7d927b8c71f4f",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMN4AnicbZJ9TFZVHMcfgp6AEQJCBLR0V6eliOfc13NBsQnZHJAIGAQouy/nPtwB
+z314XhBCrAkqpCJDDBIRccWSN3MMXUVjiC6cOgw2QAtJ2gwarPBJoEzqPoT/df65
+59z7+X3P9/u7v+svuxu83WI2SHlNsR+lut3q/dxhyHCuYYoJUZOLiMhiIgcvPXCu
+jG32rBxVJiIJAEkAAaUAFjMCQzE0ybEAiQBKAlZEDogsBCRQRJ7BnCJzgGdkDiMB
+sZzAY8QxvESTQCDCCUU1m7DVYlXNdl1W53mWlRhGZCUEsQg4WpGBTNEUKbAUKwuQ
+phFgOL0wW7O5KnRzomDDEaqmv9MPWUv2/od/7htAyAkyQJBhERQQQBRiGcRQgsAJ
+HIJApBhFkkWZF0ggYYqkWVl3ASVSQIyCISuBJd+OJTkEZISgwrE0R1Ekw+theZqE
+DA8UTkGQd4E2bDULeVinJYfVpglW2aGaNaIknNC/FKgSdjXXlWaZWgbyVLNgizCp
+9myH+F86i1Wza5KWqzPZdrvFFunSsBdZXEX7sZi1LJclqmZZ76peUYCtNlUzE5FQ
+JyW76tKH+r9iWcBDLpzAhRbVirNUF8FwLAL6ct2DC3RJiEge0UiSIE+Kor6nOA4z
+lEIjSCK9RRBzLOZkmUUUBow+EFjgZJ7kRCRxUKEVwhUwX08aiXSbgkmXtKkms2B3
+WDFRcq0308Pg5m0wvviCa9oM3l5+z2dw5PiKxfAz/UfC0r2Trgwkk8P0vVaFHPPv
+rrpSkfxx2p8bgvH6Eo/X4JYfHj3x6Rrx9Mx49dNLVZ8cyWw4k7+562rqTMac21fd
+vu8651o+1C50JFacbLPuckZZ+1Pe70x3P+1o9Ajzv+c/9nb+w6T2nWCLITfdp/vA
+aOXgzN9tX/ScONi2sLPi1P12orZH3swfrdl2+fywOKVAeiyufvZOtfHujtyu8bTu
+mb2nQr18g7fdbDl3Ntm/dP8v91u+m3tc7xFqWSifpXfH//5b2AejSZdFQ8dnE2Jc
+4zujD4Om74C5qvfOz111VvvyHV7azxmdgYNP30pZOz8U4H8L3Lg9sDF008W5jKJj
+PeUzuwJqEsj4yvmZgor2fRnaoSb/8uiYr0/+5Jn6NP6VyQP/nB0aXznuEfDspdPR
++dbJx7XOwLqDiRVRzTXuE9Wzi+ujReNQWe/uY82FI8N/0IdHvNf091X+uLFgCiWu
++zLp+0cNQc43JmuOf1Oo7T1sbF1NPYhOYG/cDl5VWrf1ZsyKhpDY8AvbNx1KnZgk
+pLVacMrA3fqQvwbXtZY5a6KoImNsE8hMqm10D2MuaaWzzaYpZ8gei198ZdvqJwGv
+g9Wryq49SDHGTX67fSRhsSJ0x1jZr/v89gQdfdbSF1JniWYX5mdHTcURb7pH+Zxo
+vb5SMQX2TeconRfTxGnRLm09Nz+b9y/3+cDk
+=+9id
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cursoarduino
+
+==================================================================
+

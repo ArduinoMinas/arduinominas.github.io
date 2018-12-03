@@ -9,3 +9,5 @@ Aguarde em breve circuitos com VU
 <!--more-->
 
 Baixo listarei diversos circuitos com VU e como faze-los.
+
+![Circuito 1](/assets/images/circutos/vu/vu com microfone - fly modelo 2.png)

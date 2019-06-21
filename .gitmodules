@@ -1,11 +1,11 @@
 [submodule "arduinoday/arduinoday2018"]
 	path = arduinoday/arduinoday2018
-	url = git@github.com:CursoMaker/arduinoday2018.git
+	url = https://github.com/CursoMaker/arduinoday2018.git
 [submodule "_posts"]
 	path = _posts
-	url = git@github.com:CursoMaker/_posts.git
+	url = https://github.com/CursoMaker/_posts.git
 	branch = ArduinoMinas
 [submodule "assets/images"]
 	path = assets/images
-	url = git@github.com:CursoMaker/images.git
+	url = https://github.com/CursoMaker/images.git
 	branch = ArduinoMinas

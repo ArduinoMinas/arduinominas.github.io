@@ -1,6 +1,6 @@
 # Site
-name: Arduino Minas
-description: Cursos Arduino Minas, do Arduino ao Universo de Tecnologias para o sucesso de seu projeto!
+name: Curso Maker
+description: Cursos Maker, do Arduino ao Universo de Tecnologias para o sucesso de seu projeto!
 meta_description: "Um lugar para construir seu projeto e desenvolver novas ideias!"
 paginate: 12
 email: 'consultoria@carlosdelfinfo.eti.br'
@@ -26,9 +26,9 @@ images:
 author: delfino
 
 github: 
-  org: ArduinoMinas
+  org: CursoMaker
 facebook:
-  fanpage: cursoarduinominas
+  fanpage: CursoMaker
 
 # Plugins
 plugins: 
@@ -60,4 +60,4 @@ ads:
 
 exclude: 
   - /assets/images/logo.xcf,
-  - /assets/images/react_redux.xcf]
+  - /assets/images/react_redux.xcf
